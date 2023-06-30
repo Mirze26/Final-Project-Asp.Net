@@ -1,0 +1,445 @@
+body {
+    width: 100%;
+
+
+
+}
+
+
+.contact-page {
+    text-align: center;
+    margin-top: -100px;
+    font-weight: bold;
+    font-size: 45px;
+}
+
+
+.home-contact {
+    text-align: center;
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+}
+
+
+header {
+
+    .menu-area {
+        width: 100%;
+        height: 330px;
+        background-color: #f4f4f4;
+    }
+
+
+    #app-menu {
+
+
+
+
+        .payne-img {
+            margin-top: 40px;
+        }
+
+        .menu {
+            margin-top: 50px;
+
+            ul {
+                display: flex;
+                gap: 40px;
+
+                li {
+                    list-style: none;
+
+
+                    a {
+                        position: relative;
+                        text-decoration: none;
+                        color: #222;
+                        font-size: 20px;
+                        letter-spacing: 0.5px;
+
+
+
+                    }
+
+                    a:after {
+                        content: "";
+                        position: absolute;
+                        background-color: black;
+                        height: 3px;
+                        width: 0;
+                        left: 0;
+                        top: 28px;
+                        transition: 0.2s;
+                    }
+
+                    a:hover {
+                        color: #000;
+                    }
+
+
+                    a:hover:after {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+
+
+        .icons {
+            margin-top: 50px;
+
+            ul {
+                display: flex;
+                gap: 40px;
+
+                li {
+                    list-style: none;
+
+                    a {
+                        text-decoration: none;
+                        color: #222;
+                        font-size: 20px;
+                    }
+                }
+            }
+
+            .number {
+                background-color: #222;
+                height: 18px;
+                width: 18px;
+                border-radius: 50%;
+                position: absolute;
+                right: 370px;
+                top: 51px;
+
+
+                span {
+                    color: white;
+                    position: absolute;
+                    right: 6px;
+                    top: 1px;
+                    font-size: 11px;
+                }
+            }
+        }
+
+        .login-register {
+
+            border: 1px solid #e9e9e9;
+            background-color: white;
+            height: 100px;
+            z-index: 10;
+            position: absolute;
+            width: 8%;
+            right: 424px;
+            top: 95px;
+
+            ul {
+                list-style: none;
+
+                li {
+                    padding: 10px;
+
+                    a {
+
+                        text-decoration: none;
+                        color: black;
+                        font-size: 14px;
+                    }
+
+                    a:hover {
+
+                        color: rgb(111, 111, 158);
+                    }
+                }
+
+            }
+
+        }
+
+
+        .search {
+
+            i {
+                position: absolute;
+                right: 35px;
+                top: 15px;
+                color: #c9cdcd;
+                cursor: pointer;
+            }
+
+
+            position: absolute;
+            right: 564px;
+            top: 44px;
+            width: 186px;
+            z-index: 2;
+
+            input {
+
+                width: 155px;
+                height: 45px;
+                padding: 15px;
+                outline: none;
+                border-color: #f3eeee;
+                border-bottom-left-radius: 20px;
+                border-bottom-right-radius: 20px;
+                border-top-left-radius: 20px;
+                border-top-right-radius: 20px
+            }
+
+
+
+
+        }
+
+    }
+
+}
+
+
+
+main {
+
+    #contact {
+
+        .contact {
+
+            border-radius: 5px;
+            box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+            .form {
+                margin-left: 13px;
+                display: flex;
+                justify-content: space-between;
+                width: 100%;
+
+                .left {
+                    h1 {
+                        font-weight: bold;
+                        font-size: 30px;
+                    }
+
+                    .address-phone-email {
+                        display: flex;
+                        align-items: center;
+
+
+                        i {
+                            font-size: 25px;
+                            color: black;
+                        }
+
+                        .text {
+                            margin-left: 15px;
+
+                            h3 {
+                                font-size: 17px;
+                            }
+
+                            h5 {
+                                color: #777777;
+                                font-weight: unset;
+                                font-size: 15px;
+                            }
+                        }
+
+                        &:nth-child(2) {
+                            margin-top: 30px;
+                        }
+                    }
+
+                    hr {
+                        width: 560px;
+                        border: none;
+                        height: 1px;
+                        background-color: #908f8f;
+                        margin-top: 20px;
+                    }
+                }
+
+                .right {
+                    h1 {
+                        font-weight: bold;
+                        font-size: 30px;
+                    }
+
+                    form {
+                        .group {
+                            position: relative;
+                            margin-top: 30px;
+
+                            input,
+                            textarea {
+                                font-size: 14px;
+                                display: block;
+                                width: 552px;
+                                border: none;
+                                border-bottom: 1px solid #949494;
+                                outline: none;
+
+                                &:focus~label,
+                                &:valid~label {
+                                    top: -8px;
+                                    font-size: 10px;
+                                }
+
+                                &:focus~.bar::before,
+                                &:focus~.bar::after {
+                                    width: 50%;
+                                }
+                            }
+
+                            input {
+                                padding: 10px 0 10px 5px;
+                            }
+
+                            textarea {
+                                height: 110px;
+                                padding: 10px 0 0 5px;
+                                resize: none;
+                            }
+
+                            label {
+                                color: #999;
+                                font-size: 14px;
+                                position: absolute;
+                                pointer-events: none;
+                                left: 5px;
+                                top: 10px;
+                                transition: 0.4s ease all;
+                                -moz-transition: 0.2s ease all;
+                                -webkit-transition: 0.2s ease all;
+                            }
+
+                            .bar {
+                                position: relative;
+                                display: block;
+                                width: 90%;
+
+                                &::before,
+                                &::after {
+                                    content: '';
+                                    height: 2px;
+                                    width: 0;
+                                    bottom: 1px;
+                                    position: absolute;
+                                    background: var(--beforeAndAfterBack, #3e3f3d);
+                                    transition: 0.2s ease all;
+                                    -moz-transition: 0.2s ease all;
+                                    -webkit-transition: 0.2s ease all;
+                                    z-index: 1;
+                                }
+
+                                &::before {
+                                    left: 45%;
+                                }
+
+                                &::after {
+                                    right: 50%;
+                                }
+                            }
+
+                            .validation {
+                                font-size: 10px;
+                                color: red;
+                                transition: 0.4s;
+                                opacity: 0;
+                            }
+                        }
+
+                        button {
+                            width: 100px;
+                            height: 45px;
+                            color: white;
+                            border-radius: 5px;
+                            border: none;
+                            margin-top: 40px;
+                            background-color: black;
+                            margin-bottom: 20px;
+                            font-weight: bold;
+                            cursor: pointer;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+footer {
+
+    .footer {
+        width: 100%;
+        height: 400px;
+        background-color: rgb(244, 248, 250);
+        margin-top: 110px;
+
+        .payne-img {
+            margin-top: 85px;
+        }
+
+
+        .info {
+            margin-top: 15px;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 500;
+            font-size: 15px;
+        }
+    }
+
+
+
+    .footer-title {
+        margin-top: 85px;
+        margin-top: 85px;
+        font-size: 21px;
+        font-weight: 700;
+
+
+
+    }
+
+
+    ul {
+        li {
+            list-style: none;
+            margin-top: 15px;
+            font-family: "Roboto", sans-serif;
+            font-weight: 500;
+            font-size: 15px;
+
+
+            a {
+                text-decoration: none;
+                color: black;
+            }
+        }
+    }
+
+    hr {
+        color: #c1b8b8;
+    }
+
+    .copyright {
+        text-align: center;
+        font-family: "Roboto", sans-serif;
+        font-size: 15px;
+
+
+        .footer-icon {
+            a {
+                color: black;
+                margin: 5px;
+            }
+        }
+    }
+
+
+
+}

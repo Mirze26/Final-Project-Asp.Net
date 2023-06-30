@@ -1,0 +1,538 @@
+body {
+  width: 100%;
+}
+
+header #app-menu .payne-img {
+  margin-top: 40px;
+}
+header #app-menu .menu {
+  margin-top: 50px;
+}
+header #app-menu .menu ul {
+  display: flex;
+  gap: 40px;
+}
+header #app-menu .menu ul li {
+  list-style: none;
+}
+header #app-menu .menu ul li a {
+  position: relative;
+  text-decoration: none;
+  color: #222;
+  font-size: 20px;
+  letter-spacing: 0.5px;
+}
+header #app-menu .menu ul li a:after {
+  content: "";
+  position: absolute;
+  background-color: black;
+  height: 3px;
+  width: 0;
+  left: 0;
+  top: 28px;
+  transition: 0.2s;
+}
+header #app-menu .menu ul li a:hover {
+  color: #000;
+}
+header #app-menu .menu ul li a:hover:after {
+  width: 100%;
+}
+header #app-menu .icons {
+  margin-top: 50px;
+}
+header #app-menu .icons ul {
+  display: flex;
+  gap: 40px;
+}
+header #app-menu .icons ul li {
+  list-style: none;
+}
+header #app-menu .icons ul li a {
+  text-decoration: none;
+  color: #222;
+  font-size: 20px;
+}
+header #app-menu .icons .number {
+  background-color: #222;
+  height: 18px;
+  width: 18px;
+  border-radius: 50%;
+  position: absolute;
+  right: 371px;
+  top: 51px;
+}
+header #app-menu .icons .number span {
+  color: white;
+  position: absolute;
+  right: 6px;
+  top: 1px;
+  font-size: 11px;
+}
+header #app-menu .login-register {
+  border: 1px solid #e9e9e9;
+  background-color: white;
+  height: 100px;
+  z-index: 10;
+  position: absolute;
+  width: 8%;
+  right: 424px;
+  top: 95px;
+}
+header #app-menu .login-register ul {
+  list-style: none;
+}
+header #app-menu .login-register ul li {
+  padding: 10px;
+}
+header #app-menu .login-register ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+}
+header #app-menu .login-register ul li a:hover {
+  color: rgb(111, 111, 158);
+}
+header #app-menu .search {
+  position: absolute;
+  right: 564px;
+  top: 44px;
+  width: 186px;
+  z-index: 2;
+}
+header #app-menu .search i {
+  position: absolute;
+  right: 35px;
+  top: 15px;
+  color: #c9cdcd;
+  cursor: pointer;
+}
+header #app-menu .search input {
+  width: 155px;
+  height: 45px;
+  padding: 15px;
+  outline: none;
+  border-color: #f3eeee;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+#slider body {
+  position: relative;
+  height: 100%;
+}
+#slider body {
+  position: relative;
+  height: 100%;
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+#slider .swiper {
+  width: 100%;
+  height: 100%;
+}
+#slider .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#slider .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+#slider .swiper-slide img:nth-child(2) {
+  position: absolute;
+  z-index: 1;
+  width: 334px;
+  height: 418px;
+  right: 415px;
+}
+#slider .amazing-product span {
+  position: absolute;
+  left: 300px;
+  top: 202px;
+  font-size: 25px;
+  font-family: "Carlito", sans-serif;
+}
+#slider .slider-name h1 {
+  position: absolute;
+  left: 293px;
+  top: 263px;
+  font-family: "Lilita One", cursive;
+  font-size: 100px;
+}
+#slider .slider-desc p {
+  position: absolute;
+  left: 276px;
+  top: 430px;
+  font-size: 15px;
+  width:500px;
+}
+
+main #shopify {
+  justify-content: space-between;
+  width: 100%;
+  height: 720px;
+}
+main #shopify .row .bisco-bag {
+  margin-left: 100px;
+  margin-top: 192px;
+}
+main #shopify .row .bisco-bag .shopify-name span {
+  position: relative;
+  bottom: 397px;
+  font-weight: 700;
+  font-size: 40px;
+  left: 145px;
+}
+main #shopify .row .bisco-bag .shopify-desc span {
+  position: relative;
+  bottom: 485px;
+  left: 166px;
+  font-weight: 400;
+  font-size: 17px;
+}
+main #shopify .row .feedo-bag {
+  margin-left: 40px;
+  margin-top: 130px;
+}
+main #shopify .row .feedo-bag .feedo-name span {
+  writing-mode: vertical-lr;
+  font-weight: 700;
+  font-size: 45px;
+  position: relative;
+  bottom: 278px;
+  left: 75px;
+}
+main #shopify .row .feedo-bag .feedo-desc span {
+  writing-mode: vertical-lr;
+  position: relative;
+  bottom: 524px;
+  left: 47px;
+  font-weight: 400;
+  font-size: 23px;
+}
+main #pro-cart .main-wrapper {
+  font-family: "Lora", serif;
+}
+main #pro-cart .main-wrapper .container {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 40px 16px;
+}
+main #pro-cart .main-wrapper .container .heading-title {
+  color: black;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+main #pro-cart .main-wrapper .container .product-list {
+  margin: 36px 0;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  row-gap: 32px;
+}
+main #pro-cart .main-wrapper .container .product-list .product-img {
+  position: relative;
+  color: red;
+}
+main #pro-cart .main-wrapper .container .product-list .product-img img {
+  width: 100%;
+  display: block;
+}
+main #pro-cart .main-wrapper .container .product-list .product-img:hover .icons {
+  opacity: 1;
+}
+main #pro-cart .main-wrapper .container .product-list .product-img:hover .icon-list {
+  bottom: 26px;
+}
+main #pro-cart .main-wrapper .container .product-list .product-img .icons {
+  position: absolute;
+  bottom: 35px;
+  left: 25px;
+  margin: 18px 12px 18px 0;
+  z-index: 1;
+  opacity: 0;
+}
+main #pro-cart .main-wrapper .container .product-list .product-img .icons button {
+  border: none;
+  background-color: black;
+  color: #fff;
+  margin: 18px 12px 18px 0;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+main #pro-cart .main-wrapper .container .product-list .product-img .icons button:hover {
+  background-color: rgb(247, 244, 244);
+  color: #313030;
+}
+main #pro-cart .main-wrapper .container .product-list .item-detail {
+  padding: 16px;
+  color: #202020;
+  text-align: center;
+}
+main #pro-cart .main-wrapper .container .product-list .item-detail p {
+  font-weight: 300;
+  opacity: 0.9;
+  font-size: 15px;
+  line-height: 1.7;
+  display: none;
+}
+main #pro-cart .main-wrapper .container .product-list .item-detail .item-name {
+  font-weight: 500;
+  font-size: 18px;
+  color: #202020;
+  display: block;
+}
+main #pro-cart .main-wrapper .container .product-list .item-detail .rating a {
+  color: orange;
+}
+main #pro-cart .main-wrapper .container .product-list .item-detail .item-price {
+  margin: 10px 0;
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main #pro-cart .main-wrapper .container .product-list .item-detail .old-price {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+main #pro-cart .main-wrapper .container .product-list .item-detail .new-price {
+  color: #000000;
+  font-size: 18px;
+  font-weight: 600;
+  margin-right: 10px;
+}
+main #pro-cart .main-wrapper .container .product-list .item-detail .add-btn {
+  margin: 16px 0;
+  text-transform: uppercase;
+  border: none;
+  background-color: #202020;
+  color: #fff;
+  font-family: inherit;
+  padding: 10px 28px;
+  border: 1px solid #202020;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+  display: none;
+}
+main #pro-cart .main-wrapper .container .product-list .item-detail .add-btn:hover {
+  background-color: #fff;
+  color: #202020;
+}
+main #pro-cart .main-wrapper .container .product-list .details-active.item-list {
+  grid-template-columns: 100%;
+}
+main #pro-cart .main-wrapper .container .product-list .details-active .item {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+}
+main #pro-cart .main-wrapper .container .product-list .details-active .item-detail {
+  text-align: left;
+}
+main #pro-cart .main-wrapper .container .product-list .details-active .item-detail p {
+  display: block;
+}
+main #pro-cart .main-wrapper .container .product-list .details-active .item-detail .add-btn {
+  display: block;
+}
+main #pro-cart .main-wrapper .container .product-list .details-active .item-price {
+  justify-content: flex-start;
+}
+main #discount-products {
+  height: 740px;
+}
+main #discount-products .feedo-bag {
+  margin-left: 144px;
+  margin-top: 130px;
+}
+main #discount-products .feedo-bag .feedo-name {
+  width: 100%;
+  height: auto;
+}
+main #discount-products .feedo-bag .feedo-name span {
+  writing-mode: vertical-lr;
+  font-weight: 700;
+  font-size: 45px;
+  position: relative;
+  bottom: 278px;
+  left: 393px;
+}
+main #discount-products .feedo-bag .feedo-desc {
+  width: 100%;
+  height: auto;
+}
+main #discount-products .feedo-bag .feedo-desc span {
+  writing-mode: vertical-lr;
+  position: relative;
+  bottom: 524px;
+  left: 360px;
+  font-weight: 400;
+  font-size: 23px;
+}
+main #discount-products .feedo-bag .discount {
+  width: 105px;
+  height: 105px;
+  background-color: black;
+  border-radius: 50%;
+  position: relative;
+  bottom: 945px;
+  left: 80px;
+}
+main #discount-products .feedo-bag .discount .number {
+  color: white;
+  position: absolute;
+  left: 24px;
+  top: 8px;
+  font-family: "Lilita One";
+  font-size: 32px;
+}
+main #discount-products .feedo-bag .discount .dis {
+  color: white;
+  position: absolute;
+  left: 24px;
+  top: 42px;
+  font-family: "Lilita One";
+  font-size: 32px;
+}
+main #discount-products .bisco-bag {
+  margin-left: 50px;
+  margin-top: 192px;
+}
+main #discount-products .bisco-bag .shopify-name span {
+  position: relative;
+  bottom: 397px;
+  font-weight: 700;
+  font-size: 40px;
+  left: 145px;
+}
+main #discount-products .bisco-bag .shopify-desc span {
+  position: relative;
+  bottom: 485px;
+  left: 166px;
+  font-weight: 400;
+  font-size: 17px;
+}
+main #discount-products .bisco-bag .discount {
+  width: 105px;
+  height: 105px;
+  background-color: black;
+  border-radius: 50%;
+  position: relative;
+  bottom: 401px;
+  left: 351px;
+}
+main #discount-products .bisco-bag .discount .number {
+  color: white;
+  position: absolute;
+  left: 24px;
+  top: 8px;
+  font-family: "Lilita One";
+  font-size: 32px;
+}
+main #discount-products .bisco-bag .discount .dis {
+  color: white;
+  position: absolute;
+  left: 24px;
+  top: 42px;
+  font-family: "Lilita One";
+  font-size: 32px;
+}
+main #shipment .delivery {
+  background-color: #f3f3f3;
+  height: 170px;
+  width: 100%;
+  text-align: center;
+  margin-top: 45px;
+}
+main #shipment .delivery .truck {
+  width: 100%;
+}
+main #shipment .delivery .truck img {
+  width: 155px;
+  margin-top: 6px;
+}
+main #shipment .delivery span {
+  position: relative;
+  top: 10px;
+  font-weight: 600;
+  font-size: 25px;
+}
+main #shipment .delivery .dollar {
+  width: 100%;
+}
+main #shipment .delivery .dollar img {
+  width: 80px;
+  margin-top: 14px;
+}
+main #shipment .delivery .headset {
+  width: 100%;
+}
+main #shipment .delivery .headset img {
+  width: 80px;
+  margin-top: 17px;
+}
+
+footer .footer {
+  width: 100%;
+  height: 400px;
+  background-color: rgb(244, 248, 250);
+  margin-top: 110px;
+}
+footer .footer .payne-img {
+  margin-top: 85px;
+}
+footer .footer .info {
+  margin-top: 15px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+}
+footer .footer-title {
+  margin-top: 85px;
+  margin-top: 85px;
+  font-size: 21px;
+  font-weight: 700;
+}
+footer ul li {
+  list-style: none;
+  margin-top: 15px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+}
+footer ul li a {
+  text-decoration: none;
+  color: black;
+}
+footer hr {
+  color: #c1b8b8;
+}
+footer .copyright {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+}
+footer .copyright .footer-icon a {
+  color: black;
+  margin: 5px;
+}/*# sourceMappingURL=Home.css.map */

@@ -1,0 +1,608 @@
+body {
+  width: 100%;
+}
+
+.product-detail {
+  text-align: center;
+  margin-top: -100px;
+  font-weight: bold;
+  font-size: 45px;
+}
+
+.home-productDetail {
+  text-align: center;
+}
+.home-productDetail a {
+  text-decoration: none;
+  color: black;
+}
+
+header .menu-area {
+  width: 100%;
+  height: 330px;
+  background-color: #f4f4f4;
+}
+header #app-menu .payne-img {
+  margin-top: 40px;
+}
+header #app-menu .menu {
+  margin-top: 50px;
+}
+header #app-menu .menu ul {
+  display: flex;
+  gap: 40px;
+}
+header #app-menu .menu ul li {
+  list-style: none;
+}
+header #app-menu .menu ul li a {
+  position: relative;
+  text-decoration: none;
+  color: #222;
+  font-size: 20px;
+  letter-spacing: 0.5px;
+}
+header #app-menu .menu ul li a:after {
+  content: "";
+  position: absolute;
+  background-color: black;
+  height: 3px;
+  width: 0;
+  left: 0;
+  top: 28px;
+  transition: 0.2s;
+}
+header #app-menu .menu ul li a:hover {
+  color: #000;
+}
+header #app-menu .menu ul li a:hover:after {
+  width: 100%;
+}
+header #app-menu .icons {
+  margin-top: 50px;
+}
+header #app-menu .icons ul {
+  display: flex;
+  gap: 40px;
+}
+header #app-menu .icons ul li {
+  list-style: none;
+}
+header #app-menu .icons ul li a {
+  text-decoration: none;
+  color: #222;
+  font-size: 20px;
+}
+header #app-menu .icons .number {
+  background-color: #222;
+  height: 18px;
+  width: 18px;
+  border-radius: 50%;
+  position: absolute;
+  right: 370px;
+  top: 51px;
+}
+header #app-menu .icons .number span {
+  color: white;
+  position: absolute;
+  right: 6px;
+  top: 1px;
+  font-size: 11px;
+}
+header #app-menu .login-register {
+  border: 1px solid #e9e9e9;
+  background-color: white;
+  height: 100px;
+  z-index: 10;
+  position: absolute;
+  width: 8%;
+  right: 424px;
+  top: 95px;
+}
+header #app-menu .login-register ul {
+  list-style: none;
+}
+header #app-menu .login-register ul li {
+  padding: 10px;
+}
+header #app-menu .login-register ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+}
+header #app-menu .login-register ul li a:hover {
+  color: rgb(111, 111, 158);
+}
+header #app-menu .search {
+  position: absolute;
+  right: 564px;
+  top: 44px;
+  width: 186px;
+  z-index: 2;
+}
+header #app-menu .search i {
+  position: absolute;
+  right: 35px;
+  top: 15px;
+  color: #c9cdcd;
+  cursor: pointer;
+}
+header #app-menu .search input {
+  width: 155px;
+  height: 45px;
+  padding: 15px;
+  outline: none;
+  border-color: #f3eeee;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+main #product-detail .main-wrapper img {
+  width: 100%;
+  display: block;
+}
+main #product-detail .main-wrapper .main-wrapper {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+main #product-detail .main-wrapper .container {
+  max-width: 1200px;
+  padding: 0 1rem;
+  margin: 0 auto;
+}
+main #product-detail .main-wrapper .product-div {
+  margin: 1rem 0;
+  padding: 2rem 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background-color: #fff;
+  border-radius: 3px;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+}
+main #product-detail .main-wrapper .product-div-left {
+  padding: 20px;
+}
+main #product-detail .main-wrapper .product-div-right {
+  padding: 20px;
+}
+main #product-detail .main-wrapper .product-div-right span {
+  display: block;
+}
+main #product-detail .main-wrapper .img-container img {
+  width: 423px;
+  margin: 0 auto;
+}
+main #product-detail .main-wrapper .hover-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-top: 32px;
+}
+main #product-detail .main-wrapper .hover-container div {
+  border: 2px solid rgb(3, 3, 3);
+  padding: 1rem;
+  border-radius: 3px;
+  margin: 0 4px 8px 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main #product-detail .main-wrapper .hover-container div:hover {
+  border-color: rgb(213, 213, 213);
+}
+main #product-detail .main-wrapper .hover-container div img {
+  width: 50px;
+  cursor: pointer;
+}
+main #product-detail .main-wrapper .active {
+  border-color: rgb(213, 213, 213) !important;
+}
+main #product-detail .main-wrapper .product-name {
+  font-size: 26px;
+  margin-bottom: 22px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  opacity: 0.9;
+}
+main #product-detail .main-wrapper .product-price {
+  font-weight: 700;
+  font-size: 24px;
+  opacity: 0.9;
+  font-weight: 500;
+}
+main #product-detail .main-wrapper .product-rating {
+  display: flex;
+  align-items: center;
+  margin-top: 12px;
+}
+main #product-detail .main-wrapper .product-rating span {
+  margin-right: 6px;
+}
+main #product-detail .main-wrapper .product-description {
+  font-weight: 18px;
+  line-height: 1.6;
+  font-weight: 300;
+  opacity: 0.9;
+  margin-top: 22px;
+}
+main #product-detail .main-wrapper .btn-groups {
+  margin-top: 22px;
+}
+main #product-detail .main-wrapper .btn-groups button {
+  display: inline-block;
+  font-size: 16px;
+  font-family: inherit;
+  text-transform: uppercase;
+  padding: 15px 16px;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+main #product-detail .main-wrapper .btn-groups button .fas {
+  margin-right: 8px;
+}
+main #product-detail .main-wrapper .add-cart-btn {
+  background-color: #FF9F00;
+  border: 2px solid #FF9F00;
+  margin-right: 8px;
+}
+main #product-detail .main-wrapper .add-cart-btn:hover {
+  background-color: #fff;
+  color: #FF9F00;
+}
+main #product-detail .main-wrapper .buy-now-btn {
+  background-color: #000;
+  border: 2px solid #000;
+}
+main #product-detail .main-wrapper .buy-now-btn:hover {
+  background-color: #fff;
+  color: #000;
+}
+@media screen and (max-width: 992px) {
+  main #product-detail .main-wrapper .product-div {
+    grid-template-columns: 100%;
+  }
+  main #product-detail .main-wrapper .product-div-right {
+    text-align: center;
+  }
+  main #product-detail .main-wrapper .product-rating {
+    justify-content: center;
+  }
+  main #product-detail .main-wrapper .product-description {
+    max-width: 400px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+@media screen and (max-width: 400px) {
+  main #product-detail .main-wrapper .btn-groups button {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+main #product-detail .img {
+  width: 400px;
+  margin-left: 20px;
+}
+main #product-detail .img img {
+  width: 100%;
+}
+main #product-detail .photos {
+  width: 125px;
+  margin-left: 84px;
+}
+main #product-detail .photos img {
+  width: 100%;
+  padding-bottom: 12px;
+}
+main #product-detail .product-name {
+  font-size: 30px;
+  font-family: inherit;
+}
+main #product-detail .rating a {
+  color: orange;
+}
+main #product-detail .product-desc {
+  margin-top: 11px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #4a4949;
+}
+main #product-detail .product-price {
+  font-size: 25px;
+  font-weight: bold;
+}
+main #product-detail .product-quantity {
+  gap: 10px;
+}
+main #product-detail .product-quantity .plus-minus {
+  border: 1px solid #c9c9c9;
+  width: 100px;
+  height: 40px;
+  padding-top: 6px;
+  padding: 8px;
+  gap: 18px;
+  font-size: 17px;
+  color: black;
+  cursor: pointer;
+  margin-top: 41px;
+}
+main #product-detail .product-quantity .plus-minus .minus {
+  margin-left: 9px;
+}
+main #product-detail .product-quantity .button {
+  margin-top: 41px;
+}
+main #product-detail .product-quantity .button button {
+  font-size: 12px;
+  font-weight: 600;
+  width: 109%;
+  height: 40px;
+  color: white;
+  background-color: black;
+  border-color: black;
+}
+main #product-detail .product-quantity .button button:hover {
+  color: black;
+  background-color: white;
+}
+main #product-detail .wishlist-button {
+  margin-top: 25px;
+}
+main #product-detail .wishlist-button button {
+  font-size: 12px;
+  font-weight: 600;
+  width: 22%;
+  height: 45px;
+  color: white;
+  background-color: black;
+  border-color: black;
+}
+main #product-detail .wishlist-button button:hover {
+  color: black;
+  background-color: white;
+}
+main #product-detail .category-area {
+  gap: 20px;
+}
+main #product-detail .category-area .product-category {
+  font-weight: 600;
+  margin-top: 45px;
+}
+main #product-detail .category-area p {
+  margin-top: 3px;
+  font-size: 14px;
+}
+main #product-detail .category-area p a {
+  text-decoration: none;
+  color: #4a4949;
+}
+main #product-detail .tags-area {
+  gap: 20px;
+}
+main #product-detail .tags-area .product-tag {
+  font-weight: 600;
+  margin-top: -9px;
+}
+main #product-detail .tags-area p {
+  margin-top: -8px;
+  font-size: 14px;
+}
+main #product-detail .tags-area p span {
+  font-size: 16px;
+}
+main #product-detail .tags-area p span a {
+  text-decoration: none;
+  color: #4a4949;
+}
+main #product-detail .payment-options {
+  font-weight: 600;
+}
+main #product-detail .payment-options .payment-methods img {
+  width: 7%;
+}
+main #tabmenu-area ul {
+  gap: 10px;
+}
+main #tabmenu-area ul li {
+  border: 1px solid #e7e2e2;
+}
+main #tabmenu-area ul li button {
+  color: black;
+  background-color: white;
+  font-family: "Kanit", sans-serif;
+  font-weight: 600;
+}
+main #tabmenu-area .dec-text {
+  font-size: 15px;
+  color: black;
+  font-weight: 400;
+  margin: 0 0 15px;
+  line-height: 1.625;
+}
+main #tabmenu-area .reviews {
+  font-size: 13px;
+  font-weight: bold;
+}
+main #tabmenu-area .reviews .bottom-line {
+  height: 1px;
+  background-color: #f1ecec;
+  margin-top: 40px;
+}
+main #tabmenu-area .reviews .user-name {
+  margin-top: 20px;
+  font-size: 18px;
+}
+main #tabmenu-area .reviews .user-comment {
+  margin-top: 15px;
+}
+main #related-products .product-title {
+  font-size: 30px;
+  font-weight: 700;
+}
+main #related-products .swiper {
+  width: 100%;
+  height: 300px;
+  margin: 20px auto;
+}
+main #related-products .swiper .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main #related-products .swiper .append-buttons {
+  text-align: center;
+  margin-top: 20px;
+}
+main #related-products .swiper .append-buttons a {
+  display: inline-block;
+  border: 1px solid #007aff;
+  color: #007aff;
+  text-decoration: none;
+  padding: 4px 10px;
+  border-radius: 4px;
+  margin: 0 10px;
+  font-size: 13px;
+}
+main #related-products .swiper .cart-product {
+  flex: 0 0 auto;
+  width: 19%;
+  margin: 7px;
+}
+main #related-products .swiper .cart-product .product-carusel {
+  position: relative;
+}
+main #related-products .swiper .cart-product .product-carusel img {
+  width: 100%;
+}
+main #related-products .swiper .cart-product .product-carusel .icons {
+  position: absolute;
+  top: 0;
+  left: 0px;
+  margin: 18px 12px 18px 0;
+  z-index: 1;
+  opacity: 0;
+}
+main #related-products .swiper .cart-product .product-carusel .icons button {
+  border: none;
+  background-color: black;
+  color: #fff;
+  margin: 18px 12px 18px 0;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+main #related-products .swiper .cart-product .product-carusel .icons button:hover {
+  background-color: rgb(247, 244, 244);
+  color: #313030;
+}
+main #related-products .swiper .cart-product .product-carusel:hover .icons {
+  opacity: 1;
+  z-index: 55555;
+}
+main #related-products .swiper .cart-product .product-carusel:hover .icons .icon-list {
+  bottom: 26px;
+}
+main #related-products .item-detail {
+  color: #202020;
+  text-align: center;
+}
+main #related-products .item-detail .item-name {
+  font-weight: 500;
+  font-size: 18px;
+  color: #202020;
+  display: block;
+}
+main #related-products .item-detail .item-price {
+  font-size: 16px;
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main #related-products .item-detail .item-price .old-price {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+main #related-products .item-detail .item-price .new-price {
+  color: black;
+  font-size: 18px;
+  font-weight: 600;
+  margin-right: 20px;
+}
+main #related-products .item-detail .item-price .add-btn {
+  margin: 16px 0;
+  text-transform: uppercase;
+  border: none;
+  background-color: #202020;
+  color: #fff;
+  font-family: inherit;
+  padding: 10px 28px;
+  border: 1px solid #202020;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+  display: none;
+}
+main #related-products .item-detail .item-price .add-btn:hover {
+  background-color: #fff;
+  color: #202020;
+}
+
+footer .footer {
+  width: 100%;
+  height: 400px;
+  background-color: rgb(244, 248, 250);
+  margin-top: 110px;
+}
+footer .footer .payne-img {
+  margin-top: 85px;
+}
+footer .footer .info {
+  margin-top: 15px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+}
+footer .footer-title {
+  margin-top: 85px;
+  margin-top: 85px;
+  font-size: 21px;
+  font-weight: 700;
+}
+footer ul li {
+  list-style: none;
+  margin-top: 15px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+}
+footer ul li a {
+  text-decoration: none;
+  color: black;
+}
+footer hr {
+  color: #c1b8b8;
+}
+footer .copyright {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+}
+footer .copyright .footer-icon a {
+  color: black;
+  margin: 5px;
+}/*# sourceMappingURL=productDetail.css.map */

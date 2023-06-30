@@ -1,0 +1,473 @@
+.basket-page {
+  text-align: center;
+  margin-top: -100px;
+  font-weight: bold;
+  font-size: 45px;
+}
+
+.home-basket {
+  text-align: center;
+}
+.home-basket a {
+  text-decoration: none;
+  color: black;
+}
+
+header .menu-area {
+  width: 100%;
+  height: 330px;
+  background-color: #f4f4f4;
+}
+header #app-menu .payne-img {
+  margin-top: 40px;
+}
+header #app-menu .menu {
+  margin-top: 50px;
+}
+header #app-menu .menu ul {
+  display: flex;
+  gap: 40px;
+}
+header #app-menu .menu ul li {
+  list-style: none;
+}
+header #app-menu .menu ul li a {
+  position: relative;
+  text-decoration: none;
+  color: #222;
+  font-size: 20px;
+  letter-spacing: 0.5px;
+}
+header #app-menu .menu ul li a:after {
+  content: "";
+  position: absolute;
+  background-color: black;
+  height: 3px;
+  width: 0;
+  left: 0;
+  top: 28px;
+  transition: 0.2s;
+}
+header #app-menu .menu ul li a:hover {
+  color: #000;
+}
+header #app-menu .menu ul li a:hover:after {
+  width: 100%;
+}
+header #app-menu .icons {
+  margin-top: 50px;
+}
+header #app-menu .icons ul {
+  display: flex;
+  gap: 40px;
+}
+header #app-menu .icons ul li {
+  list-style: none;
+}
+header #app-menu .icons ul li a {
+  text-decoration: none;
+  color: #222;
+  font-size: 20px;
+}
+header #app-menu .icons .number {
+  background-color: #222;
+  height: 18px;
+  width: 18px;
+  border-radius: 50%;
+  position: absolute;
+  right: 370px;
+  top: 51px;
+}
+header #app-menu .icons .number span {
+  color: white;
+  position: absolute;
+  right: 6px;
+  top: 1px;
+  font-size: 11px;
+}
+header #app-menu .login-register {
+  border: 1px solid #e9e9e9;
+  background-color: white;
+  height: 100px;
+  z-index: 10;
+  position: absolute;
+  width: 8%;
+  right: 424px;
+  top: 95px;
+}
+header #app-menu .login-register ul {
+  list-style: none;
+}
+header #app-menu .login-register ul li {
+  padding: 10px;
+}
+header #app-menu .login-register ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+}
+header #app-menu .login-register ul li a:hover {
+  color: rgb(111, 111, 158);
+}
+header #app-menu .search {
+  position: absolute;
+  right: 564px;
+  top: 44px;
+  width: 186px;
+  z-index: 2;
+}
+header #app-menu .search i {
+  position: absolute;
+  right: 35px;
+  top: 15px;
+  color: #c9cdcd;
+  cursor: pointer;
+}
+header #app-menu .search input {
+  width: 155px;
+  height: 45px;
+  padding: 15px;
+  outline: none;
+  border-color: #f3eeee;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+main body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+main .clearfix {
+  content: "";
+  display: table;
+  clear: both;
+}
+main #site-header {
+  background: #fff;
+  margin: 0 0 30px 0;
+}
+main #site-header h1 {
+  font-size: 31px;
+  font-weight: 300;
+  padding: 40px 0;
+  position: relative;
+  margin: 0;
+}
+main #site-header h1 span {
+  color: black;
+}
+main #site-header h1 span.last-span {
+  background: #fff;
+  padding-right: 150px;
+  position: absolute;
+  left: 217px;
+  transition: all 0.2s linear;
+}
+main #site-header h1:hover span.last-span {
+  left: 363px;
+}
+main #site-header h1 span.is-open {
+  left: 363px;
+}
+main #site-header h1 em {
+  font-size: 16px;
+  font-style: normal;
+  vertical-align: middle;
+}
+main #site-footer {
+  background: #fff;
+  margin: 30px 0 0 0;
+  padding: 40px;
+}
+main #site-footer h1 {
+  background: #fcfcfc;
+  border: 1px solid #ccc;
+  border-style: none none solid none;
+  font-size: 24px;
+  font-weight: 300;
+  margin: 0 0 7px 0;
+  padding: 14px 40px;
+  text-align: center;
+}
+main #site-footer h2 {
+  font-size: 24px;
+  font-weight: 300;
+  margin: 10px 0 0 0;
+}
+main #site-footer h3 {
+  font-size: 19px;
+  font-weight: 300;
+  margin: 15px 0;
+}
+main a {
+  color: #000;
+  text-decoration: none;
+  transition: color 0.2s linear;
+}
+main a:hover {
+  color: black;
+}
+main .container {
+  font-family: "Open Sans", sans-serif;
+  margin: 0 auto;
+  width: 980px;
+}
+main #cart {
+  width: 100%;
+}
+main #cart .empty {
+  margin-top: 100px;
+}
+main #cart h1 {
+  text-align: center;
+  font-weight: 800;
+}
+main #cart a {
+  color: black;
+  text-decoration: none;
+  transition: color 0.2s linear;
+}
+main #cart a:hover {
+  color: #000;
+}
+main .product.removed {
+  margin-left: 980px !important;
+  opacity: 0;
+}
+main .product {
+  border: 1px solid #eee;
+  margin: 20px 0;
+  width: 100%;
+  height: 195px;
+  position: relative;
+  transition: margin 0.2s linear, opacity 0.2s linear;
+}
+main .product img {
+  width: 100%;
+  height: 100%;
+}
+main .product header {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-style: none none solid none;
+  float: left;
+  background: #000;
+  margin: 0 1% 20px 0;
+  overflow: hidden;
+  padding: 0;
+  position: relative;
+  width: 24%;
+  height: 195px;
+}
+main .product header:hover img {
+  opacity: 0.7;
+}
+main .product header:hover h3 {
+  bottom: 73px;
+}
+main .product header h3 {
+  background: red;
+  color: #fff;
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 49px;
+  margin: 0;
+  padding: 0 30px;
+  position: absolute;
+  bottom: -50px;
+  right: 0;
+  left: 0;
+  transition: bottom 0.2s linear;
+}
+main .product .content {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-style: none none solid none;
+  float: left;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  height: 140px;
+  padding: 0 20px;
+  width: 75%;
+}
+main .product h1 {
+  color: black;
+  font-size: 25px;
+  font-weight: 300;
+  margin: 17px 0 20px 0;
+}
+main .product footer.content {
+  height: 50px;
+  margin: 6px 0 0 0;
+  padding: 0;
+}
+main .product footer .price {
+  background: #fcfcfc;
+  color: #000;
+  float: right;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 49px;
+  margin: 0;
+  padding: 0 30px;
+}
+main .product footer .full-price {
+  background: black;
+  color: #fff;
+  float: right;
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 49px;
+  margin: 0;
+  padding: 0 30px;
+  transition: margin 0.15s linear;
+}
+main .remove {
+  cursor: pointer;
+}
+main .qt {
+  display: block;
+  float: left;
+  font-size: 19px;
+  line-height: 50px;
+  width: 70px;
+  text-align: center;
+}
+main .qt-plus {
+  display: block;
+  float: left;
+  background: #fcfcfc;
+  border: none;
+  font-size: 30px;
+  font-weight: 300;
+  height: 100%;
+  padding: 0 20px;
+  transition: background 0.2s linear;
+  line-height: 50px;
+}
+main .qt-plus:hover {
+  background: black;
+  color: #fff;
+  cursor: pointer;
+}
+main .qt-minus {
+  display: block;
+  float: left;
+  background: #fcfcfc;
+  border: none;
+  font-size: 30px;
+  font-weight: 300;
+  height: 100%;
+  padding: 0 20px;
+  transition: background 0.2s linear;
+  line-height: 47px;
+}
+main .qt-minus:hover {
+  background: black;
+  color: #fff;
+  cursor: pointer;
+}
+main .left {
+  float: left;
+}
+main .right {
+  float: right;
+}
+main .btn {
+  background: #53b5aa;
+  border: 1px solid #999;
+  border-style: none none solid none;
+  cursor: pointer;
+  display: block;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 300;
+  padding: 16px 0;
+  width: 290px;
+  text-align: center;
+  transition: all 0.2s linear;
+}
+main .btn:hover {
+  color: #fff;
+  background: #e70b0b;
+}
+main .type {
+  background: #fcfcfc;
+  font-size: 13px;
+  padding: 10px 16px;
+  left: 100%;
+  border: 1px solid #ccc;
+  border-style: none none solid none;
+  position: absolute;
+}
+main .color {
+  border: 1px solid #ccc;
+  border-style: none none solid none;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  right: -40px;
+}
+main .red {
+  background: #cb5a5e;
+}
+main .yellow {
+  background: #f1c40f;
+}
+main .blue {
+  background: #3598dc;
+}
+main .minused {
+  margin: 0 50px 0 0 !important;
+}
+main .added {
+  margin: 0 -50px 0 0 !important;
+}
+
+footer .footer {
+  width: 100%;
+  height: 400px;
+  background-color: rgb(244, 248, 250);
+  margin-top: 110px;
+}
+footer .footer .payne-img {
+  margin-top: 85px;
+}
+footer .footer .info {
+  margin-top: 15px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+}
+footer .footer-title {
+  margin-top: 85px;
+  margin-top: 85px;
+  font-size: 21px;
+  font-weight: 700;
+}
+footer ul li {
+  list-style: none;
+  margin-top: 15px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+}
+footer ul li a {
+  text-decoration: none;
+  color: black;
+}
+footer hr {
+  color: #c1b8b8;
+}
+footer .copyright {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+}
+footer .copyright .footer-icon a {
+  color: black;
+  margin: 5px;
+}/*# sourceMappingURL=cart.css.map */

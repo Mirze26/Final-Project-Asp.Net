@@ -1,0 +1,857 @@
+﻿
+@model HomeVM
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+          integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="~/assets/scss/Home/Home.css">
+    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+    <title>Home Page</title>
+</head>
+
+<body>
+
+
+    <header>
+        <section id="app-menu">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-3">
+                        <div class="payne-img">
+                            <a href="file:///C:/Users/PC/Desktop/end%20pro/Final-Project/End%20Project/Home.html">
+                                <img src="./assets/image/Home/payne.webp" alt="">
+                            </a>
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+                    <div class="col-6">
+                        <div class="menu">
+                            <ul>
+                                <li>
+                                    <a href="#">Home</a>
+                                </li>
+
+                                <li>
+                                    <a href="file:///C:/Users/PC/Desktop/end%20pro/Final-Project/End%20Project/Shop.html">Shop</a>
+                                </li>
+
+                                <li>
+                                    <a href="file:///C:/Users/PC/Desktop/end%20pro/Final-Project/End%20Project/Blog.html">Blog</a>
+                                </li>
+
+                                <li>
+                                    <a href="file:///C:/Users/PC/Desktop/end%20pro/Final-Project/End%20Project/About.html">
+                                        About
+                                        Us
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="file:///C:/Users/PC/Desktop/end%20pro/Final-Project/End%20Project/Contact.html">
+                                        Contact
+                                        Us
+                                    </a>
+                                </li>
+
+
+                            </ul>
+                        </div>
+                    </div>
+
+
+
+
+                    <div class="col-3">
+                        <div class="icons">
+                            <ul>
+                                <li>
+                                    <a href=""><i class="fa-solid fa-magnifying-glass glass"></i></a>
+                                </li>
+
+                                <li>
+                                    <a href=""><i class="fa-regular fa-user user"></i></a>
+                                </li>
+
+                                <li>
+                                    <a href="file:///C:/Users/PC/Desktop/end%20pro/Final-Project/End%20Project/wishlist.html">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="file:///C:/Users/PC/Desktop/end%20pro/Final-Project/End%20Project/cart.html">
+                                        <i class="fa-solid fa-bag-shopping"></i>
+                                    </a>
+                                </li>
+                            </ul>
+
+                            <div class="number">
+                                <a href=""> <span>0</span></a>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="login-register d-none">
+
+                        <ul class="login-area">
+                            <li>
+                                <a href="login.html">Login</a>
+                            </li>
+
+
+                            <li>
+                                <a href="register.html">Register</a>
+                            </li>
+                        </ul>
+
+                    </div>
+
+
+                    <div class="search d-none">
+                        <div><span><i class="fa-solid fa-magnifying-glass"></i></span></div>
+                        <input type="text" placeholder="Search">
+                    </div>
+
+
+
+                </div>
+            </div>
+        </section>
+
+
+    </header>
+
+
+    <section id="slider">
+        <!-- Swiper -->
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                @foreach (var slider in Model.Sliders)
+                {
+                    <div class="swiper-slide slider">
+
+                        <img src="./assets/image/Home/@slider.BackgroundImage" alt="">
+                        <img src="./assets/image/Home/@slider.Image" alt="">
+
+
+                        <div class="amazing-product">
+                            <span>@slider.Offer</span>
+                        </div>
+
+                        <div class="slider-name">
+                            <h1>@slider.Title</h1>
+                        </div>
+
+                        <div class="slider-desc">
+
+                            <p>
+                              @Html.Raw(  @slider.Description);
+                            </p>
+                        </div>
+                    </div>
+                }
+
+            </div>
+
+            <div class="swiper-pagination"></div>
+        </div>
+
+    </section>
+
+    <main>
+        <section id="shopify">
+            <div class="container">
+                <div class="row">
+
+
+                    <div class="col-6">
+                        <div class="bisco-bag">
+                            <img src="./assets/image/Home/@Model.Banners.FirstOrDefault(m=>m.IsLarge)?.Image" alt="">
+                            <div class="shopify-name">
+                                <span>@Model.Banners.FirstOrDefault(m=>m.IsLarge).Name</span>
+                            </div>
+                            <div class="shopify-desc">
+                                <span>@Model.Banners.FirstOrDefault(m=>m.IsLarge).Title</span>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+
+                    <div class="col-6">
+                        <div class="feedo-bag">
+                            <img src="./assets/image/Home/@Model.Banners.FirstOrDefault(m=>!m.IsLarge)?.Image" alt="">
+                            <div class="feedo-name">
+                                <span>@Model.Banners.FirstOrDefault(m=>!m.IsLarge).Name</span>
+                            </div>
+
+                            <div class="feedo-desc">
+                                <span>@Model.Banners.FirstOrDefault(m=>!m.IsLarge).Title</span>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section id="pro-cart">
+            <div class="main-wrapper">
+                <div class="container">
+                    <div class="heading-title">
+                        <h1>NEW ARRIVALS</h1>
+                    </div>
+
+
+                    <div class="product-list">
+
+                        <div class="row">
+                            <div class="col-3">
+                                <div>
+                                    <div class="product-img">
+
+                                        <a href="file:///C:/Users/PC/Desktop/end%20pro/Final-Project/End%20Project/productDetail.html">
+                                            <img src="./assets/image/Home/10_daed5f76-755e-4d9d-ac19-5afea83e4fdb_large.webp">
+                                            <img>
+                                        </a>
+
+                                        <div class="icons">
+                                            <button type="button">
+                                                <i class="fas fa-sync-alt"></i>
+                                            </button>
+                                            <button type="button">
+                                                <i class="fas fa-shopping-cart"></i>
+                                            </button>
+                                            <button type="button">
+                                                <i class="far fa-heart"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="item-detail">
+                                        <a href="file:///C:/Users/PC/Desktop/end%20pro/Final-Project/End%20Project/productDetail.html"
+                                           class="item-name">Minaudière</a>
+
+                                        <div class="rating">
+                                            <a href=""> <i class="fa-solid fa-star"></i></a>
+                                            <a href=""> <i class="fa-solid fa-star"></i></a>
+                                            <a href=""> <i class="fa-solid fa-star"></i></a>
+                                            <a href=""> <i class="fa-solid fa-star"></i></a>
+                                            <a href=""> <i class="fa-solid fa-star"></i></a>
+
+                                        </div>
+
+                                        <div class="item-price">
+                                            <span class="new-price">$220.00</span>
+                                            <span class="old-price">$275.60</span>
+                                        </div>
+
+                                        <button type="button" class="add-btn">add to cart</button>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+
+
+                            <div class="col-3">
+                                <div>
+                                    <div class="product-img">
+                                        <a href="file:///C:/Users/PC/Desktop/end%20pro/Final-Project/End%20Project/productDetail.html">
+                                            <img src="./assets/image/Home/6_f98801ee-0ade-4f30-ae76-fddd3d82cb30_large.webp">
+                                        </a>
+                                        <div class="icons">
+                                            <button type="button">
+                                                <i class="fas fa-sync-alt"></i>
+                                            </button>
+                                            <button type="button">
+                                                <i class="fas fa-shopping-cart"></i>
+                                            </button>
+                                            <button type="button">
+                                                <i class="far fa-heart"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="item-detail">
+                                        <a href="file:///C:/Users/PC/Desktop/end%20pro/Final-Project/End%20Project/productDetail.html"
+                                           class="item-name">Preorder Product</a>
+
+
+                                        <div class="rating">
+                                            <a href=""> <i class="fa-solid fa-star"></i></a>
+                                            <a href=""> <i class="fa-solid fa-star"></i></a>
+                                            <a href=""> <i class="fa-solid fa-star"></i></a>
+                                            <a href=""> <i class="fa-solid fa-star"></i></a>
+                                            <a href=""> <i class="fa-solid fa-star"></i></a>
+
+                                        </div>
+
+
+
+                                        <div class="item-price">
+                                            <span class="new-price">$260.00</span>
+                                            <span class="old-price">$285.60</span>
+                                        </div>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore fugiat quod
+                                            corporis delectus sequi laudantium molestias vero distinctio, qui numquam
+                                            dolore, corrupti, enim consectetur cum?
+                                        </p>
+                                        <button type="button" class="add-btn">add to cart</button>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                            <div class="col-3 ">
+                                <div>
+                                    <div class="product-img">
+                                        <a href="file:///C:/Users/PC/Desktop/end%20pro/Final-Project/End%20Project/productDetail.html">
+                                            <img src="./assets/image/Home/8_b3acb490-179f-461d-8723-00a5ccda7018_large.webp">
+                                        </a>
+                                        <div class="icons">
+                                            <button type="button">
+                                                <i class="fas fa-sync-alt"></i>
+                                            </button>
+                                            <button type="button">
+                                                <i class="fas fa-shopping-cart"></i>
+                                            </button>
+                                            <button type="button">
+                                                <i class="far fa-heart"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="item-detail">
+                                        <a href="file:///C:/Users/PC/Desktop/end%20pro/Final-Project/End%20Project/productDetail.html"
+                                           class="item-name">Rucksack</a>
+
+
+                                        <div class="rating">
+                                            <a href=""> <i class="fa-solid fa-star"></i></a>
+                                            <a href=""> <i class="fa-solid fa-star"></i></a>
+                                            <a href=""> <i class="fa-solid fa-star"></i></a>
+                                            <a href=""> <i class="fa-solid fa-star"></i></a>
+                                            <a href=""> <i class="fa-solid fa-star"></i></a>
+
+                                        </div>
+
+
+
+                                        <div class="item-price">
+                                            <span class="new-price">$220.00</span>
+                                            <span class="old-price">$275.60</span>
+                                        </div>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore fugiat quod
+                                            corporis delectus sequi laudantium molestias vero distinctio, qui numquam
+                                            dolore, corrupti, enim consectetur cum?
+                                        </p>
+                                        <button type="button" class="add-btn">add to cart</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-3">
+                                <div>
+                                    <div class="product-img">
+                                        <a href="file:///C:/Users/PC/Desktop/end%20pro/Final-Project/End%20Project/productDetail.html">
+                                            <img src="./assets/image/Home/3_1fc1f156-6765-412e-a78c-b5be5a7957cd_large.webp">
+                                        </a>
+                                        <div class="icons">
+                                            <button type="button">
+                                                <i class="fas fa-sync-alt"></i>
+                                            </button>
+                                            <button type="button">
+                                                <i class="fas fa-shopping-cart"></i>
+                                            </button>
+                                            <button type="button">
+                                                <i class="far fa-heart"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="item-detail">
+                                        <a href="file:///C:/Users/PC/Desktop/end%20pro/Final-Project/End%20Project/productDetail.html"
+                                           class="item-name">Clutch</a>
+
+
+                                        <div class="rating">
+                                            <a href=""> <i class="fa-solid fa-star"></i></a>
+                                            <a href=""> <i class="fa-solid fa-star"></i></a>
+                                            <a href=""> <i class="fa-solid fa-star"></i></a>
+                                            <a href=""> <i class="fa-solid fa-star"></i></a>
+                                            <a href=""> <i class="fa-solid fa-star"></i></a>
+
+                                        </div>
+
+
+
+                                        <div class="item-price">
+                                            <span class="new-price">$85.00</span>
+                                            <span class="old-price">$99.00</span>
+                                        </div>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore fugiat quod
+                                            corporis delectus sequi laudantium molestias vero distinctio, qui numquam
+                                            dolore, corrupti, enim consectetur cum?
+                                        </p>
+                                        <button type="button" class="add-btn">add to cart</button>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+
+
+                            <div class="col-3">
+                                <div>
+                                    <div class="product-img">
+                                        <a href="file:///C:/Users/PC/Desktop/end%20pro/Final-Project/End%20Project/productDetail.html">
+                                            <img src="./assets/image/Home/1_a3b6147a-3c67-471d-a4c8-76954ffa5e78_large.webp">
+                                        </a>
+                                        <div class="icons">
+                                            <button type="button">
+                                                <i class="fas fa-sync-alt"></i>
+                                            </button>
+                                            <button type="button">
+                                                <i class="fas fa-shopping-cart"></i>
+                                            </button>
+                                            <button type="button">
+                                                <i class="far fa-heart"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="item-detail">
+                                        <a href="file:///C:/Users/PC/Desktop/end%20pro/Final-Project/End%20Project/productDetail.html"
+                                           class="item-name">Daypack</a>
+
+
+                                        <div class="rating">
+                                            <a href=""> <i class="fa-solid fa-star"></i></a>
+                                            <a href=""> <i class="fa-solid fa-star"></i></a>
+                                            <a href=""> <i class="fa-solid fa-star"></i></a>
+                                            <a href=""> <i class="fa-solid fa-star"></i></a>
+                                            <a href=""> <i class="fa-solid fa-star"></i></a>
+
+                                        </div>
+
+
+
+                                        <div class="item-price">
+                                            <span class="new-price">$246.00</span>
+                                            <span class="old-price">$285.00</span>
+                                        </div>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore fugiat quod
+                                            corporis delectus sequi laudantium molestias vero distinctio, qui numquam
+                                            dolore, corrupti, enim consectetur cum?
+                                        </p>
+                                        <button type="button" class="add-btn">add to cart</button>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+
+
+                            <div class="col-3 ">
+                                <div>
+                                    <div class="product-img">
+                                        <a href="file:///C:/Users/PC/Desktop/end%20pro/Final-Project/End%20Project/productDetail.html">
+                                            <img src="./assets/image/Home/9_ddf2b7ab-f367-4fbe-8878-a6706f1b19e6_large.webp">
+                                        </a>
+                                        <div class="icons">
+                                            <button type="button">
+                                                <i class="fas fa-sync-alt"></i>
+                                            </button>
+                                            <button type="button">
+                                                <i class="fas fa-shopping-cart"></i>
+                                            </button>
+                                            <button type="button">
+                                                <i class="far fa-heart"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="item-detail">
+                                        <a href="file:///C:/Users/PC/Desktop/end%20pro/Final-Project/End%20Project/productDetail.html"
+                                           class="item-name">Bracelet Bag</a>
+
+
+                                        <div class="rating">
+                                            <a href=""> <i class="fa-solid fa-star"></i></a>
+                                            <a href=""> <i class="fa-solid fa-star"></i></a>
+                                            <a href=""> <i class="fa-solid fa-star"></i></a>
+                                            <a href=""> <i class="fa-solid fa-star"></i></a>
+                                            <a href=""> <i class="fa-solid fa-star"></i></a>
+
+                                        </div>
+
+
+
+                                        <div class="item-price">
+                                            <span class="new-price">$220.00</span>
+                                            <span class="old-price">$275.60</span>
+                                        </div>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore fugiat quod
+                                            corporis delectus sequi laudantium molestias vero distinctio, qui numquam
+                                            dolore, corrupti, enim consectetur cum?
+                                        </p>
+                                        <button type="button" class="add-btn">add to cart</button>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+
+
+                            <div class="col-3 ">
+                                <div>
+                                    <div class="product-img">
+                                        <a href="file:///C:/Users/PC/Desktop/end%20pro/Final-Project/End%20Project/productDetail.html">
+                                            <img src="./assets/image/Home/7_3b59200a-7528-445e-b124-ece53f9408e9_large.webp">
+                                        </a>
+                                        <div class="icons">
+                                            <button type="button">
+                                                <i class="fas fa-sync-alt"></i>
+                                            </button>
+                                            <button type="button">
+                                                <i class="fas fa-shopping-cart"></i>
+                                            </button>
+                                            <button type="button">
+                                                <i class="far fa-heart"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="item-detail">
+                                        <a href="file:///C:/Users/PC/Desktop/end%20pro/Final-Project/End%20Project/productDetail.html"
+                                           class="item-name">Satchel Backpack</a>
+
+
+                                        <div class="rating">
+                                            <a href=""> <i class="fa-solid fa-star"></i></a>
+                                            <a href=""> <i class="fa-solid fa-star"></i></a>
+                                            <a href=""> <i class="fa-solid fa-star"></i></a>
+                                            <a href=""> <i class="fa-solid fa-star"></i></a>
+                                            <a href=""> <i class="fa-solid fa-star"></i></a>
+
+                                        </div>
+
+
+
+                                        <div class="item-price">
+                                            <span class="new-price">$220.00</span>
+                                            <span class="old-price">$275.60</span>
+                                        </div>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore fugiat quod
+                                            corporis delectus sequi laudantium molestias vero distinctio, qui numquam
+                                            dolore, corrupti, enim consectetur cum?
+                                        </p>
+                                        <button type="button" class="add-btn">add to cart</button>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+
+
+                            <div class="col-3 ">
+                                <div>
+                                    <div class="product-img">
+                                        <a href="file:///C:/Users/PC/Desktop/end%20pro/Final-Project/End%20Project/productDetail.html">
+                                            <img src="./assets/image/Home/2_64113cf2-2260-4f19-a944-e02116490462_large.webp">
+                                        </a>
+
+
+                                        <div class="icons">
+                                            <button type="button">
+                                                <i class="fas fa-sync-alt"></i>
+                                            </button>
+                                            <button type="button">
+                                                <i class="fas fa-shopping-cart"></i>
+                                            </button>
+                                            <button type="button">
+                                                <i class="far fa-heart"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="item-detail">
+                                        <a href="file:///C:/Users/PC/Desktop/end%20pro/Final-Project/End%20Project/productDetail.html"
+                                           class="item-name">Envelope Clutch</a>
+
+
+                                        <div class="rating">
+                                            <a href=""> <i class="fa-solid fa-star"></i></a>
+                                            <a href=""> <i class="fa-solid fa-star"></i></a>
+                                            <a href=""> <i class="fa-solid fa-star"></i></a>
+                                            <a href=""> <i class="fa-solid fa-star"></i></a>
+                                            <a href=""> <i class="fa-solid fa-star"></i></a>
+
+                                        </div>
+
+
+
+                                        <div class="item-price">
+                                            <span class="new-price">$220.00</span>
+                                            <span class="old-price">$275.60</span>
+                                        </div>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore fugiat quod
+                                            corporis delectus sequi laudantium molestias vero distinctio, qui numquam
+                                            dolore, corrupti, enim consectetur cum?
+                                        </p>
+                                        <button type="button" class="add-btn">add to cart</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="discount-products">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-6">
+                        <div class="feedo-bag">
+                            <img src="./assets/image/Home/@Model.Banners.LastOrDefault(m=>!m.IsLarge)?.Image" alt="">
+                            <div class="feedo-name">
+                                <span>@Model.Banners.LastOrDefault(m=>!m.IsLarge).Name</span>
+
+
+                            </div>
+
+                            <div class="feedo-desc">
+                                <span>@Model.Banners.LastOrDefault(m=>!m.IsLarge).Title</span>
+                            </div>
+
+                            <div class="discount">
+                                <span class="number">53 %</span><br>
+                                <span class="dis">OFF</span>
+                            </div>
+
+
+
+                        </div>
+
+                    </div>
+
+
+
+                    <div class="col-6">
+                        <div class="bisco-bag">
+                            <img src="./assets/image/Home/@Model.Banners.LastOrDefault(m=>m.IsLarge)?.Image" alt="">
+                            <div class="shopify-name">
+                                <span>@Model.Banners.LastOrDefault(m=>m.IsLarge).Name</span>
+                            </div>
+                            <div class="shopify-desc">
+                                <span>@Model.Banners.LastOrDefault(m=>m.IsLarge).Title</span>
+                            </div>
+
+                            <div class="discount">
+                                <span class="number">53 %</span><br>
+                                <span class="dis">OFF</span>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section id="shipment">
+            <div class="container">
+                <div class="row">
+                    <div class="col-4">
+                        <div class="delivery">
+                            <div class="truck"><img src="./assets/image/Home/truck.png" alt=""></div>
+                            <span>FREE HOME DELIVERY</span>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="col-4">
+                        <div class="delivery">
+                            <div class="dollar"><img src="./assets/image/Home/dollar.png" alt=""></div>
+                            <span>FREE HOME DELIVERY</span>
+                        </div>
+
+                    </div>
+
+
+                    <div class="col-4">
+                        <div class="delivery">
+                            <div class="headset"><img src="./assets/image/Home/headset.png" alt=""></div>
+                            <span>FREE SUPPORT</span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+
+    </main>
+
+
+    <footer>
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-3">
+                        <div class="payne-img">
+                            <img src="./assets/image/Home/payne.webp" alt="">
+                        </div>
+
+                        <div class="info">
+                            <span>1203 Town Center Orive #L 335458 USA</span> <br>
+                            <span>123 456 789</span> <br>
+                            <span>info@example.com</span>
+                        </div>
+                    </div>
+
+
+                    <div class="col-9">
+                        <div class="row">
+                            <div class="col-3">
+                                <div class="footer-title"><span>STORE MENU</span></div>
+                                <ul>
+                                    <li><a href="">Best Seller</a></li>
+                                    <li><a href=""> New Arrivals</a></li>
+                                    <li><a href=""> Men</a></li>
+                                    <li><a href="">Women</a></li>
+                                    <li><a href=""> Accessories</a></li>
+
+                                </ul>
+
+                            </div>
+
+
+                            <div class="col-3">
+                                <div class="footer-title"><span>INFORMATION</span></div>
+                                <ul>
+                                    <li><a href=""> About Us</a></li>
+                                    <li><a href=""> Delivery Information</a></li>
+                                    <li><a href=""> Privacy Policy</a></li>
+                                    <li><a href=""> Terms & Conditions</a></li>
+                                    <li><a href=""> Look Books</a></li>
+
+                                </ul>
+
+                            </div>
+
+
+                            <div class="col-3">
+                                <div class="footer-title">QUESTION</div>
+                                <ul>
+                                    <li><a href="">Help</a></li>
+                                    <li><a href=""> Track Order</a></li>
+                                    <li><a href=""> Support</a></li>
+                                    <li><a href="">Shopping & Delivery</a></li>
+                                    <li><a href=""> FAQs</a></li>
+
+                                </ul>
+
+                            </div>
+
+
+
+                            <div class="col-3">
+                                <div class="footer-title">MY ACCOUNT</div>
+                                <ul>
+                                    <li><a href=""> My Account</a></li>
+                                    <li><a href=""> Order Delivery</a></li>
+                                    <li><a href=""> Wishlist</a></li>
+                                    <li><a href=""> Newsletter</a></li>
+
+                                </ul>
+
+                            </div>
+
+
+                        </div>
+
+                    </div>
+                    <hr>
+
+                    <div class="copyright">
+                        <span>Copyright © 2021 HasThemes | Built with Payne by HasThemes.</span>
+
+
+                        <div class="footer-icon">
+                            <a href=""> <i class="fa-brands fa-facebook-f"></i></a>
+                            <a href=""> <i class="fa-brands fa-twitter"></i></a>
+                            <a href=""> <i class="fa-brands fa-linkedin-in"></i></a>
+                            <a href=""> <i class="fa-brands fa-instagram"></i></a>
+                        </div>
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+
+        </div>
+    </footer>
+
+
+
+    <script src="https://kit.fontawesome.com/e53a0e3ee5.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="~/assets/js/Home/home.js"></script>
+</body>
+
+</html>

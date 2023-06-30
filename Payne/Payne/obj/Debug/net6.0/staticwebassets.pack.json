@@ -1,0 +1,809 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Payne.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Payne.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\admin\\assets\\demo\\chart-area-demo.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\demo\\chart-area-demo.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\admin\\assets\\demo\\chart-bar-demo.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\demo\\chart-bar-demo.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\admin\\assets\\demo\\chart-pie-demo.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\demo\\chart-pie-demo.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\admin\\assets\\demo\\datatables-demo.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\demo\\datatables-demo.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\admin\\assets\\img\\error-404-monochrome.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\error-404-monochrome.svg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\admin\\css\\styles.css",
+      "PackagePath": "staticwebassets\\admin\\css\\styles.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\admin\\js\\datatables-simple-demo.js",
+      "PackagePath": "staticwebassets\\admin\\js\\datatables-simple-demo.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\admin\\js\\scripts.js",
+      "PackagePath": "staticwebassets\\admin\\js\\scripts.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\image\\About\\1.jpg",
+      "PackagePath": "staticwebassets\\assets\\image\\About\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\image\\About\\2.jpg",
+      "PackagePath": "staticwebassets\\assets\\image\\About\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\image\\About\\3.jpg",
+      "PackagePath": "staticwebassets\\assets\\image\\About\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\image\\About\\about.webp",
+      "PackagePath": "staticwebassets\\assets\\image\\About\\about.webp"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\image\\About\\free_shipping.webp",
+      "PackagePath": "staticwebassets\\assets\\image\\About\\free_shipping.webp"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\image\\About\\money_back.webp",
+      "PackagePath": "staticwebassets\\assets\\image\\About\\money_back.webp"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\image\\About\\support.png",
+      "PackagePath": "staticwebassets\\assets\\image\\About\\support.png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\image\\BlogDetail\\12.webp",
+      "PackagePath": "staticwebassets\\assets\\image\\BlogDetail\\12.webp"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\image\\Blog\\10.webp",
+      "PackagePath": "staticwebassets\\assets\\image\\Blog\\10.webp"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\image\\Blog\\11.webp",
+      "PackagePath": "staticwebassets\\assets\\image\\Blog\\11.webp"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\image\\Blog\\12.webp",
+      "PackagePath": "staticwebassets\\assets\\image\\Blog\\12.webp"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\image\\Blog\\1_800X500_crop_center.webp",
+      "PackagePath": "staticwebassets\\assets\\image\\Blog\\1_800X500_crop_center.webp"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\image\\Blog\\2_800X500_crop_center.webp",
+      "PackagePath": "staticwebassets\\assets\\image\\Blog\\2_800X500_crop_center.webp"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\image\\Blog\\4_800X500_crop_center.webp",
+      "PackagePath": "staticwebassets\\assets\\image\\Blog\\4_800X500_crop_center.webp"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\image\\Blog\\6_800X500_crop_center.webp",
+      "PackagePath": "staticwebassets\\assets\\image\\Blog\\6_800X500_crop_center.webp"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\image\\Blog\\8_800X500_crop_center.webp",
+      "PackagePath": "staticwebassets\\assets\\image\\Blog\\8_800X500_crop_center.webp"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\image\\Blog\\9_800X500_crop_center.webp",
+      "PackagePath": "staticwebassets\\assets\\image\\Blog\\9_800X500_crop_center.webp"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\image\\Cart\\10_daed5f76-755e-4d9d-ac19-5afea83e4fdb_large.webp",
+      "PackagePath": "staticwebassets\\assets\\image\\Cart\\10_daed5f76-755e-4d9d-ac19-5afea83e4fdb_large.webp"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\image\\Cart\\11_f4cb4dcb-d836-4b76-ab90-530334793faf_large.webp",
+      "PackagePath": "staticwebassets\\assets\\image\\Cart\\11_f4cb4dcb-d836-4b76-ab90-530334793faf_large.webp"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\image\\Cart\\1_a3b6147a-3c67-471d-a4c8-76954ffa5e78_large.webp",
+      "PackagePath": "staticwebassets\\assets\\image\\Cart\\1_a3b6147a-3c67-471d-a4c8-76954ffa5e78_large.webp"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\image\\Cart\\2_64113cf2-2260-4f19-a944-e02116490462_large.webp",
+      "PackagePath": "staticwebassets\\assets\\image\\Cart\\2_64113cf2-2260-4f19-a944-e02116490462_large.webp"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\image\\Cart\\3_1fc1f156-6765-412e-a78c-b5be5a7957cd_large.webp",
+      "PackagePath": "staticwebassets\\assets\\image\\Cart\\3_1fc1f156-6765-412e-a78c-b5be5a7957cd_large.webp"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\image\\Cart\\4_5f4e6ffb-67e5-4530-99e6-896c780b37c3_large.webp",
+      "PackagePath": "staticwebassets\\assets\\image\\Cart\\4_5f4e6ffb-67e5-4530-99e6-896c780b37c3_large.webp"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\image\\Cart\\5_ec5af67b-ed87-45de-ba67-d2a93126d634_large.webp",
+      "PackagePath": "staticwebassets\\assets\\image\\Cart\\5_ec5af67b-ed87-45de-ba67-d2a93126d634_large.webp"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\image\\Cart\\6_f98801ee-0ade-4f30-ae76-fddd3d82cb30_large.webp",
+      "PackagePath": "staticwebassets\\assets\\image\\Cart\\6_f98801ee-0ade-4f30-ae76-fddd3d82cb30_large.webp"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\image\\Cart\\7_3b59200a-7528-445e-b124-ece53f9408e9_large.webp",
+      "PackagePath": "staticwebassets\\assets\\image\\Cart\\7_3b59200a-7528-445e-b124-ece53f9408e9_large.webp"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\image\\Cart\\8_b3acb490-179f-461d-8723-00a5ccda7018_large.webp",
+      "PackagePath": "staticwebassets\\assets\\image\\Cart\\8_b3acb490-179f-461d-8723-00a5ccda7018_large.webp"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\image\\Cart\\9_ddf2b7ab-f367-4fbe-8878-a6706f1b19e6_large.webp",
+      "PackagePath": "staticwebassets\\assets\\image\\Cart\\9_ddf2b7ab-f367-4fbe-8878-a6706f1b19e6_large.webp"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\image\\Home\\10_daed5f76-755e-4d9d-ac19-5afea83e4fdb_large.webp",
+      "PackagePath": "staticwebassets\\assets\\image\\Home\\10_daed5f76-755e-4d9d-ac19-5afea83e4fdb_large.webp"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\image\\Home\\1_a3b6147a-3c67-471d-a4c8-76954ffa5e78_large.webp",
+      "PackagePath": "staticwebassets\\assets\\image\\Home\\1_a3b6147a-3c67-471d-a4c8-76954ffa5e78_large.webp"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\image\\Home\\2_64113cf2-2260-4f19-a944-e02116490462_large.webp",
+      "PackagePath": "staticwebassets\\assets\\image\\Home\\2_64113cf2-2260-4f19-a944-e02116490462_large.webp"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\image\\Home\\3_1fc1f156-6765-412e-a78c-b5be5a7957cd_large.webp",
+      "PackagePath": "staticwebassets\\assets\\image\\Home\\3_1fc1f156-6765-412e-a78c-b5be5a7957cd_large.webp"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\image\\Home\\6_f98801ee-0ade-4f30-ae76-fddd3d82cb30_large.webp",
+      "PackagePath": "staticwebassets\\assets\\image\\Home\\6_f98801ee-0ade-4f30-ae76-fddd3d82cb30_large.webp"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\image\\Home\\7_3b59200a-7528-445e-b124-ece53f9408e9_large.webp",
+      "PackagePath": "staticwebassets\\assets\\image\\Home\\7_3b59200a-7528-445e-b124-ece53f9408e9_large.webp"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\image\\Home\\8_b3acb490-179f-461d-8723-00a5ccda7018_large.webp",
+      "PackagePath": "staticwebassets\\assets\\image\\Home\\8_b3acb490-179f-461d-8723-00a5ccda7018_large.webp"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\image\\Home\\95786a45-9ab4-4631-8a1a-c8a9e7e0f2cb.jpg",
+      "PackagePath": "staticwebassets\\assets\\image\\Home\\95786a45-9ab4-4631-8a1a-c8a9e7e0f2cb.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\image\\Home\\9_ddf2b7ab-f367-4fbe-8878-a6706f1b19e6_large.webp",
+      "PackagePath": "staticwebassets\\assets\\image\\Home\\9_ddf2b7ab-f367-4fbe-8878-a6706f1b19e6_large.webp"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\image\\Home\\Slider-background.png",
+      "PackagePath": "staticwebassets\\assets\\image\\Home\\Slider-background.png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\image\\Home\\a2172110-ad66-420f-acd4-eb1330039329.jpg",
+      "PackagePath": "staticwebassets\\assets\\image\\Home\\a2172110-ad66-420f-acd4-eb1330039329.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\image\\Home\\a42ce00d-b4a3-45a2-8b2c-e8aaeb334aac.jpg",
+      "PackagePath": "staticwebassets\\assets\\image\\Home\\a42ce00d-b4a3-45a2-8b2c-e8aaeb334aac.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\image\\Home\\c9ba91d0-cdcf-4f27-aafe-30ab592ff75d.jpg",
+      "PackagePath": "staticwebassets\\assets\\image\\Home\\c9ba91d0-cdcf-4f27-aafe-30ab592ff75d.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\image\\Home\\dcbb3afe-8620-4eb8-98fd-71d9a0d1a4fb.jpg",
+      "PackagePath": "staticwebassets\\assets\\image\\Home\\dcbb3afe-8620-4eb8-98fd-71d9a0d1a4fb.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\image\\Home\\dollar.png",
+      "PackagePath": "staticwebassets\\assets\\image\\Home\\dollar.png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\image\\Home\\e33a0447-b741-4603-bb83-30087adb81e0.jpg",
+      "PackagePath": "staticwebassets\\assets\\image\\Home\\e33a0447-b741-4603-bb83-30087adb81e0.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\image\\Home\\ef646c56-5727-4398-9538-60bd4071b7ac.jpg",
+      "PackagePath": "staticwebassets\\assets\\image\\Home\\ef646c56-5727-4398-9538-60bd4071b7ac.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\image\\Home\\fe37695b-616d-4bd9-ac88-bb265dacc655.jpg",
+      "PackagePath": "staticwebassets\\assets\\image\\Home\\fe37695b-616d-4bd9-ac88-bb265dacc655.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\image\\Home\\headset.png",
+      "PackagePath": "staticwebassets\\assets\\image\\Home\\headset.png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\image\\Home\\payne.webp",
+      "PackagePath": "staticwebassets\\assets\\image\\Home\\payne.webp"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\image\\Home\\product-01-500x466.jpg",
+      "PackagePath": "staticwebassets\\assets\\image\\Home\\product-01-500x466.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\image\\Home\\product-02-500x575.jpg",
+      "PackagePath": "staticwebassets\\assets\\image\\Home\\product-02-500x575.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\image\\Home\\product-15-500x466.webp",
+      "PackagePath": "staticwebassets\\assets\\image\\Home\\product-15-500x466.webp"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\image\\Home\\slider-bg-02.webp",
+      "PackagePath": "staticwebassets\\assets\\image\\Home\\slider-bg-02.webp"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\image\\Home\\slider-image-01.webp",
+      "PackagePath": "staticwebassets\\assets\\image\\Home\\slider-image-01.webp"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\image\\Home\\slider-image-02.webp",
+      "PackagePath": "staticwebassets\\assets\\image\\Home\\slider-image-02.webp"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\image\\Home\\truck.png",
+      "PackagePath": "staticwebassets\\assets\\image\\Home\\truck.png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\image\\ProductDetail\\10_daed5f76-755e-4d9d-ac19-5afea83e4fdb_large.webp",
+      "PackagePath": "staticwebassets\\assets\\image\\ProductDetail\\10_daed5f76-755e-4d9d-ac19-5afea83e4fdb_large.webp"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\image\\ProductDetail\\11_f4cb4dcb-d836-4b76-ab90-530334793faf_large.webp",
+      "PackagePath": "staticwebassets\\assets\\image\\ProductDetail\\11_f4cb4dcb-d836-4b76-ab90-530334793faf_large.webp"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\image\\ProductDetail\\1_a3b6147a-3c67-471d-a4c8-76954ffa5e78_large.webp",
+      "PackagePath": "staticwebassets\\assets\\image\\ProductDetail\\1_a3b6147a-3c67-471d-a4c8-76954ffa5e78_large.webp"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\image\\ProductDetail\\2_64113cf2-2260-4f19-a944-e02116490462_large.webp",
+      "PackagePath": "staticwebassets\\assets\\image\\ProductDetail\\2_64113cf2-2260-4f19-a944-e02116490462_large.webp"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\image\\ProductDetail\\3_1fc1f156-6765-412e-a78c-b5be5a7957cd_large.webp",
+      "PackagePath": "staticwebassets\\assets\\image\\ProductDetail\\3_1fc1f156-6765-412e-a78c-b5be5a7957cd_large.webp"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\image\\ProductDetail\\4_5f4e6ffb-67e5-4530-99e6-896c780b37c3_large.webp",
+      "PackagePath": "staticwebassets\\assets\\image\\ProductDetail\\4_5f4e6ffb-67e5-4530-99e6-896c780b37c3_large.webp"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\image\\ProductDetail\\5_ec5af67b-ed87-45de-ba67-d2a93126d634_large.webp",
+      "PackagePath": "staticwebassets\\assets\\image\\ProductDetail\\5_ec5af67b-ed87-45de-ba67-d2a93126d634_large.webp"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\image\\ProductDetail\\6_f98801ee-0ade-4f30-ae76-fddd3d82cb30_large.webp",
+      "PackagePath": "staticwebassets\\assets\\image\\ProductDetail\\6_f98801ee-0ade-4f30-ae76-fddd3d82cb30_large.webp"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\image\\ProductDetail\\7_3b59200a-7528-445e-b124-ece53f9408e9_large.webp",
+      "PackagePath": "staticwebassets\\assets\\image\\ProductDetail\\7_3b59200a-7528-445e-b124-ece53f9408e9_large.webp"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\image\\ProductDetail\\8_b3acb490-179f-461d-8723-00a5ccda7018_large.webp",
+      "PackagePath": "staticwebassets\\assets\\image\\ProductDetail\\8_b3acb490-179f-461d-8723-00a5ccda7018_large.webp"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\image\\ProductDetail\\9_ddf2b7ab-f367-4fbe-8878-a6706f1b19e6_large.webp",
+      "PackagePath": "staticwebassets\\assets\\image\\ProductDetail\\9_ddf2b7ab-f367-4fbe-8878-a6706f1b19e6_large.webp"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\image\\ProductDetail\\amazon-92e856f82cae5a564cd0f70457f11af4d58fa037cf6e5ab7adf76f6fd3b9cafe.svg",
+      "PackagePath": "staticwebassets\\assets\\image\\ProductDetail\\amazon-92e856f82cae5a564cd0f70457f11af4d58fa037cf6e5ab7adf76f6fd3b9cafe.svg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\image\\ProductDetail\\apple_pay-f6db0077dc7c325b436ecbdcf254239100b35b70b1663bc7523d7c424901fa09.svg",
+      "PackagePath": "staticwebassets\\assets\\image\\ProductDetail\\apple_pay-f6db0077dc7c325b436ecbdcf254239100b35b70b1663bc7523d7c424901fa09.svg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\image\\ProductDetail\\bitcoin-e41278677541fc32b8d2e7fa41e61aaab2935151a6048a1d8d341162f5b93a0a.svg",
+      "PackagePath": "staticwebassets\\assets\\image\\ProductDetail\\bitcoin-e41278677541fc32b8d2e7fa41e61aaab2935151a6048a1d8d341162f5b93a0a.svg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\image\\ProductDetail\\google_pay-c66a29c63facf2053bf69352982c958e9675cabea4f2f7ccec08d169d1856b31.svg",
+      "PackagePath": "staticwebassets\\assets\\image\\ProductDetail\\google_pay-c66a29c63facf2053bf69352982c958e9675cabea4f2f7ccec08d169d1856b31.svg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\image\\ProductDetail\\paypal-49e4c1e03244b6d2de0d270ca0d22dd15da6e92cc7266e93eb43762df5aa355d.svg",
+      "PackagePath": "staticwebassets\\assets\\image\\ProductDetail\\paypal-49e4c1e03244b6d2de0d270ca0d22dd15da6e92cc7266e93eb43762df5aa355d.svg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\image\\ProductDetail\\visa-319d545c6fd255c9aad5eeaad21fd6f7f7b4fdbdb1a35ce83b89cca12a187f00.svg",
+      "PackagePath": "staticwebassets\\assets\\image\\ProductDetail\\visa-319d545c6fd255c9aad5eeaad21fd6f7f7b4fdbdb1a35ce83b89cca12a187f00.svg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\image\\Shop\\10_daed5f76-755e-4d9d-ac19-5afea83e4fdb_large.webp",
+      "PackagePath": "staticwebassets\\assets\\image\\Shop\\10_daed5f76-755e-4d9d-ac19-5afea83e4fdb_large.webp"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\image\\Shop\\11_f4cb4dcb-d836-4b76-ab90-530334793faf_large.webp",
+      "PackagePath": "staticwebassets\\assets\\image\\Shop\\11_f4cb4dcb-d836-4b76-ab90-530334793faf_large.webp"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\image\\Shop\\1_a3b6147a-3c67-471d-a4c8-76954ffa5e78_large.webp",
+      "PackagePath": "staticwebassets\\assets\\image\\Shop\\1_a3b6147a-3c67-471d-a4c8-76954ffa5e78_large.webp"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\image\\Shop\\2_64113cf2-2260-4f19-a944-e02116490462_large.webp",
+      "PackagePath": "staticwebassets\\assets\\image\\Shop\\2_64113cf2-2260-4f19-a944-e02116490462_large.webp"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\image\\Shop\\3_1fc1f156-6765-412e-a78c-b5be5a7957cd_large.webp",
+      "PackagePath": "staticwebassets\\assets\\image\\Shop\\3_1fc1f156-6765-412e-a78c-b5be5a7957cd_large.webp"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\image\\Shop\\4_5f4e6ffb-67e5-4530-99e6-896c780b37c3_large.webp",
+      "PackagePath": "staticwebassets\\assets\\image\\Shop\\4_5f4e6ffb-67e5-4530-99e6-896c780b37c3_large.webp"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\image\\Shop\\5_ec5af67b-ed87-45de-ba67-d2a93126d634_large.webp",
+      "PackagePath": "staticwebassets\\assets\\image\\Shop\\5_ec5af67b-ed87-45de-ba67-d2a93126d634_large.webp"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\image\\Shop\\6_f98801ee-0ade-4f30-ae76-fddd3d82cb30_large.webp",
+      "PackagePath": "staticwebassets\\assets\\image\\Shop\\6_f98801ee-0ade-4f30-ae76-fddd3d82cb30_large.webp"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\image\\Shop\\7_3b59200a-7528-445e-b124-ece53f9408e9_large.webp",
+      "PackagePath": "staticwebassets\\assets\\image\\Shop\\7_3b59200a-7528-445e-b124-ece53f9408e9_large.webp"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\image\\Shop\\8_b3acb490-179f-461d-8723-00a5ccda7018_large.webp",
+      "PackagePath": "staticwebassets\\assets\\image\\Shop\\8_b3acb490-179f-461d-8723-00a5ccda7018_large.webp"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\image\\Shop\\9_ddf2b7ab-f367-4fbe-8878-a6706f1b19e6_large.webp",
+      "PackagePath": "staticwebassets\\assets\\image\\Shop\\9_ddf2b7ab-f367-4fbe-8878-a6706f1b19e6_large.webp"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\js\\About\\about.js",
+      "PackagePath": "staticwebassets\\assets\\js\\About\\about.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\js\\BlogDetail\\blogDetail.js",
+      "PackagePath": "staticwebassets\\assets\\js\\BlogDetail\\blogDetail.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\js\\Blog\\Blog.js",
+      "PackagePath": "staticwebassets\\assets\\js\\Blog\\Blog.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\js\\Cart\\cart.js",
+      "PackagePath": "staticwebassets\\assets\\js\\Cart\\cart.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\js\\Contact\\contact.js",
+      "PackagePath": "staticwebassets\\assets\\js\\Contact\\contact.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\js\\Error\\error.js",
+      "PackagePath": "staticwebassets\\assets\\js\\Error\\error.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\js\\Home\\home.js",
+      "PackagePath": "staticwebassets\\assets\\js\\Home\\home.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\js\\Login\\login.js",
+      "PackagePath": "staticwebassets\\assets\\js\\Login\\login.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\js\\ProductDetail\\productDetail.js",
+      "PackagePath": "staticwebassets\\assets\\js\\ProductDetail\\productDetail.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\js\\Register\\register.js",
+      "PackagePath": "staticwebassets\\assets\\js\\Register\\register.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\js\\Shop\\Shop.js",
+      "PackagePath": "staticwebassets\\assets\\js\\Shop\\Shop.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\js\\Wishlist\\wishlist.js",
+      "PackagePath": "staticwebassets\\assets\\js\\Wishlist\\wishlist.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\scss\\About\\About.css",
+      "PackagePath": "staticwebassets\\assets\\scss\\About\\About.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\scss\\About\\About.css.map",
+      "PackagePath": "staticwebassets\\assets\\scss\\About\\About.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\scss\\About\\About.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\About\\About.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\scss\\BlogDetail\\blogDetail.css",
+      "PackagePath": "staticwebassets\\assets\\scss\\BlogDetail\\blogDetail.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\scss\\BlogDetail\\blogDetail.css.map",
+      "PackagePath": "staticwebassets\\assets\\scss\\BlogDetail\\blogDetail.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\scss\\BlogDetail\\blogDetail.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\BlogDetail\\blogDetail.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\scss\\Blog\\Blog.css",
+      "PackagePath": "staticwebassets\\assets\\scss\\Blog\\Blog.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\scss\\Blog\\Blog.css.map",
+      "PackagePath": "staticwebassets\\assets\\scss\\Blog\\Blog.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\scss\\Blog\\Blog.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\Blog\\Blog.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\scss\\Cart\\cart.css",
+      "PackagePath": "staticwebassets\\assets\\scss\\Cart\\cart.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\scss\\Cart\\cart.css.map",
+      "PackagePath": "staticwebassets\\assets\\scss\\Cart\\cart.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\scss\\Cart\\cart.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\Cart\\cart.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\scss\\Contact\\Contact.css",
+      "PackagePath": "staticwebassets\\assets\\scss\\Contact\\Contact.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\scss\\Contact\\Contact.css.map",
+      "PackagePath": "staticwebassets\\assets\\scss\\Contact\\Contact.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\scss\\Contact\\Contact.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\Contact\\Contact.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\scss\\Error\\error.css",
+      "PackagePath": "staticwebassets\\assets\\scss\\Error\\error.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\scss\\Error\\error.css.map",
+      "PackagePath": "staticwebassets\\assets\\scss\\Error\\error.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\scss\\Error\\error.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\Error\\error.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\scss\\Home\\Home.css",
+      "PackagePath": "staticwebassets\\assets\\scss\\Home\\Home.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\scss\\Home\\Home.css.map",
+      "PackagePath": "staticwebassets\\assets\\scss\\Home\\Home.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\scss\\Home\\Home.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\Home\\Home.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\scss\\Login\\login.css",
+      "PackagePath": "staticwebassets\\assets\\scss\\Login\\login.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\scss\\Login\\login.css.map",
+      "PackagePath": "staticwebassets\\assets\\scss\\Login\\login.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\scss\\Login\\login.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\Login\\login.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\scss\\ProductDetail\\productDetail.css",
+      "PackagePath": "staticwebassets\\assets\\scss\\ProductDetail\\productDetail.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\scss\\ProductDetail\\productDetail.css.map",
+      "PackagePath": "staticwebassets\\assets\\scss\\ProductDetail\\productDetail.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\scss\\ProductDetail\\productDetail.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\ProductDetail\\productDetail.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\scss\\Register\\register.css",
+      "PackagePath": "staticwebassets\\assets\\scss\\Register\\register.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\scss\\Register\\register.css.map",
+      "PackagePath": "staticwebassets\\assets\\scss\\Register\\register.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\scss\\Register\\register.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\Register\\register.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\scss\\Shop\\Shop.css",
+      "PackagePath": "staticwebassets\\assets\\scss\\Shop\\Shop.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\scss\\Shop\\Shop.css.map",
+      "PackagePath": "staticwebassets\\assets\\scss\\Shop\\Shop.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\scss\\Shop\\Shop.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\Shop\\Shop.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\scss\\Wishlist\\wishlist.css",
+      "PackagePath": "staticwebassets\\assets\\scss\\Wishlist\\wishlist.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\scss\\Wishlist\\wishlist.css.map",
+      "PackagePath": "staticwebassets\\assets\\scss\\Wishlist\\wishlist.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\scss\\Wishlist\\wishlist.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\Wishlist\\wishlist.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.Payne.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.Payne.props",
+      "PackagePath": "build\\Payne.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.Payne.props",
+      "PackagePath": "buildMultiTargeting\\Payne.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.Payne.props",
+      "PackagePath": "buildTransitive\\Payne.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
