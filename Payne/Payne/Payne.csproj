@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <Folder Include="Helpers\Enums\" />
+    <Folder Include="ViewComponents\" />
     <Folder Include="ViewModels\Account\" />
     <Folder Include="wwwroot\admin\" />
   </ItemGroup>

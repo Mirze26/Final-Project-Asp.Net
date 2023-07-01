@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "P1rCpgd5OZ3THbVszfWynOWF08xWrSjlfix+MpyGH2s=",
+  "Hash": "kZB/lpgZCmie4Flboz5Sg2gAnJADfw/29DdFDRh19OU=",
   "Source": "Payne",
   "BasePath": "_content/Payne",
   "Mode": "Default",
@@ -884,23 +884,6 @@
       "OriginalItemSpec": "wwwroot\\assets\\image\\Home\\dcbb3afe-8620-4eb8-98fd-71d9a0d1a4fb.jpg"
     },
     {
-      "Identity": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\image\\Home\\dollar.png",
-      "SourceId": "Payne",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\",
-      "BasePath": "_content/Payne",
-      "RelativePath": "assets/image/Home/dollar.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\assets\\image\\Home\\dollar.png"
-    },
-    {
       "Identity": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\image\\Home\\e33a0447-b741-4603-bb83-30087adb81e0.jpg",
       "SourceId": "Payne",
       "SourceType": "Discovered",
@@ -952,12 +935,12 @@
       "OriginalItemSpec": "wwwroot\\assets\\image\\Home\\fe37695b-616d-4bd9-ac88-bb265dacc655.jpg"
     },
     {
-      "Identity": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\image\\Home\\headset.png",
+      "Identity": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\image\\Home\\free_shipping.webp",
       "SourceId": "Payne",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\",
       "BasePath": "_content/Payne",
-      "RelativePath": "assets/image/Home/headset.png",
+      "RelativePath": "assets/image/Home/free_shipping.webp",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -966,7 +949,24 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\assets\\image\\Home\\headset.png"
+      "OriginalItemSpec": "wwwroot\\assets\\image\\Home\\free_shipping.webp"
+    },
+    {
+      "Identity": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\image\\Home\\money_back.webp",
+      "SourceId": "Payne",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\",
+      "BasePath": "_content/Payne",
+      "RelativePath": "assets/image/Home/money_back.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\image\\Home\\money_back.webp"
     },
     {
       "Identity": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\image\\Home\\payne.webp",
@@ -1105,12 +1105,12 @@
       "OriginalItemSpec": "wwwroot\\assets\\image\\Home\\slider-image-02.webp"
     },
     {
-      "Identity": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\image\\Home\\truck.png",
+      "Identity": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\image\\Home\\support.png",
       "SourceId": "Payne",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\",
       "BasePath": "_content/Payne",
-      "RelativePath": "assets/image/Home/truck.png",
+      "RelativePath": "assets/image/Home/support.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1119,7 +1119,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\assets\\image\\Home\\truck.png"
+      "OriginalItemSpec": "wwwroot\\assets\\image\\Home\\support.png"
     },
     {
       "Identity": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\image\\ProductDetail\\1_a3b6147a-3c67-471d-a4c8-76954ffa5e78_large.webp",

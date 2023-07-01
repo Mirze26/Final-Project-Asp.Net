@@ -11,16 +11,22 @@ namespace Payne.Controllers
         private readonly AppDbContext _context;
         private readonly ISliderService _sliderService;
         private readonly IBannerService _bannerService;
+        private readonly IAdvertisingService _advertisingService;
+       
 
         public HomeController(AppDbContext context,
                       ISliderService sliderService,
-                      IBannerService bannerService)
+                      IBannerService bannerService,
+                      IAdvertisingService advertisingService
+                     )
 
 
         {
             _context = context;
             _sliderService = sliderService;
             _bannerService = bannerService;
+            _advertisingService = advertisingService;
+          
 
         }
 
@@ -30,12 +36,17 @@ namespace Payne.Controllers
         {
             IEnumerable<Slider> sliders = await _sliderService.GetAllAsync();
             IEnumerable<Banner> banners = await _bannerService.GetAllAsync();
+            IEnumerable<Advertising> advertisings = await _advertisingService.GetAllAsync();
+
+
 
 
             HomeVM model = new()
             {
                 Sliders = sliders,
-                Banners = banners
+                Banners = banners,
+                Advertisings = advertisings
+                
             };
 
             return View(model);

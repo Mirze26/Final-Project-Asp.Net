@@ -178,7 +178,7 @@ header #app-menu .search input {
   left: 276px;
   top: 430px;
   font-size: 15px;
-  width:500px;
+  width:600px;
 }
 
 main #shopify {
@@ -466,10 +466,8 @@ main #shipment .delivery {
 }
 main #shipment .delivery .truck {
   width: 100%;
-}
-main #shipment .delivery .truck img {
-  width: 155px;
-  margin-top: 6px;
+  font-size: 50px;
+  padding: 9px;
 }
 main #shipment .delivery span {
   position: relative;
@@ -479,17 +477,13 @@ main #shipment .delivery span {
 }
 main #shipment .delivery .dollar {
   width: 100%;
-}
-main #shipment .delivery .dollar img {
-  width: 80px;
-  margin-top: 14px;
+  font-size: 50px;
+  padding: 9px;
 }
 main #shipment .delivery .headset {
   width: 100%;
-}
-main #shipment .delivery .headset img {
-  width: 80px;
-  margin-top: 17px;
+  font-size: 50px;
+  padding: 9px;
 }
 
 footer .footer {

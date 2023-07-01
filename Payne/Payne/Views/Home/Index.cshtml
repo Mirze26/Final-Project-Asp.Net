@@ -705,36 +705,26 @@
 
         </section>
 
+
+
         <section id="shipment">
             <div class="container">
                 <div class="row">
-                    <div class="col-4">
-                        <div class="delivery">
-                            <div class="truck"><img src="./assets/image/Home/truck.png" alt=""></div>
-                            <span>FREE HOME DELIVERY</span>
+                    @foreach (var item in Model.Advertisings)
+                    {
+                        <div class="col-4">
+                            <div class="delivery">
+                                <div class="truck"><img src="./assets/image/Home/@item.Image" alt=""></div>
+                                <span>@item.Name</span>
+
+                            </div>
 
                         </div>
-
-                    </div>
-
-
-                    <div class="col-4">
-                        <div class="delivery">
-                            <div class="dollar"><img src="./assets/image/Home/dollar.png" alt=""></div>
-                            <span>FREE HOME DELIVERY</span>
-                        </div>
-
-                    </div>
+                    }
+                 
 
 
-                    <div class="col-4">
-                        <div class="delivery">
-                            <div class="headset"><img src="./assets/image/Home/headset.png" alt=""></div>
-                            <span>FREE SUPPORT</span>
-
-                        </div>
-
-                    </div>
+                    
 
                 </div>
 
