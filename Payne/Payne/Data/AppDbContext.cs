@@ -12,5 +12,8 @@ namespace Payne.Data
         public DbSet<Slider> Sliders { get; set; }
         public DbSet<Banner> Banners { get; set; }
         public DbSet<Advertising> Advertisings { get; set; }
+        public DbSet<AboutInfo> AboutInfos { get; set; }
+        public DbSet<ChoseUs> Choses { get; set; }
+        public DbSet<AboutGallery> AboutGalleries { get; set; }
     }
 }

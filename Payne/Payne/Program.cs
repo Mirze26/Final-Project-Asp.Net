@@ -28,6 +28,9 @@ builder.Services.AddIdentity<AppUser, IdentityRole>().AddEntityFrameworkStores<A
 builder.Services.AddScoped<ISliderService, SliderService>();
 builder.Services.AddScoped<IBannerService, BannerService>();
 builder.Services.AddScoped<IAdvertisingService, AdvertisingService>();
+builder.Services.AddScoped<IAboutInfoService, AboutInfoService>();
+builder.Services.AddScoped<IChoseUsService, ChoseUsService>();
+builder.Services.AddScoped<IAboutGalleryService, AboutGalleryService>();
 
 
 
