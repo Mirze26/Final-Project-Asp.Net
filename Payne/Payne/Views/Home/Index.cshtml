@@ -1,5 +1,4 @@
-﻿
-@model HomeVM
+﻿@model HomeVM
 
 @{
     Layout = null;
@@ -170,7 +169,7 @@
                         <div class="slider-desc">
 
                             <p>
-                              @Html.Raw(  @slider.Description);
+                                @Html.Raw(  @slider.Description);
                             </p>
                         </div>
                     </div>
@@ -191,13 +190,21 @@
 
                     <div class="col-6">
                         <div class="bisco-bag">
-                            <img src="./assets/image/Home/@Model.Banners.FirstOrDefault(m=>m.IsLarge)?.Image" alt="">
+                            <img src="./assets/image/Home/@Model.Banners.Where(m=>!m.IsLarge).FirstOrDefault().Image" alt="">
+
+
                             <div class="shopify-name">
-                                <span>@Model.Banners.FirstOrDefault(m=>m.IsLarge).Name</span>
+                                <span>@Model.Banners.Where(m=>!m.IsLarge).FirstOrDefault().Name</span>
                             </div>
+
                             <div class="shopify-desc">
-                                <span>@Model.Banners.FirstOrDefault(m=>m.IsLarge).Title</span>
+                            <span>@Model.Banners.Where(m=>!m.IsLarge).FirstOrDefault().Title</span>
                             </div>
+
+                            
+                                
+                                                
+                            
                         </div>
 
                     </div>
@@ -206,13 +213,14 @@
 
                     <div class="col-6">
                         <div class="feedo-bag">
-                            <img src="./assets/image/Home/@Model.Banners.FirstOrDefault(m=>!m.IsLarge)?.Image" alt="">
+                            <img src="./assets/image/Home/@Model.Banners.Where(m=>m.IsLarge).FirstOrDefault().Image" alt="">
+
                             <div class="feedo-name">
-                                <span>@Model.Banners.FirstOrDefault(m=>!m.IsLarge).Name</span>
+                                <span>@Model.Banners.Where(m=>m.IsLarge).FirstOrDefault().Name</span>
                             </div>
 
                             <div class="feedo-desc">
-                                <span>@Model.Banners.FirstOrDefault(m=>!m.IsLarge).Title</span>
+                                <span>@Model.Banners.Where(m=>m.IsLarge).FirstOrDefault().Title</span>
                             </div>
 
                         </div>
@@ -653,17 +661,18 @@
 
                     <div class="col-6">
                         <div class="feedo-bag">
-                            <img src="./assets/image/Home/@Model.Banners.LastOrDefault(m=>!m.IsLarge)?.Image" alt="">
-                            <div class="feedo-name">
-                                <span>@Model.Banners.LastOrDefault(m=>!m.IsLarge).Name</span>
+                            <img src="./assets/image/Home/@Model.Banners.Where(m=>!m.IsLarge).LastOrDefault().Image" alt="">
 
+                             <div class="feedo-name">
+
+                              <span>@Model.Banners.Where(m=>!m.IsLarge).LastOrDefault().Name</span>
 
                             </div>
 
                             <div class="feedo-desc">
-                                <span>@Model.Banners.LastOrDefault(m=>!m.IsLarge).Title</span>
+                            <span>@Model.Banners.Where(m=>!m.IsLarge).LastOrDefault().Title</span>
                             </div>
-
+                            
                             <div class="discount">
                                 <span class="number">53 %</span><br>
                                 <span class="dis">OFF</span>
@@ -679,12 +688,12 @@
 
                     <div class="col-6">
                         <div class="bisco-bag">
-                            <img src="./assets/image/Home/@Model.Banners.LastOrDefault(m=>m.IsLarge)?.Image" alt="">
+                            <img src="./assets/image/Home/@Model.Banners.Where(m=>m.IsLarge).LastOrDefault().Image" alt="">
                             <div class="shopify-name">
-                                <span>@Model.Banners.LastOrDefault(m=>m.IsLarge).Name</span>
+                                <span>@Model.Banners.Where(m=>m.IsLarge).LastOrDefault().Name</span>
                             </div>
                             <div class="shopify-desc">
-                                <span>@Model.Banners.LastOrDefault(m=>m.IsLarge).Title</span>
+                                <span>@Model.Banners.Where(m=>m.IsLarge).LastOrDefault().Title</span>
                             </div>
 
                             <div class="discount">
@@ -721,10 +730,10 @@
 
                         </div>
                     }
-                 
 
 
-                    
+
+
 
                 </div>
 

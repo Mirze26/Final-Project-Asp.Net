@@ -25,9 +25,7 @@ namespace Payne.Controllers
             _context = context;
             _sliderService = sliderService;
             _bannerService = bannerService;
-            _advertisingService = advertisingService;
-          
-
+            _advertisingService = advertisingService;         
         }
 
 
@@ -45,8 +43,8 @@ namespace Payne.Controllers
             {
                 Sliders = sliders,
                 Banners = banners,
-                Advertisings = advertisings
-                
+                Advertisings = advertisings,
+  
             };
 
             return View(model);

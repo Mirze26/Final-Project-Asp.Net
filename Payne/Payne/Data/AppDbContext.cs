@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using Payne.Models;
+using Payne.Services;
 
 namespace Payne.Data
 {
