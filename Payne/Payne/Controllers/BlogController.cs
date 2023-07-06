@@ -2,13 +2,12 @@
 
 namespace Payne.Controllers
 {
-    public class ShopController : Controller
+    public class BlogController : Controller
     {
         public IActionResult Index()
         {
             return View();
         }
-
 
 
 

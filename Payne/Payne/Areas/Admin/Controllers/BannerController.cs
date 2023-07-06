@@ -74,51 +74,51 @@ namespace Payne.Areas.Admin.Controllers
                     return View();
                 }
 
-                Banner newBanner = new Banner();
-
-                foreach (var photo in banner.Photos)
+                if (!banner.Photo.CheckFileType("image/"))
                 {
-                    if (!photo.CheckFileType("image/"))
-                    {
 
-                        ModelState.AddModelError("Photo", "File type must be image");
-                        return View();
+                    ModelState.AddModelError("Photos", "File type must be image");
+                    return View();
 
-                    }
-
-                    if (!photo.CheckFileSize(200))
-                    {
-
-                        ModelState.AddModelError("Photo", "Image size must be max 200kb");
-                        return View();
-
-                    }
                 }
 
 
-                foreach (var photo in banner.Photos)
+                if (!banner.Photo.CheckFileSize(200))
                 {
-                    string fileName = Guid.NewGuid().ToString() + "_" + photo.FileName;
 
-                    string path = FileHelper.GetFilePath(_env.WebRootPath, "assets/image/home", fileName);
+                    ModelState.AddModelError("Photos", "Photo size must be max 200Kb");
+                    return View();
 
-                    using (FileStream stream = new FileStream(path, FileMode.Create))
-                    {
-                        await photo.CopyToAsync(stream);
-                    }
-
-                    newBanner.Image = fileName;
                 }
 
 
 
 
-                newBanner.Title = banner.Title;
-                newBanner.Name = banner.Name;
+                string fileName = Guid.NewGuid().ToString() + "_" + banner.Photo.FileName;
+
+                string path = FileHelper.GetFilePath(_env.WebRootPath, "assets/image/home", fileName);
+
+                await FileHelper.SaveFileAsync(path, banner.Photo);
 
 
+             
 
 
+                Banner newBaner = new()
+                {
+                    Image = fileName,
+                   
+                    Title = banner.Title,
+                  
+                    Name = banner.Name
+
+                };
+
+          
+
+
+               await _context.Banners.AddAsync(newBaner);
+                await _context.SaveChangesAsync();
 
                 return RedirectToAction(nameof(Index));
             }
@@ -167,16 +167,16 @@ namespace Payne.Areas.Admin.Controllers
         {
             if (id == null) return BadRequest();
 
-            Banner dbBrand = await _context.Banners.FirstOrDefaultAsync(m => m.Id == id);
+            Banner dbBanner = await _context.Banners.FirstOrDefaultAsync(m => m.Id == id);
 
-            if (dbBrand is null) return NotFound();
+            if (dbBanner is null) return NotFound();
 
 
             BannerEditVM model = new()
             {
-                Id = dbBrand.Id,
-                Image = dbBrand.Image,
-                Title = dbBrand.Title,
+                Id = dbBanner.Id,
+                Image = dbBanner.Image,
+                Title = dbBanner.Title,
 
             };
 
@@ -244,8 +244,14 @@ namespace Payne.Areas.Admin.Controllers
                         Image = dbBanner.Image
                     };
 
-                    dbBanner.Title = banner.Title;
+                   
                 }
+
+
+
+                dbBanner.Title = banner.Title;
+                dbBanner.Name = banner.Name;
+             
 
                 await _context.SaveChangesAsync();
 

@@ -1,36 +1,21 @@
-﻿@model BannerCreateVM
-
+﻿@model AdvertisingEditVM
 @{
-    ViewData["Title"] = "Create";
+    ViewData["Title"] = "Edit";
 }
 
 <div class="container my-5">
-    <h1>Banner Create</h1>
+    <h1>Advertising Edit</h1>
 
-    <form class="forms-sample" asp-action="Create" method="post" enctype="multipart/form-data">
-
+    <form class="forms-sample" asp-action="Edit" method="post" enctype="multipart/form-data">
         <input class="form-control" id="customFile" asp-for="Photo" />
         <span class="text-danger" asp-validation-for="Photo"></span>
         <div class="form-group">
-            <label class="my-2">Title</label>
-            <input class="form-control " id="customFile" asp-for="Title" />
-            <span class="text-danger" asp-validation-for="Title"></span>
-        </div>
 
-     
-
-        <div class="form-group">
             <label class="my-2">Name</label>
             <input class="form-control " id="customFile" asp-for="Name" />
             <span class="text-danger" asp-validation-for="Name"></span>
         </div>
 
-
-        <div class="form-group">
-            <input class="mt-3" type="checkbox" asp-for="IsLarge">
-            <label>Large Image</label>
-        </div>
-       
 
         <div class="buttons my-3">
             <button type="submit" class="btn btn-primary mr-2">Submit</button>
@@ -38,4 +23,3 @@
         </div>
     </form>
 </div>
-
