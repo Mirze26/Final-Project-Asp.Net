@@ -1,0 +1,31 @@
+﻿@model AboutInfo
+
+@{
+    ViewData["Title"] = "Detail";
+}
+
+
+<div class="container my-5">
+    <h1>Banner Detail</h1>
+
+    <div class="slider-content">
+        <img class="img-fluid" src="~/assets/image/about//@Model.Image" />
+    </div>
+
+    <div class="form-group">
+        <label class="my-2">Title</label>
+        <input class="form-control" disabled id="customFile" asp-for="Title" />
+    </div>
+
+    <div class="form-group">
+        <label class="my-2">Description</label>
+        <textarea class="form-control" asp-for="Description" rows="5"></textarea>
+    
+    </div>
+
+   
+
+
+    <a class="btn btn-info mt-3" asp-action="Index">Back</a>
+</div>
+

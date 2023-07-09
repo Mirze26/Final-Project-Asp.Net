@@ -60,7 +60,7 @@ namespace Payne.Areas.Admin.Controllers
             {
                 if (!ModelState.IsValid)
                 {
-                    return View(slider);
+                    return View();
                 }
 
                 Slider newSlider = new Slider();

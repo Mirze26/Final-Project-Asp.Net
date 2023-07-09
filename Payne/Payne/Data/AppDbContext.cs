@@ -5,7 +5,7 @@ using Payne.Services;
 
 namespace Payne.Data
 {
-    public class AppDbContext:IdentityDbContext<AppUser>
+    public class AppDbContext: IdentityDbContext<AppUser>
     {
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { }
 
@@ -16,5 +16,9 @@ namespace Payne.Data
         public DbSet<AboutInfo> AboutInfos { get; set; }
         public DbSet<ChoseUs> Choses { get; set; }
         public DbSet<AboutGallery> AboutGalleries { get; set; }
+        public DbSet<Brand> Brands { get; set; }
+        public DbSet<Color> Colors { get; set; }
+        public DbSet<Product> Products { get; set; }
+        public DbSet<ProductImage> ProductImages { get; set; }
     }
 }

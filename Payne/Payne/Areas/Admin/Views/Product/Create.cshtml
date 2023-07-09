@@ -1,0 +1,76 @@
+﻿@model ProductCreateVM
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+
+
+
+<div class="container my-5">
+
+    <h1 class="mb-2">Product Create</h1>
+
+    <form class="forms-sample" asp-action="Create" method="post" enctype="multipart/form-data">
+
+        <input class="form-control" id="customFile" asp-for="Photos" />
+        <span class="text-danger" asp-validation-for="Photos"></span>
+        <div class="form-group">
+            <label class="my-2">Name</label>
+            <input class="form-control " id="customFile" asp-for="Name" />
+            <span class="text-danger" asp-validation-for="Name"></span>
+        </div>
+
+
+
+        <div class="form-group">
+            <label class="my-2">description</label>
+            <input class="form-control " id="customFile" asp-for="Description" />
+            <span class="text-danger" asp-validation-for="Description"></span>
+        </div>
+
+
+        <div class="form-group">
+            <label class="my-2">Price</label>
+            <input class="form-control " id="customFile" asp-for="Price" />
+            <span class="text-danger" asp-validation-for="Price"></span>
+        </div>
+
+        <div class="form-group">
+            <label class="my-2">Count</label>
+            <input class="form-control " id="customFile" asp-for="Count" />
+            <span class="text-danger" asp-validation-for="Count"></span>
+        </div>
+
+
+        <div class="form-group">
+            <label class="my-2">Sku</label>
+            <input class="form-control " id="customFile" asp-for="Sku" />
+            <span class="text-danger" asp-validation-for="Sku"></span>
+        </div>
+
+
+        <div class="form-group">
+            <label class="my-2">Rating</label>
+            <input class="form-control " id="customFile" min="1" max="5" asp-for="Rating" />
+            <span class="text-danger" asp-validation-for="Rating"></span>
+        </div>
+
+
+        <div class="form-group">
+            <label style="color:darkred" class="mt-5">Color</label>
+            <select class="form-control" id="customFile" asp-for="ColorId" asp-items="@ViewBag.color"></select>
+        </div>
+
+        <div class="form-group">
+            <label style="color:darkred" class="mt-5">Brand</label>
+            <select class="form-control" id="customFile" asp-for="BrandId" asp-items="@ViewBag.brand"></select>
+        </div>
+
+
+        <div class="buttons my-3">
+            <button type="submit" class="btn btn-primary mr-2">Submit</button>
+            <a class="btn btn-light" asp-action="Index">Cancel</a>
+        </div>
+    </form>
+</div>

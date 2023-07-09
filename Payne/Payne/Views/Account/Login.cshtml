@@ -1,0 +1,61 @@
+﻿@model LoginVM
+
+@{
+    ViewData["Title"] = "Login";
+}
+
+@section Style{
+
+    <link rel="stylesheet" href="~/assets/scss/Login/login.css">
+}
+
+<div class="login-page"><span>Account</span></div>
+<div class="home-login">
+    <a asp-controller="home" asp-action="index"><span>Home</span></a><span>
+        / Account
+    </span>
+</div>
+
+
+
+
+
+
+<main>
+    <div class="wrapper mt-5">
+
+        <div class="title">
+            Login
+        </div>
+        <div class="text-danger" asp-validation-summary="All"></div>
+        <form method="post" asp-action="Login">
+
+            <div class="field">
+                <input asp-for="EmailOrUsername" required>
+                <label>Email or Username</label>
+                <span class="text-danger" asp-validation-for="EmailOrUsername"></span>
+            </div>
+
+
+            <div class="field">
+                <input asp-for ="Password" required>
+                <label>Password</label>
+                <span class="text-danger" asp-validation-for="Password"></span>
+            </div>
+
+
+            <div class="field">
+                <input type="submit" value="Sign In">
+            </div>
+
+            
+        </form>
+    </div>
+
+</main>
+
+
+@section Scripts{
+
+    <script src="~/assets/js/Login/login.js"></script>
+}

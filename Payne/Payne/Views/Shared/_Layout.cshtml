@@ -99,15 +99,38 @@
 
                         <div class="login-register d-none">
 
+
+
                             <ul class="login-area">
-                                <li>
-                                    <a href="login.html">Login</a>
-                                </li>
+                             
+
+                                
 
 
-                                <li>
-                                    <a href="register.html">Register</a>
-                                </li>
+                                @if (User.Identity.IsAuthenticated)
+                                {
+
+                                    <form asp-controller="Account" asp-action="Logout">
+                                        <button type="submit" style="border:none;color:red;margin-top:12px">
+                                            Logout
+                                        </button>
+                                    </form>
+                                    <li style="list-style:none;color:#0b61e3;background-color:#ffffff;padding:18px;width:105px;position:absolute;right:21px;">
+                                        @User.Identity.Name
+                                    </li>
+
+                                }
+                                else
+                                {
+                                    <li>
+                                        <a class="dropdown-item" asp-controller="Account" asp-action="Register">Register</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" asp-controller="Account" asp-action="Login">Login</a>
+                                    </li>
+
+                                }      
+
                             </ul>
 
                         </div>

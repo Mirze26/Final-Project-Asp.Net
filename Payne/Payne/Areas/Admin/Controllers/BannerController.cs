@@ -33,9 +33,9 @@ namespace Payne.Areas.Admin.Controllers
 
         public async Task<IActionResult> Index()
         {
-            IEnumerable<Banner> Banner = await _bannerService.GetAllAsync();
+            IEnumerable<Banner> banner = await _bannerService.GetAllAsync();
 
-            return View(Banner);
+            return View(banner);
         }
 
 
@@ -142,7 +142,7 @@ namespace Payne.Areas.Admin.Controllers
 
                 if (banner is null) return NotFound();
 
-                //string path = Path.Combine(_env.WebRootPath, "assets/image/home", banner.Image);
+         
                 string path = FileHelper.GetFilePath(_env.WebRootPath, "assets/image/home", banner.Image);
                 FileHelper.DeleteFile(path);
 

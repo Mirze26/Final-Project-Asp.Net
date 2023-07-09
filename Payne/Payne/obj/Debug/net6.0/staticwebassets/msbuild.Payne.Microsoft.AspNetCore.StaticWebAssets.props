@@ -128,6 +128,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\admin\js\scripts.js))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\image\About\1 - Copy.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Payne</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Payne</BasePath>
+      <RelativePath>assets/image/About/1 - Copy.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\image\About\1 - Copy.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\image\About\1.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>Payne</SourceId>
@@ -191,6 +207,38 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\image\About\about.webp))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\image\About\cdd6e269-0ec7-48fd-8899-97dfd95a040c_about.webp))">
+      <SourceType>Package</SourceType>
+      <SourceId>Payne</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Payne</BasePath>
+      <RelativePath>assets/image/About/cdd6e269-0ec7-48fd-8899-97dfd95a040c_about.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\image\About\cdd6e269-0ec7-48fd-8899-97dfd95a040c_about.webp))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\image\About\d32376a6-d4bf-4a27-8d35-e7ed3f885d57_2_64113cf2-2260-4f19-a944-e02116490462_large.webp))">
+      <SourceType>Package</SourceType>
+      <SourceId>Payne</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Payne</BasePath>
+      <RelativePath>assets/image/About/d32376a6-d4bf-4a27-8d35-e7ed3f885d57_2_64113cf2-2260-4f19-a944-e02116490462_large.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\image\About\d32376a6-d4bf-4a27-8d35-e7ed3f885d57_2_64113cf2-2260-4f19-a944-e02116490462_large.webp))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\image\About\free_shipping.webp))">
       <SourceType>Package</SourceType>
@@ -592,6 +640,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\image\Home\01f1d714-715c-4b27-8f23-97f4497df750_slider-bg-02.webp))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\image\Home\03f6c278-e217-4b92-9dab-151f7a110171_slider-bg-02.webp))">
+      <SourceType>Package</SourceType>
+      <SourceId>Payne</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Payne</BasePath>
+      <RelativePath>assets/image/Home/03f6c278-e217-4b92-9dab-151f7a110171_slider-bg-02.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\image\Home\03f6c278-e217-4b92-9dab-151f7a110171_slider-bg-02.webp))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\image\Home\04307d22-c2a8-45bf-8eb0-61985b82db54_1.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>Payne</SourceId>
@@ -800,6 +864,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\image\Home\241acbdb-6514-48a3-a6c0-25c37a39c178_6f6b68a4-1ba3-4565-ab45-79e663d37afc_product-01-500x466.jpg))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\image\Home\27f2808b-61d7-4fb2-b3e1-2368a386963a_slider-bg-02.webp))">
+      <SourceType>Package</SourceType>
+      <SourceId>Payne</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Payne</BasePath>
+      <RelativePath>assets/image/Home/27f2808b-61d7-4fb2-b3e1-2368a386963a_slider-bg-02.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\image\Home\27f2808b-61d7-4fb2-b3e1-2368a386963a_slider-bg-02.webp))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\image\Home\29067663-07d8-4dd4-86cf-f5327d0aa4c6_9_ddf2b7ab-f367-4fbe-8878-a6706f1b19e6_large.webp))">
       <SourceType>Package</SourceType>
       <SourceId>Payne</SourceId>
@@ -832,6 +912,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\image\Home\2_64113cf2-2260-4f19-a944-e02116490462_large.webp))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\image\Home\30a2f5c5-1d0f-4b64-8787-6015a49e3375_3_1fc1f156-6765-412e-a78c-b5be5a7957cd_large.webp))">
+      <SourceType>Package</SourceType>
+      <SourceId>Payne</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Payne</BasePath>
+      <RelativePath>assets/image/Home/30a2f5c5-1d0f-4b64-8787-6015a49e3375_3_1fc1f156-6765-412e-a78c-b5be5a7957cd_large.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\image\Home\30a2f5c5-1d0f-4b64-8787-6015a49e3375_3_1fc1f156-6765-412e-a78c-b5be5a7957cd_large.webp))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\image\Home\34df3bd0-712e-4ff2-aada-ee37184e3c53_7_3b59200a-7528-445e-b124-ece53f9408e9_large.webp))">
       <SourceType>Package</SourceType>
       <SourceId>Payne</SourceId>
@@ -863,6 +959,22 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\image\Home\39734fdd-1c89-455d-8120-876fa4cfc59d_10_daed5f76-755e-4d9d-ac19-5afea83e4fdb_large.webp))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\image\Home\3a998721-db4f-45a3-9d70-92dbe3c845f0_7db50a96-bb9d-43e9-82a2-fa6f7737ac66_slider-image-02.webp))">
+      <SourceType>Package</SourceType>
+      <SourceId>Payne</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Payne</BasePath>
+      <RelativePath>assets/image/Home/3a998721-db4f-45a3-9d70-92dbe3c845f0_7db50a96-bb9d-43e9-82a2-fa6f7737ac66_slider-image-02.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\image\Home\3a998721-db4f-45a3-9d70-92dbe3c845f0_7db50a96-bb9d-43e9-82a2-fa6f7737ac66_slider-image-02.webp))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\image\Home\3e1efe75-a511-466e-8b35-b26163d8adc7_1efe83bb-0289-4d69-ab50-7a82d32f9824_e33a0447-b741-4603-bb83-30087adb81e0.jpg))">
       <SourceType>Package</SourceType>
@@ -1055,6 +1167,22 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\image\Home\5ae041e5-3b46-4893-bc7e-f7295f6c71ee_3fb2bde3-55a3-4261-a8d0-e7d7c8070174_6f068131-86e5-45fc-828b-433fd064ebdc_bf44e193-be22-40df-a91b-bb561dfcf605_slider-image-01.webp))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\image\Home\5be8cfea-bf2b-4992-a27b-c52207d8e8641efe83bb-0289-4d69-ab50-7a82d32f9824_e33a0447-b741-4603-bb83-30087adb81e0.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Payne</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Payne</BasePath>
+      <RelativePath>assets/image/Home/5be8cfea-bf2b-4992-a27b-c52207d8e8641efe83bb-0289-4d69-ab50-7a82d32f9824_e33a0447-b741-4603-bb83-30087adb81e0.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\image\Home\5be8cfea-bf2b-4992-a27b-c52207d8e8641efe83bb-0289-4d69-ab50-7a82d32f9824_e33a0447-b741-4603-bb83-30087adb81e0.jpg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\image\Home\5e736839-7492-4040-95fe-fb44fe77fe6c_a42ce00d-b4a3-45a2-8b2c-e8aaeb334aac.jpg))">
       <SourceType>Package</SourceType>
@@ -1328,22 +1456,6 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\image\Home\95786a45-9ab4-4631-8a1a-c8a9e7e0f2cb.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\image\Home\99d14be0-4e50-4a14-a4a0-60c56e2ff98a_7db50a96-bb9d-43e9-82a2-fa6f7737ac66_slider-image-02.webp))">
-      <SourceType>Package</SourceType>
-      <SourceId>Payne</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/Payne</BasePath>
-      <RelativePath>assets/image/Home/99d14be0-4e50-4a14-a4a0-60c56e2ff98a_7db50a96-bb9d-43e9-82a2-fa6f7737ac66_slider-image-02.webp</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\image\Home\99d14be0-4e50-4a14-a4a0-60c56e2ff98a_7db50a96-bb9d-43e9-82a2-fa6f7737ac66_slider-image-02.webp))</OriginalItemSpec>
-    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\image\Home\9b3b3c17-389f-491c-8ca9-deb1fb26f5d3_3.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>Payne</SourceId>
@@ -1472,6 +1584,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\image\Home\af1ef8f4-8e60-4229-bca8-237563ac7f38_6_f98801ee-0ade-4f30-ae76-fddd3d82cb30_large.webp))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\image\Home\b08252fb-0983-44db-ad14-6e909e3ad8b1_2_64113cf2-2260-4f19-a944-e02116490462_large.webp))">
+      <SourceType>Package</SourceType>
+      <SourceId>Payne</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Payne</BasePath>
+      <RelativePath>assets/image/Home/b08252fb-0983-44db-ad14-6e909e3ad8b1_2_64113cf2-2260-4f19-a944-e02116490462_large.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\image\Home\b08252fb-0983-44db-ad14-6e909e3ad8b1_2_64113cf2-2260-4f19-a944-e02116490462_large.webp))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\image\Home\b30227cf-5b58-4b7b-a44f-fee0a5f409bb_slider-image-02.webp))">
       <SourceType>Package</SourceType>
       <SourceId>Payne</SourceId>
@@ -1503,6 +1631,22 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\image\Home\b7d217f9-d407-4e18-8477-54cd967221dc_9_ddf2b7ab-f367-4fbe-8878-a6706f1b19e6_large.webp))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\image\Home\b9898f1f-b1ca-41b7-b9d4-acb297f7af26_241acbdb-6514-48a3-a6c0-25c37a39c178_6f6b68a4-1ba3-4565-ab45-79e663d37afc_product-01-500x466.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Payne</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Payne</BasePath>
+      <RelativePath>assets/image/Home/b9898f1f-b1ca-41b7-b9d4-acb297f7af26_241acbdb-6514-48a3-a6c0-25c37a39c178_6f6b68a4-1ba3-4565-ab45-79e663d37afc_product-01-500x466.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\image\Home\b9898f1f-b1ca-41b7-b9d4-acb297f7af26_241acbdb-6514-48a3-a6c0-25c37a39c178_6f6b68a4-1ba3-4565-ab45-79e663d37afc_product-01-500x466.jpg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\image\Home\ba96954f-def4-45b8-b195-e92ccb5f9aac_6_f98801ee-0ade-4f30-ae76-fddd3d82cb30_large.webp))">
       <SourceType>Package</SourceType>
@@ -1631,6 +1775,22 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\image\Home\c9ba91d0-cdcf-4f27-aafe-30ab592ff75d.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\image\Home\d26c8e5c-1f88-4819-8b46-473e4cdd7cc9_slider-bg-02.webp))">
+      <SourceType>Package</SourceType>
+      <SourceId>Payne</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Payne</BasePath>
+      <RelativePath>assets/image/Home/d26c8e5c-1f88-4819-8b46-473e4cdd7cc9_slider-bg-02.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\image\Home\d26c8e5c-1f88-4819-8b46-473e4cdd7cc9_slider-bg-02.webp))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\image\Home\dcbb3afe-8620-4eb8-98fd-71d9a0d1a4fb.jpg))">
       <SourceType>Package</SourceType>
@@ -2208,6 +2368,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\image\Shop\11_f4cb4dcb-d836-4b76-ab90-530334793faf_large.webp))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\image\Shop\14771cde-3f03-493a-b524-2cfcc28df25d_2.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Payne</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Payne</BasePath>
+      <RelativePath>assets/image/Shop/14771cde-3f03-493a-b524-2cfcc28df25d_2.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\image\Shop\14771cde-3f03-493a-b524-2cfcc28df25d_2.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\image\Shop\1_a3b6147a-3c67-471d-a4c8-76954ffa5e78_large.webp))">
       <SourceType>Package</SourceType>
       <SourceId>Payne</SourceId>
@@ -2223,6 +2399,38 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\image\Shop\1_a3b6147a-3c67-471d-a4c8-76954ffa5e78_large.webp))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\image\Shop\20e2abcf-1f7e-4b71-a560-688f0d891e73_3.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Payne</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Payne</BasePath>
+      <RelativePath>assets/image/Shop/20e2abcf-1f7e-4b71-a560-688f0d891e73_3.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\image\Shop\20e2abcf-1f7e-4b71-a560-688f0d891e73_3.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\image\Shop\25ce8e34-6880-4ecc-a51f-02d2f87d105e_2.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Payne</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Payne</BasePath>
+      <RelativePath>assets/image/Shop/25ce8e34-6880-4ecc-a51f-02d2f87d105e_2.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\image\Shop\25ce8e34-6880-4ecc-a51f-02d2f87d105e_2.jpg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\image\Shop\2_64113cf2-2260-4f19-a944-e02116490462_large.webp))">
       <SourceType>Package</SourceType>
@@ -2256,6 +2464,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\image\Shop\3_1fc1f156-6765-412e-a78c-b5be5a7957cd_large.webp))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\image\Shop\41d162bd-074e-476e-a944-90f2cac1f61e_1.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Payne</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Payne</BasePath>
+      <RelativePath>assets/image/Shop/41d162bd-074e-476e-a944-90f2cac1f61e_1.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\image\Shop\41d162bd-074e-476e-a944-90f2cac1f61e_1.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\image\Shop\4_5f4e6ffb-67e5-4530-99e6-896c780b37c3_large.webp))">
       <SourceType>Package</SourceType>
       <SourceId>Payne</SourceId>
@@ -2271,6 +2495,38 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\image\Shop\4_5f4e6ffb-67e5-4530-99e6-896c780b37c3_large.webp))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\image\Shop\5e6caf18-31ef-4248-83d4-5363f28aaf8a_5_ec5af67b-ed87-45de-ba67-d2a93126d634_large.webp))">
+      <SourceType>Package</SourceType>
+      <SourceId>Payne</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Payne</BasePath>
+      <RelativePath>assets/image/Shop/5e6caf18-31ef-4248-83d4-5363f28aaf8a_5_ec5af67b-ed87-45de-ba67-d2a93126d634_large.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\image\Shop\5e6caf18-31ef-4248-83d4-5363f28aaf8a_5_ec5af67b-ed87-45de-ba67-d2a93126d634_large.webp))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\image\Shop\5f9fcb76-8011-43d1-bf18-b3d067452abd_3_1fc1f156-6765-412e-a78c-b5be5a7957cd_large.webp))">
+      <SourceType>Package</SourceType>
+      <SourceId>Payne</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Payne</BasePath>
+      <RelativePath>assets/image/Shop/5f9fcb76-8011-43d1-bf18-b3d067452abd_3_1fc1f156-6765-412e-a78c-b5be5a7957cd_large.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\image\Shop\5f9fcb76-8011-43d1-bf18-b3d067452abd_3_1fc1f156-6765-412e-a78c-b5be5a7957cd_large.webp))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\image\Shop\5_ec5af67b-ed87-45de-ba67-d2a93126d634_large.webp))">
       <SourceType>Package</SourceType>
@@ -2288,6 +2544,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\image\Shop\5_ec5af67b-ed87-45de-ba67-d2a93126d634_large.webp))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\image\Shop\6aeb4d07-b1e0-4e25-9d63-8cdadfa04c81_1_a3b6147a-3c67-471d-a4c8-76954ffa5e78_large.webp))">
+      <SourceType>Package</SourceType>
+      <SourceId>Payne</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Payne</BasePath>
+      <RelativePath>assets/image/Shop/6aeb4d07-b1e0-4e25-9d63-8cdadfa04c81_1_a3b6147a-3c67-471d-a4c8-76954ffa5e78_large.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\image\Shop\6aeb4d07-b1e0-4e25-9d63-8cdadfa04c81_1_a3b6147a-3c67-471d-a4c8-76954ffa5e78_large.webp))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\image\Shop\6_f98801ee-0ade-4f30-ae76-fddd3d82cb30_large.webp))">
       <SourceType>Package</SourceType>
       <SourceId>Payne</SourceId>
@@ -2303,6 +2575,22 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\image\Shop\6_f98801ee-0ade-4f30-ae76-fddd3d82cb30_large.webp))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\image\Shop\7e8bf655-3d72-4494-a6f8-4d2a59fa660c_3.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Payne</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Payne</BasePath>
+      <RelativePath>assets/image/Shop/7e8bf655-3d72-4494-a6f8-4d2a59fa660c_3.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\image\Shop\7e8bf655-3d72-4494-a6f8-4d2a59fa660c_3.jpg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\image\Shop\7_3b59200a-7528-445e-b124-ece53f9408e9_large.webp))">
       <SourceType>Package</SourceType>
@@ -2320,6 +2608,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\image\Shop\7_3b59200a-7528-445e-b124-ece53f9408e9_large.webp))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\image\Shop\85dfc6f4-07a9-4336-8cc7-72939b27fd78_1_a3b6147a-3c67-471d-a4c8-76954ffa5e78_large.webp))">
+      <SourceType>Package</SourceType>
+      <SourceId>Payne</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Payne</BasePath>
+      <RelativePath>assets/image/Shop/85dfc6f4-07a9-4336-8cc7-72939b27fd78_1_a3b6147a-3c67-471d-a4c8-76954ffa5e78_large.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\image\Shop\85dfc6f4-07a9-4336-8cc7-72939b27fd78_1_a3b6147a-3c67-471d-a4c8-76954ffa5e78_large.webp))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\image\Shop\8_b3acb490-179f-461d-8723-00a5ccda7018_large.webp))">
       <SourceType>Package</SourceType>
       <SourceId>Payne</SourceId>
@@ -2336,6 +2640,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\image\Shop\8_b3acb490-179f-461d-8723-00a5ccda7018_large.webp))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\image\Shop\90bb0a76-e8d7-4522-bc32-118b0e013b17_2_64113cf2-2260-4f19-a944-e02116490462_large.webp))">
+      <SourceType>Package</SourceType>
+      <SourceId>Payne</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Payne</BasePath>
+      <RelativePath>assets/image/Shop/90bb0a76-e8d7-4522-bc32-118b0e013b17_2_64113cf2-2260-4f19-a944-e02116490462_large.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\image\Shop\90bb0a76-e8d7-4522-bc32-118b0e013b17_2_64113cf2-2260-4f19-a944-e02116490462_large.webp))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\image\Shop\9_ddf2b7ab-f367-4fbe-8878-a6706f1b19e6_large.webp))">
       <SourceType>Package</SourceType>
       <SourceId>Payne</SourceId>
@@ -2351,6 +2671,102 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\image\Shop\9_ddf2b7ab-f367-4fbe-8878-a6706f1b19e6_large.webp))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\image\Shop\af2b5579-533e-47f9-aaf8-ea3dc7414a64_2_64113cf2-2260-4f19-a944-e02116490462_large.webp))">
+      <SourceType>Package</SourceType>
+      <SourceId>Payne</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Payne</BasePath>
+      <RelativePath>assets/image/Shop/af2b5579-533e-47f9-aaf8-ea3dc7414a64_2_64113cf2-2260-4f19-a944-e02116490462_large.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\image\Shop\af2b5579-533e-47f9-aaf8-ea3dc7414a64_2_64113cf2-2260-4f19-a944-e02116490462_large.webp))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\image\Shop\b54c7cc9-f183-4981-8559-adbb3e716cc0_3_1fc1f156-6765-412e-a78c-b5be5a7957cd_large.webp))">
+      <SourceType>Package</SourceType>
+      <SourceId>Payne</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Payne</BasePath>
+      <RelativePath>assets/image/Shop/b54c7cc9-f183-4981-8559-adbb3e716cc0_3_1fc1f156-6765-412e-a78c-b5be5a7957cd_large.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\image\Shop\b54c7cc9-f183-4981-8559-adbb3e716cc0_3_1fc1f156-6765-412e-a78c-b5be5a7957cd_large.webp))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\image\Shop\b58ac27d-d8a0-467d-8ced-2abfef45be71_1.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Payne</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Payne</BasePath>
+      <RelativePath>assets/image/Shop/b58ac27d-d8a0-467d-8ced-2abfef45be71_1.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\image\Shop\b58ac27d-d8a0-467d-8ced-2abfef45be71_1.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\image\Shop\b58d1386-15f5-4b67-9547-cf630d87373e_2.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Payne</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Payne</BasePath>
+      <RelativePath>assets/image/Shop/b58d1386-15f5-4b67-9547-cf630d87373e_2.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\image\Shop\b58d1386-15f5-4b67-9547-cf630d87373e_2.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\image\Shop\c9ea5285-0205-4cf4-a2fc-3334ee181347_1.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Payne</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Payne</BasePath>
+      <RelativePath>assets/image/Shop/c9ea5285-0205-4cf4-a2fc-3334ee181347_1.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\image\Shop\c9ea5285-0205-4cf4-a2fc-3334ee181347_1.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\image\Shop\dbfedd1f-e5e9-4d68-a09f-1963134a6e84_4_5f4e6ffb-67e5-4530-99e6-896c780b37c3_large.webp))">
+      <SourceType>Package</SourceType>
+      <SourceId>Payne</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Payne</BasePath>
+      <RelativePath>assets/image/Shop/dbfedd1f-e5e9-4d68-a09f-1963134a6e84_4_5f4e6ffb-67e5-4530-99e6-896c780b37c3_large.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\image\Shop\dbfedd1f-e5e9-4d68-a09f-1963134a6e84_4_5f4e6ffb-67e5-4530-99e6-896c780b37c3_large.webp))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\js\About\about.js))">
       <SourceType>Package</SourceType>
@@ -4047,6 +4463,22 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Payne.bundle.scp.css))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\templates\verify.html))">
+      <SourceType>Package</SourceType>
+      <SourceId>Payne</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Payne</BasePath>
+      <RelativePath>templates/verify.html</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\templates\verify.html))</OriginalItemSpec>
     </StaticWebAsset>
   </ItemGroup>
 </Project>
