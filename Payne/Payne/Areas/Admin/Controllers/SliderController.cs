@@ -63,79 +63,73 @@ namespace Payne.Areas.Admin.Controllers
                     return View();
                 }
 
-                Slider newSlider = new Slider();
-
-                foreach (var photo in slider.Photos)
+                if (!slider.Photo.CheckFileType("image/"))
                 {
-                    if (!photo.CheckFileType("image/"))
-                    {
 
-                        ModelState.AddModelError("Photo", "File type must be image");
-                        return View();
+                    ModelState.AddModelError("Photos", "File type must be image");
+                    return View();
 
-                    }
-
-                    if (!photo.CheckFileSize(200))
-                    {
-
-                        ModelState.AddModelError("Photo", "Image size must be max 200kb");
-                        return View();
-
-                    }
                 }
 
 
-                foreach (var photo in slider.Photos)
+                if (!slider.Photo.CheckFileSize(200))
                 {
-                    string fileName = Guid.NewGuid().ToString() + "_" + photo.FileName;
 
-                    string path = FileHelper.GetFilePath(_env.WebRootPath, "assets/image/home", fileName);
+                    ModelState.AddModelError("Photos", "Photo size must be max 200Kb");
+                    return View();
 
-                    using (FileStream stream = new FileStream(path, FileMode.Create))
-                    {
-                        await photo.CopyToAsync(stream);
-                    }
-
-                    newSlider.Image = fileName;
                 }
+
+
+
+
+
+
+                string fileName = Guid.NewGuid().ToString() + "_" + slider.Photo.FileName;
+
+                string path = FileHelper.GetFilePath(_env.WebRootPath, "assets/image/home", fileName);
+
+                await FileHelper.SaveFileAsync(path, slider.Photo);
+
+
+
 
 
                 if (!slider.BackGroundPhoto.CheckFileType("image/"))
                 {
 
-                    ModelState.AddModelError("BackGroundPhoto", "File type must be image");
+                    ModelState.AddModelError("BackGroundPhotos", "File type must be image");
                     return View();
 
                 }
+
 
                 if (!slider.BackGroundPhoto.CheckFileSize(200))
                 {
 
-                    ModelState.AddModelError("BackGroundPhoto", "Image size must be max 200kb");
+                    ModelState.AddModelError("BackGroundPhotos", "Photo size must be max 200Kb");
                     return View();
 
                 }
 
-                string fileNameBackgroundImage = Guid.NewGuid().ToString() + "_" + slider.BackGroundPhoto.FileName;
 
-                string BackgroundImagePath = FileHelper.GetFilePath(_env.WebRootPath, "assets/image/home", fileNameBackgroundImage);
+                string fileBackGroundName = Guid.NewGuid().ToString() + "_" + slider.BackGroundPhoto.FileName;
 
-                using (FileStream stream = new FileStream(BackgroundImagePath, FileMode.Create))
+                string pathBackGround = FileHelper.GetFilePath(_env.WebRootPath, "assets/image/home", fileBackGroundName);
+
+                await FileHelper.SaveFileAsync(pathBackGround, slider.BackGroundPhoto);
+
+                Slider newSlider = new()
                 {
-                    await slider.BackGroundPhoto.CopyToAsync(stream);
-                }
-
-                newSlider.BackgroundImage = fileNameBackgroundImage;
-
-
-                newSlider.Title = slider.Title;
-                newSlider.Description = slider.Description;
-                newSlider.Offer = slider.Offer;
-
+                    Image = fileName,
+                    BackgroundImage = fileBackGroundName,
+                    Title = slider.Title,
+                    Offer = slider.Offer,
+                    Description = slider.Description
+                };
 
                 await _context.Sliders.AddAsync(newSlider);
-
-                
+                await _context.SaveChangesAsync();
 
                 return RedirectToAction(nameof(Index));
             }
@@ -144,6 +138,8 @@ namespace Payne.Areas.Admin.Controllers
 
                 throw;
             }
+
+        
         }
 
         [HttpPost]

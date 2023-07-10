@@ -6,5 +6,6 @@ namespace Payne.ViewModels.Shop
     {
         public IEnumerable<Color> Colors { get; set; }
         public IEnumerable<Brand> Brands { get; set; }
+        public IEnumerable<Product> Products { get; set; }
     }
 }

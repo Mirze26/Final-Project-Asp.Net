@@ -1,7 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using Payne.Models;
-using Payne.Services;
 
 namespace Payne.Data
 {
@@ -20,5 +19,10 @@ namespace Payne.Data
         public DbSet<Color> Colors { get; set; }
         public DbSet<Product> Products { get; set; }
         public DbSet<ProductImage> ProductImages { get; set; }
+        public DbSet<Blog> Blogs { get; set; }
+        public DbSet<BlogImage> BlogImages { get; set; }
+        public DbSet<Author> Authors { get; set; }
+        public DbSet<BasketItem> BasketItems { get; set; }
+
     }
 }

@@ -48,7 +48,6 @@ builder.Services.Configure<IdentityOptions>(options =>
 
 builder.Services.Configure<EmailSettings>(builder.Configuration.GetSection("EmailSettings"));
 
-
 builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 builder.Services.AddScoped<ISliderService, SliderService>();
 builder.Services.AddScoped<IBannerService, BannerService>();
@@ -59,9 +58,11 @@ builder.Services.AddScoped<IAboutGalleryService, AboutGalleryService>();
 builder.Services.AddScoped<IColorService, ColorService>();
 builder.Services.AddScoped<IBrandService, BrandService>();
 builder.Services.AddScoped<IProductService, ProductService>();
-builder.Services.AddScoped<IEmailService, EmailService>(); // email confrim ucundur
-
+builder.Services.AddScoped<IEmailService, EmailService>(); 
 builder.Services.AddScoped<EmailSettings>();
+builder.Services.AddScoped<IBlogService, BlogService>();
+builder.Services.AddScoped<LayoutttService>();
+
 
 
 

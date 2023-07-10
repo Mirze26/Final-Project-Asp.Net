@@ -176,11 +176,11 @@ main #product-area .thick-line {
   height: 4px;
 }
 main #product-area .thick-line-two {
-  position: absolute;
-  top: 1160px;
-  background-color: black;
-  width: 40px;
-  height: 4px;
+    position: absolute;
+    top: 1059px;
+    background-color: black;
+    width: 40px;
+    height: 4px;
 }
 main #product-area .thick-line-three {
   position: absolute;

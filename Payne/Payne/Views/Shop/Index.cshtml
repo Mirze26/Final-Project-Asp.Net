@@ -1,4 +1,5 @@
-﻿
+﻿@model ShopVM
+
 @{
     ViewData["Title"] = "Shop";
 }
@@ -50,6 +51,8 @@
                                 <input type="range" min="100" max="500" value="100" id="lower">
                                 <input type="range" min="100" max="500" value="500" id="upper">
                             </div>
+
+
                             <div class="price-wrap">
                                 <span class="price-title">From</span>
                                 <div class="price-wrap-1">
@@ -88,11 +91,13 @@
                     <div class="widget-list d-flex">
 
                         <ul>
-                            <li>Hiking <span>(3)</span></li>
-                            <li>Commuters<span>(3)</span></li>
-                            <li>Durability<span>(3)</span></li>
-                            <li>Sustainable<span>(3)</span></li>
-                            <li>Lightweight<span>(3)</span></li>
+                            @foreach (var item in Model.Brands)
+                            {
+                                <li style="list-style:none">@item.Name <span>(3)</span></li>
+                            }
+                            
+                          
+                          
 
                         </ul>
 
@@ -121,54 +126,20 @@
 
                     <div class="widget-list">
                         <ul>
-                            <li>Black <span>(3)</span></li>
-                            <li>Blue <span>(3)</span></li>
-                            <li>Gold <span>(3)</span></li>
-                            <li>Gray <span>(3)</span></li>
-                            <li>Green <span>(3)</span></li>
-                            <li>Magenta <span>(3)</span></li>
-                            <li>Orange <span>(3)</span></li>
-                            <li>Red <span>(3)</span></li>
-                            <li>White <span>(3)</span></li>
-                            <li>Violet <span>(3)</span></li>
-                            <li>Yellow <span>(3)</span></li>
-                            <li>Purple <span>(3)</span></li>
-                        </ul>
 
-                    </div>
-
-
-
-                    <div class="widget-title">
-                        <h3>SIZE</h3>
-
-                    </div>
-
-
-
-                    <div class="thick-line-three">
-                    </div>
-
-
-                    <div class="bottom-line">
-                        <hr>
-
-                    </div>
-
-
-
-
-                    <div class="widget-list">
-                        <ul>
-                            <li>S <span>(3)</span></li>
-                            <li>M <span>(3)</span></li>
-                            <li>L <span>(3)</span></li>
-                            <li>XL <span>(3)</span></li>
-                            <li>XXL <span>(3)</span></li>
+                            @foreach (var item in Model.Colors)
+                            {
+                                <li style="list-style:none">@item.Name <span>(3)</span></li>
+                            }
 
                         </ul>
+                     
 
                     </div>
+
+
+
+                  
 
                 </div>
 
@@ -179,11 +150,16 @@
                 <div class="col-9">
                     <div class="container">
                         <div class="row">
+
+                            @foreach (var item in Model.Products)
+                            {
+                                
+                            
                             <div class="col-4">
                                 <div class="product-img">
 
-                                    <a href="file:///C:/Users/PC/Desktop/end%20pro/Final-Project/End%20Project/productDetail.html">
-                                        <img src="./assets/image/Shop/1_a3b6147a-3c67-471d-a4c8-76954ffa5e78_large.webp"><img>
+                                           <a class="product-name" asp-controller="Shop" asp-action="Detail" asp-route-id="@item.Id">
+                                            <img src="~/assets/image/Shop/@item.ProductImages.FirstOrDefault(m => m.Ismain)?.Image"><img>
                                     </a>
 
 
@@ -192,6 +168,13 @@
                                         <button type="button">
                                             <i class="fas fa-sync-alt"></i>
                                         </button>
+
+                                            <form asp-controller="basket" asp-action="addbasket" asp-route-id="@item.Id">
+                                                <button type="submit" type="button">
+                                                    <i class="fas fa-shopping-cart"></i>
+                                                </button>
+                                               
+                                            </form>
                                         <button type="button">
                                             <i class="fas fa-shopping-cart"></i>
                                         </button>
@@ -205,383 +188,44 @@
                                        class="item-name">Boston Bag</a>
 
 
-                                    <div class="rating">
-                                        <a href=""> <i class="fa-solid fa-star"></i></a>
-                                        <a href=""> <i class="fa-solid fa-star"></i></a>
-                                        <a href=""> <i class="fa-solid fa-star"></i></a>
-                                        <a href=""> <i class="fa-solid fa-star"></i></a>
-                                        <a href=""> <i class="fa-solid fa-star"></i></a>
+                                        <div class="rating"
+                                             style="display: flex;
+    list-style: none;
+    gap: 5px;
+    justify-content: center;">
+
+                                            @for (int i = 0; i < item.Rating; i++)
+                                            {
+
+
+                                                <li><i style="color:gold;" class="fa fa-star"></i></li>
+
+
+                                            }
+
+                                            @for (int i = 0; i < 5 - item.Rating; i++)
+                                            {
+
+                                                <li><i style="color:gray;" class="fa fa-star"></i></li>
+
+                                            }
 
                                     </div>
 
 
 
                                     <div class="item-price">
-                                        <span class="new-price">$220.00</span>
-                                        <span class="old-price">$275.60</span>
+                                        <span class="new-price">$@item.Price</span>
+                                      
                                     </div>
 
                                     <button type="button" class="add-btn">add to cart</button>
                                 </div>
                             </div>
 
+                            }
 
-
-                            <div class="col-4">
-
-                                <div class="product-img">
-                                    <a href="file:///C:/Users/PC/Desktop/end%20pro/Final-Project/End%20Project/productDetail.html">
-                                        <img src="./assets/image/Shop/2_64113cf2-2260-4f19-a944-e02116490462_large.webp">
-                                    </a>
-                                    <div class="icons">
-                                        <button type="button">
-                                            <i class="fas fa-sync-alt"></i>
-                                        </button>
-                                        <button type="button">
-                                            <i class="fas fa-shopping-cart"></i>
-                                        </button>
-                                        <button type="button">
-                                            <i class="far fa-heart"></i>
-                                        </button>
-                                    </div>
-                                </div>
-                                <div class="item-detail">
-                                    <a href="file:///C:/Users/PC/Desktop/end%20pro/Final-Project/End%20Project/productDetail.html"
-                                       class="item-name">Box Bag</a>
-
-                                    <div class="rating">
-                                        <a href=""> <i class="fa-solid fa-star"></i></a>
-                                        <a href=""> <i class="fa-solid fa-star"></i></a>
-                                        <a href=""> <i class="fa-solid fa-star"></i></a>
-                                        <a href=""> <i class="fa-solid fa-star"></i></a>
-                                        <a href=""> <i class="fa-solid fa-star"></i></a>
-
-                                    </div>
-
-                                    <div class="item-price">
-                                        <span class="new-price">$260.00</span>
-                                        <span class="old-price">$285.60</span>
-                                    </div>
-                                    <button type="button" class="add-btn">add to cart</button>
-                                </div>
-
-                            </div>
-
-
-                            <div class="col-4 ">
-
-                                <div class="product-img">
-                                    <a href="file:///C:/Users/PC/Desktop/end%20pro/Final-Project/End%20Project/productDetail.html">
-                                        <img src="./assets/image/Shop/3_1fc1f156-6765-412e-a78c-b5be5a7957cd_large.webp">
-                                    </a>
-                                    <div class="icons">
-                                        <button type="button">
-                                            <i class="fas fa-sync-alt"></i>
-                                        </button>
-                                        <button type="button">
-                                            <i class="fas fa-shopping-cart"></i>
-                                        </button>
-                                        <button type="button">
-                                            <i class="far fa-heart"></i>
-                                        </button>
-                                    </div>
-                                </div>
-                                <div class="item-detail">
-                                    <a href="file:///C:/Users/PC/Desktop/end%20pro/Final-Project/End%20Project/productDetail.html"
-                                       class="item-name">Clutch</a>
-
-                                    <div class="rating">
-                                        <a href=""> <i class="fa-solid fa-star"></i></a>
-                                        <a href=""> <i class="fa-solid fa-star"></i></a>
-                                        <a href=""> <i class="fa-solid fa-star"></i></a>
-                                        <a href=""> <i class="fa-solid fa-star"></i></a>
-                                        <a href=""> <i class="fa-solid fa-star"></i></a>
-
-                                    </div>
-
-
-                                    <div class="item-price">
-                                        <span class="new-price">$220.00</span>
-                                        <span class="old-price">$275.60</span>
-                                    </div>
-                                    <button type="button" class="add-btn">add to cart</button>
-                                </div>
-
-                            </div>
-
-
-
-
-                            <div class="col-4 ">
-
-                                <div class="product-img">
-                                    <a href="">
-                                        <img src="./assets/image/Shop/6_f98801ee-0ade-4f30-ae76-fddd3d82cb30_large.webp">
-                                    </a>
-                                    <div class="icons">
-                                        <button type="button">
-                                            <i class="fas fa-sync-alt"></i>
-                                        </button>
-                                        <button type="button">
-                                            <i class="fas fa-shopping-cart"></i>
-                                        </button>
-                                        <button type="button">
-                                            <i class="far fa-heart"></i>
-                                        </button>
-                                    </div>
-                                </div>
-                                <div class="item-detail">
-                                    <a href="file:///C:/Users/PC/Desktop/end%20pro/Final-Project/End%20Project/productDetail.html"
-                                       class="item-name">Basket Bag</a>
-
-
-                                    <div class="rating">
-                                        <a href=""> <i class="fa-solid fa-star"></i></a>
-                                        <a href=""> <i class="fa-solid fa-star"></i></a>
-                                        <a href=""> <i class="fa-solid fa-star"></i></a>
-                                        <a href=""> <i class="fa-solid fa-star"></i></a>
-                                        <a href=""> <i class="fa-solid fa-star"></i></a>
-
-                                    </div>
-
-
-                                    <div class="item-price">
-                                        <span class="new-price">$85.00</span>
-                                        <span class="old-price">$99.00</span>
-                                    </div>
-                                    <button type="button" class="add-btn">add to cart</button>
-                                </div>
-
-                            </div>
-
-
-
-
-                            <div class="col-4">
-
-                                <div class="product-img">
-                                    <a href="file:///C:/Users/PC/Desktop/end%20pro/Final-Project/End%20Project/productDetail.html">
-                                        <img src="./assets/image/Shop/7_3b59200a-7528-445e-b124-ece53f9408e9_large.webp">
-                                    </a>
-                                    <div class="icons">
-                                        <button type="button">
-                                            <i class="fas fa-sync-alt"></i>
-                                        </button>
-                                        <button type="button">
-                                            <i class="fas fa-shopping-cart"></i>
-                                        </button>
-                                        <button type="button">
-                                            <i class="far fa-heart"></i>
-                                        </button>
-                                    </div>
-                                </div>
-                                <div class="item-detail">
-                                    <a href="file:///C:/Users/PC/Desktop/end%20pro/Final-Project/End%20Project/productDetail.html"
-                                       class="item-name">Bermuda Bag</a>
-
-                                    <div class="rating">
-                                        <a href=""> <i class="fa-solid fa-star"></i></a>
-                                        <a href=""> <i class="fa-solid fa-star"></i></a>
-                                        <a href=""> <i class="fa-solid fa-star"></i></a>
-                                        <a href=""> <i class="fa-solid fa-star"></i></a>
-                                        <a href=""> <i class="fa-solid fa-star"></i></a>
-
-                                    </div>
-
-
-                                    <div class="item-price">
-                                        <span class="new-price">$246.00</span>
-                                        <span class="old-price">$285.00</span>
-                                    </div>
-                                    <button type="button" class="add-btn">add to cart</button>
-                                </div>
-
-
-                            </div>
-
-
-
-                            <div class="col-4">
-
-                                <div class="product-img">
-                                    <a href="file:///C:/Users/PC/Desktop/end%20pro/Final-Project/End%20Project/productDetail.html">
-                                        <img src="./assets/image/Shop/8_b3acb490-179f-461d-8723-00a5ccda7018_large.webp">
-                                    </a>
-                                    <div class="icons">
-                                        <button type="button">
-                                            <i class="fas fa-sync-alt"></i>
-                                        </button>
-                                        <button type="button">
-                                            <i class="fas fa-shopping-cart"></i>
-                                        </button>
-                                        <button type="button">
-                                            <i class="far fa-heart"></i>
-                                        </button>
-                                    </div>
-                                </div>
-                                <div class="item-detail">
-                                    <a href="file:///C:/Users/PC/Desktop/end%20pro/Final-Project/End%20Project/productDetail.html"
-                                       class="item-name">Baguette Bag</a>
-
-
-                                    <div class="rating">
-                                        <a href=""> <i class="fa-solid fa-star"></i></a>
-                                        <a href=""> <i class="fa-solid fa-star"></i></a>
-                                        <a href=""> <i class="fa-solid fa-star"></i></a>
-                                        <a href=""> <i class="fa-solid fa-star"></i></a>
-                                        <a href=""> <i class="fa-solid fa-star"></i></a>
-
-                                    </div>
-
-
-                                    <div class="item-price">
-                                        <span class="new-price">$220.00</span>
-                                        <span class="old-price">$275.60</span>
-                                    </div>
-                                    <button type="button" class="add-btn">add to cart</button>
-                                </div>
-
-
-                            </div>
-
-
-
-                            <div class="col-4">
-
-                                <div class="product-img">
-                                    <a href="file:///C:/Users/PC/Desktop/end%20pro/Final-Project/End%20Project/productDetail.html">
-                                        <img src="./assets/image/Shop/9_ddf2b7ab-f367-4fbe-8878-a6706f1b19e6_large.webp">
-                                    </a>
-                                    <div class="icons">
-                                        <button type="button">
-                                            <i class="fas fa-sync-alt"></i>
-                                        </button>
-                                        <button type="button">
-                                            <i class="fas fa-shopping-cart"></i>
-                                        </button>
-                                        <button type="button">
-                                            <i class="far fa-heart"></i>
-                                        </button>
-                                    </div>
-                                </div>
-                                <div class="item-detail">
-                                    <a href="file:///C:/Users/PC/Desktop/end%20pro/Final-Project/End%20Project/productDetail.html"
-                                       class="item-name">Bracelet Bag</a>
-
-
-                                    <div class="rating">
-                                        <a href=""> <i class="fa-solid fa-star"></i></a>
-                                        <a href=""> <i class="fa-solid fa-star"></i></a>
-                                        <a href=""> <i class="fa-solid fa-star"></i></a>
-                                        <a href=""> <i class="fa-solid fa-star"></i></a>
-                                        <a href=""> <i class="fa-solid fa-star"></i></a>
-
-                                    </div>
-
-
-                                    <div class="item-price">
-                                        <span class="new-price">$220.00</span>
-                                        <span class="old-price">$275.60</span>
-                                    </div>
-                                    <button type="button" class="add-btn">add to cart</button>
-                                </div>
-
-
-                            </div>
-
-
-
-                            <div class="col-4">
-
-                                <div class="product-img">
-                                    <a href="file:///C:/Users/PC/Desktop/end%20pro/Final-Project/End%20Project/productDetail.html">
-                                        <img src="./assets/image/Shop/10_daed5f76-755e-4d9d-ac19-5afea83e4fdb_large.webp">
-                                    </a>
-
-
-                                    <div class="icons">
-                                        <button type="button">
-                                            <i class="fas fa-sync-alt"></i>
-                                        </button>
-                                        <button type="button">
-                                            <i class="fas fa-shopping-cart"></i>
-                                        </button>
-                                        <button type="button">
-                                            <i class="far fa-heart"></i>
-                                        </button>
-                                    </div>
-                                </div>
-                                <div class="item-detail">
-                                    <a href="file:///C:/Users/PC/Desktop/end%20pro/Final-Project/End%20Project/productDetail.html"
-                                       class="item-name">Gladstone Bag</a>
-
-                                    <div class="rating">
-                                        <a href=""> <i class="fa-solid fa-star"></i></a>
-                                        <a href=""> <i class="fa-solid fa-star"></i></a>
-                                        <a href=""> <i class="fa-solid fa-star"></i></a>
-                                        <a href=""> <i class="fa-solid fa-star"></i></a>
-                                        <a href=""> <i class="fa-solid fa-star"></i></a>
-
-                                    </div>
-
-
-                                    <div class="item-price">
-                                        <span class="new-price">$220.00</span>
-                                        <span class="old-price">$275.60</span>
-                                    </div>
-                                    <button type="button" class="add-btn">add to cart</button>
-                                </div>
-
-
-                            </div>
-
-
-
-
-
-                            <div class="col-4">
-
-                                <div class="product-img">
-                                    <a href="file:///C:/Users/PC/Desktop/end%20pro/Final-Project/End%20Project/productDetail.html">
-                                        <img src="./assets/image/Shop/11_f4cb4dcb-d836-4b76-ab90-530334793faf_large.webp">
-                                    </a>
-
-
-                                    <div class="icons">
-                                        <button type="button">
-                                            <i class="fas fa-sync-alt"></i>
-                                        </button>
-                                        <button type="button">
-                                            <i class="fas fa-shopping-cart"></i>
-                                        </button>
-                                        <button type="button">
-                                            <i class="far fa-heart"></i>
-                                        </button>
-                                    </div>
-                                </div>
-                                <div class="item-detail">
-                                    <a href="file:///C:/Users/PC/Desktop/end%20pro/Final-Project/End%20Project/productDetail.html"
-                                       class="item-name">Kiss Lock Clutch</a>
-
-                                    <div class="rating">
-                                        <a href=""> <i class="fa-solid fa-star"></i></a>
-                                        <a href=""> <i class="fa-solid fa-star"></i></a>
-                                        <a href=""> <i class="fa-solid fa-star"></i></a>
-                                        <a href=""> <i class="fa-solid fa-star"></i></a>
-                                        <a href=""> <i class="fa-solid fa-star"></i></a>
-
-                                    </div>
-
-
-                                    <div class="item-price">
-                                        <span class="new-price">$220.00</span>
-                                        <span class="old-price">$275.60</span>
-                                    </div>
-                                    <button type="button" class="add-btn">add to cart</button>
-                                </div>
-
-
-                            </div>
+                     
 
 
                             <div class="paginashion">

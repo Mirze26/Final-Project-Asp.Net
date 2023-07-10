@@ -63,7 +63,7 @@
                                     <a class="nav-link" asp-area="Admin" asp-controller="Slider" asp-action="Index">Slider Area</a>
                                     <a class="nav-link" asp-area="Admin" asp-controller="Banner" asp-action="Index">Banner Area</a>
                                     <a class="nav-link" asp-area="Admin" asp-controller="Advertising" asp-action="Index">Advert Area</a>
-                                    <a class="nav-link" asp-area="Admin" asp-controller="Product" asp-action="Index">Product</a>
+                                  
                                 </nav>
                             </div>
 
@@ -92,21 +92,28 @@
                         </div>
 
 
-                      
 
 
-                       
+                        <div>
+
+                            <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapseLayouts" aria-expanded="false" aria-controls="collapseLayouts">
+                                <div class="sb-nav-link-icon"></div>
+                                Shop Page
+                                <div class="sb-sidenav-collapse-arrow"></div>
+                            </a>
 
 
-                        
+                            <div class="collapse" id="collapseLayouts" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
+                                <nav class="sb-sidenav-menu-nested nav">
 
+                                    <a class="nav-link" asp-area="Admin" asp-controller="Product" asp-action="Index">Product</a>
+                                    <a class="nav-link" asp-area="Admin" asp-controller="Color" asp-action="Index">Color</a>
+                                    <a class="nav-link" asp-area="Admin" asp-controller="Brand" asp-action="Index">Brand</a>
 
-                       
+                                </nav>
+                            </div>
 
-
-                    
-
-
+                        </div>
                        
                     </div>
                 </div>

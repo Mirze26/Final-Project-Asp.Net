@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "9F3BpgoWK4rC3Rc/OehNBxlP+ifOjRhPMr3qo71jThE=",
+  "Hash": "12SyoMZFOBBRfb81weGEnbuw4QbrHoSbfGd1K6cRER0=",
   "Source": "Payne",
   "BasePath": "_content/Payne",
   "Mode": "Default",
@@ -731,6 +731,23 @@
       "OriginalItemSpec": "wwwroot\\assets\\image\\Home\\01f1d714-715c-4b27-8f23-97f4497df750_slider-bg-02.webp"
     },
     {
+      "Identity": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\image\\Home\\02761110-6783-48cd-a166-50abd0d6354e_3a998721-db4f-45a3-9d70-92dbe3c845f0_7db50a96-bb9d-43e9-82a2-fa6f7737ac66_slider-image-02.webp",
+      "SourceId": "Payne",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\",
+      "BasePath": "_content/Payne",
+      "RelativePath": "assets/image/Home/02761110-6783-48cd-a166-50abd0d6354e_3a998721-db4f-45a3-9d70-92dbe3c845f0_7db50a96-bb9d-43e9-82a2-fa6f7737ac66_slider-image-02.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\image\\Home\\02761110-6783-48cd-a166-50abd0d6354e_3a998721-db4f-45a3-9d70-92dbe3c845f0_7db50a96-bb9d-43e9-82a2-fa6f7737ac66_slider-image-02.webp"
+    },
+    {
       "Identity": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\image\\Home\\03f6c278-e217-4b92-9dab-151f7a110171_slider-bg-02.webp",
       "SourceId": "Payne",
       "SourceType": "Discovered",
@@ -1258,6 +1275,23 @@
       "OriginalItemSpec": "wwwroot\\assets\\image\\Home\\5014e783-20c9-47a7-9f12-c89e809a8259_9_ddf2b7ab-f367-4fbe-8878-a6706f1b19e6_large.webp"
     },
     {
+      "Identity": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\image\\Home\\51cc18a3-dfea-4eaa-ba0c-95b91b68d30c_3a998721-db4f-45a3-9d70-92dbe3c845f0_7db50a96-bb9d-43e9-82a2-fa6f7737ac66_slider-image-02.webp",
+      "SourceId": "Payne",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\",
+      "BasePath": "_content/Payne",
+      "RelativePath": "assets/image/Home/51cc18a3-dfea-4eaa-ba0c-95b91b68d30c_3a998721-db4f-45a3-9d70-92dbe3c845f0_7db50a96-bb9d-43e9-82a2-fa6f7737ac66_slider-image-02.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\image\\Home\\51cc18a3-dfea-4eaa-ba0c-95b91b68d30c_3a998721-db4f-45a3-9d70-92dbe3c845f0_7db50a96-bb9d-43e9-82a2-fa6f7737ac66_slider-image-02.webp"
+    },
+    {
       "Identity": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\image\\Home\\55ae86bf-6568-4a05-9595-18cc1046777d_4e99a08e-caaa-4521-bcf0-18fec448d400_6f6b68a4-1ba3-4565-ab45-79e663d37afc_product-01-500x466.jpg",
       "SourceId": "Payne",
       "SourceType": "Discovered",
@@ -1273,6 +1307,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\image\\Home\\55ae86bf-6568-4a05-9595-18cc1046777d_4e99a08e-caaa-4521-bcf0-18fec448d400_6f6b68a4-1ba3-4565-ab45-79e663d37afc_product-01-500x466.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\image\\Home\\58713cba-9314-4586-a20e-cf4b76bc5d3e_3e1efe75-a511-466e-8b35-b26163d8adc7_1efe83bb-0289-4d69-ab50-7a82d32f9824_e33a0447-b741-4603-bb83-30087adb81e0.jpg",
+      "SourceId": "Payne",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\",
+      "BasePath": "_content/Payne",
+      "RelativePath": "assets/image/Home/58713cba-9314-4586-a20e-cf4b76bc5d3e_3e1efe75-a511-466e-8b35-b26163d8adc7_1efe83bb-0289-4d69-ab50-7a82d32f9824_e33a0447-b741-4603-bb83-30087adb81e0.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\image\\Home\\58713cba-9314-4586-a20e-cf4b76bc5d3e_3e1efe75-a511-466e-8b35-b26163d8adc7_1efe83bb-0289-4d69-ab50-7a82d32f9824_e33a0447-b741-4603-bb83-30087adb81e0.jpg"
     },
     {
       "Identity": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\image\\Home\\5ae041e5-3b46-4893-bc7e-f7295f6c71ee_3fb2bde3-55a3-4261-a8d0-e7d7c8070174_6f068131-86e5-45fc-828b-433fd064ebdc_bf44e193-be22-40df-a91b-bb561dfcf605_slider-image-01.webp",
@@ -1460,6 +1511,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\image\\Home\\7_3b59200a-7528-445e-b124-ece53f9408e9_large.webp"
+    },
+    {
+      "Identity": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\image\\Home\\76820fe0-124d-4f0d-9c75-ccfb30463393_4e99a08e-caaa-4521-bcf0-18fec448d400_6f6b68a4-1ba3-4565-ab45-79e663d37afc_product-01-500x466.jpg",
+      "SourceId": "Payne",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\",
+      "BasePath": "_content/Payne",
+      "RelativePath": "assets/image/Home/76820fe0-124d-4f0d-9c75-ccfb30463393_4e99a08e-caaa-4521-bcf0-18fec448d400_6f6b68a4-1ba3-4565-ab45-79e663d37afc_product-01-500x466.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\image\\Home\\76820fe0-124d-4f0d-9c75-ccfb30463393_4e99a08e-caaa-4521-bcf0-18fec448d400_6f6b68a4-1ba3-4565-ab45-79e663d37afc_product-01-500x466.jpg"
     },
     {
       "Identity": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\image\\Home\\7bdcad39-bed9-4c1e-b5bd-15c8f9e2b13f_4e99a08e-caaa-4521-bcf0-18fec448d400_6f6b68a4-1ba3-4565-ab45-79e663d37afc_product-01-500x466.jpg",
@@ -1717,6 +1785,40 @@
       "OriginalItemSpec": "wwwroot\\assets\\image\\Home\\a968f26d-c68c-4f54-a528-16f9702066f6_6_f98801ee-0ade-4f30-ae76-fddd3d82cb30_large.webp"
     },
     {
+      "Identity": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\image\\Home\\ab3a1e8a-7445-4a68-870e-f9d4e135fb5f_slider-bg-02.webp",
+      "SourceId": "Payne",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\",
+      "BasePath": "_content/Payne",
+      "RelativePath": "assets/image/Home/ab3a1e8a-7445-4a68-870e-f9d4e135fb5f_slider-bg-02.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\image\\Home\\ab3a1e8a-7445-4a68-870e-f9d4e135fb5f_slider-bg-02.webp"
+    },
+    {
+      "Identity": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\image\\Home\\acb640a9-d89a-4a63-bf51-9257e1cb1128_4e99a08e-caaa-4521-bcf0-18fec448d400_6f6b68a4-1ba3-4565-ab45-79e663d37afc_product-01-500x466.jpg",
+      "SourceId": "Payne",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\",
+      "BasePath": "_content/Payne",
+      "RelativePath": "assets/image/Home/acb640a9-d89a-4a63-bf51-9257e1cb1128_4e99a08e-caaa-4521-bcf0-18fec448d400_6f6b68a4-1ba3-4565-ab45-79e663d37afc_product-01-500x466.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\image\\Home\\acb640a9-d89a-4a63-bf51-9257e1cb1128_4e99a08e-caaa-4521-bcf0-18fec448d400_6f6b68a4-1ba3-4565-ab45-79e663d37afc_product-01-500x466.jpg"
+    },
+    {
       "Identity": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\image\\Home\\af1ef8f4-8e60-4229-bca8-237563ac7f38_6_f98801ee-0ade-4f30-ae76-fddd3d82cb30_large.webp",
       "SourceId": "Payne",
       "SourceType": "Discovered",
@@ -1766,6 +1868,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\image\\Home\\b30227cf-5b58-4b7b-a44f-fee0a5f409bb_slider-image-02.webp"
+    },
+    {
+      "Identity": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\image\\Home\\b3c98488-bc39-49ab-a444-7886c0a04224_1eb63924-3ea3-4388-946d-271f74ba4992_8_b3acb490-179f-461d-8723-00a5ccda7018_large.webp",
+      "SourceId": "Payne",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\",
+      "BasePath": "_content/Payne",
+      "RelativePath": "assets/image/Home/b3c98488-bc39-49ab-a444-7886c0a04224_1eb63924-3ea3-4388-946d-271f74ba4992_8_b3acb490-179f-461d-8723-00a5ccda7018_large.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\image\\Home\\b3c98488-bc39-49ab-a444-7886c0a04224_1eb63924-3ea3-4388-946d-271f74ba4992_8_b3acb490-179f-461d-8723-00a5ccda7018_large.webp"
     },
     {
       "Identity": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\image\\Home\\b7d217f9-d407-4e18-8477-54cd967221dc_9_ddf2b7ab-f367-4fbe-8878-a6706f1b19e6_large.webp",
@@ -1955,6 +2074,23 @@
       "OriginalItemSpec": "wwwroot\\assets\\image\\Home\\d26c8e5c-1f88-4819-8b46-473e4cdd7cc9_slider-bg-02.webp"
     },
     {
+      "Identity": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\image\\Home\\d9203f90-abc3-4651-a70d-328a57138a3b_slider-bg-02.webp",
+      "SourceId": "Payne",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\",
+      "BasePath": "_content/Payne",
+      "RelativePath": "assets/image/Home/d9203f90-abc3-4651-a70d-328a57138a3b_slider-bg-02.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\image\\Home\\d9203f90-abc3-4651-a70d-328a57138a3b_slider-bg-02.webp"
+    },
+    {
       "Identity": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\image\\Home\\dcbb3afe-8620-4eb8-98fd-71d9a0d1a4fb.jpg",
       "SourceId": "Payne",
       "SourceType": "Discovered",
@@ -1972,6 +2108,23 @@
       "OriginalItemSpec": "wwwroot\\assets\\image\\Home\\dcbb3afe-8620-4eb8-98fd-71d9a0d1a4fb.jpg"
     },
     {
+      "Identity": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\image\\Home\\e2f3158e-2859-433a-a274-6687e90c28ed6adbdd60-5655-4d62-8ab0-89e6fca0fd9e_4e99a08e-caaa-4521-bcf0-18fec448d400_6f6b68a4-1ba3-4565-ab45-79e663d37afc_product-01-500x466.jpg",
+      "SourceId": "Payne",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\",
+      "BasePath": "_content/Payne",
+      "RelativePath": "assets/image/Home/e2f3158e-2859-433a-a274-6687e90c28ed6adbdd60-5655-4d62-8ab0-89e6fca0fd9e_4e99a08e-caaa-4521-bcf0-18fec448d400_6f6b68a4-1ba3-4565-ab45-79e663d37afc_product-01-500x466.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\image\\Home\\e2f3158e-2859-433a-a274-6687e90c28ed6adbdd60-5655-4d62-8ab0-89e6fca0fd9e_4e99a08e-caaa-4521-bcf0-18fec448d400_6f6b68a4-1ba3-4565-ab45-79e663d37afc_product-01-500x466.jpg"
+    },
+    {
       "Identity": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\image\\Home\\e33a0447-b741-4603-bb83-30087adb81e0.jpg",
       "SourceId": "Payne",
       "SourceType": "Discovered",
@@ -1987,6 +2140,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\image\\Home\\e33a0447-b741-4603-bb83-30087adb81e0.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\image\\Home\\ec89d045-6ca8-42da-aa55-bedccf1bf1ca_1_a3b6147a-3c67-471d-a4c8-76954ffa5e78_large.webp",
+      "SourceId": "Payne",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\",
+      "BasePath": "_content/Payne",
+      "RelativePath": "assets/image/Home/ec89d045-6ca8-42da-aa55-bedccf1bf1ca_1_a3b6147a-3c67-471d-a4c8-76954ffa5e78_large.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\image\\Home\\ec89d045-6ca8-42da-aa55-bedccf1bf1ca_1_a3b6147a-3c67-471d-a4c8-76954ffa5e78_large.webp"
     },
     {
       "Identity": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\image\\Home\\ef646c56-5727-4398-9538-60bd4071b7ac.jpg",
@@ -2584,12 +2754,12 @@
       "OriginalItemSpec": "wwwroot\\assets\\image\\Shop\\11_f4cb4dcb-d836-4b76-ab90-530334793faf_large.webp"
     },
     {
-      "Identity": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\image\\Shop\\14771cde-3f03-493a-b524-2cfcc28df25d_2.jpg",
+      "Identity": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\image\\Shop\\14dcd4d4-92d1-460f-955f-6afbb1243e58_2_64113cf2-2260-4f19-a944-e02116490462_large.webp",
       "SourceId": "Payne",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\",
       "BasePath": "_content/Payne",
-      "RelativePath": "assets/image/Shop/14771cde-3f03-493a-b524-2cfcc28df25d_2.jpg",
+      "RelativePath": "assets/image/Shop/14dcd4d4-92d1-460f-955f-6afbb1243e58_2_64113cf2-2260-4f19-a944-e02116490462_large.webp",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -2598,7 +2768,41 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\assets\\image\\Shop\\14771cde-3f03-493a-b524-2cfcc28df25d_2.jpg"
+      "OriginalItemSpec": "wwwroot\\assets\\image\\Shop\\14dcd4d4-92d1-460f-955f-6afbb1243e58_2_64113cf2-2260-4f19-a944-e02116490462_large.webp"
+    },
+    {
+      "Identity": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\image\\Shop\\19d0fdeb-eea1-451a-9943-0dee45bce249_2_64113cf2-2260-4f19-a944-e02116490462_large.webp",
+      "SourceId": "Payne",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\",
+      "BasePath": "_content/Payne",
+      "RelativePath": "assets/image/Shop/19d0fdeb-eea1-451a-9943-0dee45bce249_2_64113cf2-2260-4f19-a944-e02116490462_large.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\image\\Shop\\19d0fdeb-eea1-451a-9943-0dee45bce249_2_64113cf2-2260-4f19-a944-e02116490462_large.webp"
+    },
+    {
+      "Identity": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\image\\Shop\\1f585e12-59f9-4d67-95f0-48f972d66a7d_2_64113cf2-2260-4f19-a944-e02116490462_large.webp",
+      "SourceId": "Payne",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\",
+      "BasePath": "_content/Payne",
+      "RelativePath": "assets/image/Shop/1f585e12-59f9-4d67-95f0-48f972d66a7d_2_64113cf2-2260-4f19-a944-e02116490462_large.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\image\\Shop\\1f585e12-59f9-4d67-95f0-48f972d66a7d_2_64113cf2-2260-4f19-a944-e02116490462_large.webp"
     },
     {
       "Identity": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\image\\Shop\\2_64113cf2-2260-4f19-a944-e02116490462_large.webp",
@@ -2616,40 +2820,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\image\\Shop\\2_64113cf2-2260-4f19-a944-e02116490462_large.webp"
-    },
-    {
-      "Identity": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\image\\Shop\\20e2abcf-1f7e-4b71-a560-688f0d891e73_3.jpg",
-      "SourceId": "Payne",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\",
-      "BasePath": "_content/Payne",
-      "RelativePath": "assets/image/Shop/20e2abcf-1f7e-4b71-a560-688f0d891e73_3.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\assets\\image\\Shop\\20e2abcf-1f7e-4b71-a560-688f0d891e73_3.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\image\\Shop\\25ce8e34-6880-4ecc-a51f-02d2f87d105e_2.jpg",
-      "SourceId": "Payne",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\",
-      "BasePath": "_content/Payne",
-      "RelativePath": "assets/image/Shop/25ce8e34-6880-4ecc-a51f-02d2f87d105e_2.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\assets\\image\\Shop\\25ce8e34-6880-4ecc-a51f-02d2f87d105e_2.jpg"
     },
     {
       "Identity": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\image\\Shop\\3_1fc1f156-6765-412e-a78c-b5be5a7957cd_large.webp",
@@ -2686,23 +2856,6 @@
       "OriginalItemSpec": "wwwroot\\assets\\image\\Shop\\4_5f4e6ffb-67e5-4530-99e6-896c780b37c3_large.webp"
     },
     {
-      "Identity": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\image\\Shop\\41d162bd-074e-476e-a944-90f2cac1f61e_1.jpg",
-      "SourceId": "Payne",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\",
-      "BasePath": "_content/Payne",
-      "RelativePath": "assets/image/Shop/41d162bd-074e-476e-a944-90f2cac1f61e_1.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\assets\\image\\Shop\\41d162bd-074e-476e-a944-90f2cac1f61e_1.jpg"
-    },
-    {
       "Identity": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\image\\Shop\\5_ec5af67b-ed87-45de-ba67-d2a93126d634_large.webp",
       "SourceId": "Payne",
       "SourceType": "Discovered",
@@ -2718,40 +2871,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\image\\Shop\\5_ec5af67b-ed87-45de-ba67-d2a93126d634_large.webp"
-    },
-    {
-      "Identity": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\image\\Shop\\5e6caf18-31ef-4248-83d4-5363f28aaf8a_5_ec5af67b-ed87-45de-ba67-d2a93126d634_large.webp",
-      "SourceId": "Payne",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\",
-      "BasePath": "_content/Payne",
-      "RelativePath": "assets/image/Shop/5e6caf18-31ef-4248-83d4-5363f28aaf8a_5_ec5af67b-ed87-45de-ba67-d2a93126d634_large.webp",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\assets\\image\\Shop\\5e6caf18-31ef-4248-83d4-5363f28aaf8a_5_ec5af67b-ed87-45de-ba67-d2a93126d634_large.webp"
-    },
-    {
-      "Identity": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\image\\Shop\\5f9fcb76-8011-43d1-bf18-b3d067452abd_3_1fc1f156-6765-412e-a78c-b5be5a7957cd_large.webp",
-      "SourceId": "Payne",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\",
-      "BasePath": "_content/Payne",
-      "RelativePath": "assets/image/Shop/5f9fcb76-8011-43d1-bf18-b3d067452abd_3_1fc1f156-6765-412e-a78c-b5be5a7957cd_large.webp",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\assets\\image\\Shop\\5f9fcb76-8011-43d1-bf18-b3d067452abd_3_1fc1f156-6765-412e-a78c-b5be5a7957cd_large.webp"
     },
     {
       "Identity": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\image\\Shop\\6_f98801ee-0ade-4f30-ae76-fddd3d82cb30_large.webp",
@@ -2771,23 +2890,6 @@
       "OriginalItemSpec": "wwwroot\\assets\\image\\Shop\\6_f98801ee-0ade-4f30-ae76-fddd3d82cb30_large.webp"
     },
     {
-      "Identity": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\image\\Shop\\6aeb4d07-b1e0-4e25-9d63-8cdadfa04c81_1_a3b6147a-3c67-471d-a4c8-76954ffa5e78_large.webp",
-      "SourceId": "Payne",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\",
-      "BasePath": "_content/Payne",
-      "RelativePath": "assets/image/Shop/6aeb4d07-b1e0-4e25-9d63-8cdadfa04c81_1_a3b6147a-3c67-471d-a4c8-76954ffa5e78_large.webp",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\assets\\image\\Shop\\6aeb4d07-b1e0-4e25-9d63-8cdadfa04c81_1_a3b6147a-3c67-471d-a4c8-76954ffa5e78_large.webp"
-    },
-    {
       "Identity": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\image\\Shop\\7_3b59200a-7528-445e-b124-ece53f9408e9_large.webp",
       "SourceId": "Payne",
       "SourceType": "Discovered",
@@ -2803,23 +2905,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\image\\Shop\\7_3b59200a-7528-445e-b124-ece53f9408e9_large.webp"
-    },
-    {
-      "Identity": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\image\\Shop\\7e8bf655-3d72-4494-a6f8-4d2a59fa660c_3.jpg",
-      "SourceId": "Payne",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\",
-      "BasePath": "_content/Payne",
-      "RelativePath": "assets/image/Shop/7e8bf655-3d72-4494-a6f8-4d2a59fa660c_3.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\assets\\image\\Shop\\7e8bf655-3d72-4494-a6f8-4d2a59fa660c_3.jpg"
     },
     {
       "Identity": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\image\\Shop\\8_b3acb490-179f-461d-8723-00a5ccda7018_large.webp",
@@ -2839,23 +2924,6 @@
       "OriginalItemSpec": "wwwroot\\assets\\image\\Shop\\8_b3acb490-179f-461d-8723-00a5ccda7018_large.webp"
     },
     {
-      "Identity": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\image\\Shop\\85dfc6f4-07a9-4336-8cc7-72939b27fd78_1_a3b6147a-3c67-471d-a4c8-76954ffa5e78_large.webp",
-      "SourceId": "Payne",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\",
-      "BasePath": "_content/Payne",
-      "RelativePath": "assets/image/Shop/85dfc6f4-07a9-4336-8cc7-72939b27fd78_1_a3b6147a-3c67-471d-a4c8-76954ffa5e78_large.webp",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\assets\\image\\Shop\\85dfc6f4-07a9-4336-8cc7-72939b27fd78_1_a3b6147a-3c67-471d-a4c8-76954ffa5e78_large.webp"
-    },
-    {
       "Identity": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\image\\Shop\\9_ddf2b7ab-f367-4fbe-8878-a6706f1b19e6_large.webp",
       "SourceId": "Payne",
       "SourceType": "Discovered",
@@ -2873,12 +2941,12 @@
       "OriginalItemSpec": "wwwroot\\assets\\image\\Shop\\9_ddf2b7ab-f367-4fbe-8878-a6706f1b19e6_large.webp"
     },
     {
-      "Identity": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\image\\Shop\\90bb0a76-e8d7-4522-bc32-118b0e013b17_2_64113cf2-2260-4f19-a944-e02116490462_large.webp",
+      "Identity": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\image\\Shop\\9bfdbbe6-4e0a-4ce7-a6dc-44955fbf4f72_1_a3b6147a-3c67-471d-a4c8-76954ffa5e78_large.webp",
       "SourceId": "Payne",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\",
       "BasePath": "_content/Payne",
-      "RelativePath": "assets/image/Shop/90bb0a76-e8d7-4522-bc32-118b0e013b17_2_64113cf2-2260-4f19-a944-e02116490462_large.webp",
+      "RelativePath": "assets/image/Shop/9bfdbbe6-4e0a-4ce7-a6dc-44955fbf4f72_1_a3b6147a-3c67-471d-a4c8-76954ffa5e78_large.webp",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -2887,15 +2955,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\assets\\image\\Shop\\90bb0a76-e8d7-4522-bc32-118b0e013b17_2_64113cf2-2260-4f19-a944-e02116490462_large.webp"
+      "OriginalItemSpec": "wwwroot\\assets\\image\\Shop\\9bfdbbe6-4e0a-4ce7-a6dc-44955fbf4f72_1_a3b6147a-3c67-471d-a4c8-76954ffa5e78_large.webp"
     },
     {
-      "Identity": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\image\\Shop\\af2b5579-533e-47f9-aaf8-ea3dc7414a64_2_64113cf2-2260-4f19-a944-e02116490462_large.webp",
+      "Identity": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\image\\Shop\\af781083-d579-4691-9180-05edee13cd08_1f585e12-59f9-4d67-95f0-48f972d66a7d_2_64113cf2-2260-4f19-a944-e02116490462_large.webp",
       "SourceId": "Payne",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\",
       "BasePath": "_content/Payne",
-      "RelativePath": "assets/image/Shop/af2b5579-533e-47f9-aaf8-ea3dc7414a64_2_64113cf2-2260-4f19-a944-e02116490462_large.webp",
+      "RelativePath": "assets/image/Shop/af781083-d579-4691-9180-05edee13cd08_1f585e12-59f9-4d67-95f0-48f972d66a7d_2_64113cf2-2260-4f19-a944-e02116490462_large.webp",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -2904,15 +2972,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\assets\\image\\Shop\\af2b5579-533e-47f9-aaf8-ea3dc7414a64_2_64113cf2-2260-4f19-a944-e02116490462_large.webp"
+      "OriginalItemSpec": "wwwroot\\assets\\image\\Shop\\af781083-d579-4691-9180-05edee13cd08_1f585e12-59f9-4d67-95f0-48f972d66a7d_2_64113cf2-2260-4f19-a944-e02116490462_large.webp"
     },
     {
-      "Identity": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\image\\Shop\\b54c7cc9-f183-4981-8559-adbb3e716cc0_3_1fc1f156-6765-412e-a78c-b5be5a7957cd_large.webp",
+      "Identity": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\image\\Shop\\b8dc3c8a-d464-4b84-ba4b-95d6b4754c69_3_1fc1f156-6765-412e-a78c-b5be5a7957cd_large.webp",
       "SourceId": "Payne",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\",
       "BasePath": "_content/Payne",
-      "RelativePath": "assets/image/Shop/b54c7cc9-f183-4981-8559-adbb3e716cc0_3_1fc1f156-6765-412e-a78c-b5be5a7957cd_large.webp",
+      "RelativePath": "assets/image/Shop/b8dc3c8a-d464-4b84-ba4b-95d6b4754c69_3_1fc1f156-6765-412e-a78c-b5be5a7957cd_large.webp",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -2921,15 +2989,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\assets\\image\\Shop\\b54c7cc9-f183-4981-8559-adbb3e716cc0_3_1fc1f156-6765-412e-a78c-b5be5a7957cd_large.webp"
+      "OriginalItemSpec": "wwwroot\\assets\\image\\Shop\\b8dc3c8a-d464-4b84-ba4b-95d6b4754c69_3_1fc1f156-6765-412e-a78c-b5be5a7957cd_large.webp"
     },
     {
-      "Identity": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\image\\Shop\\b58ac27d-d8a0-467d-8ced-2abfef45be71_1.jpg",
+      "Identity": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\image\\Shop\\c4a9596a-bb94-46b1-9beb-c9bdeec31a0c_1_a3b6147a-3c67-471d-a4c8-76954ffa5e78_large.webp",
       "SourceId": "Payne",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\",
       "BasePath": "_content/Payne",
-      "RelativePath": "assets/image/Shop/b58ac27d-d8a0-467d-8ced-2abfef45be71_1.jpg",
+      "RelativePath": "assets/image/Shop/c4a9596a-bb94-46b1-9beb-c9bdeec31a0c_1_a3b6147a-3c67-471d-a4c8-76954ffa5e78_large.webp",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -2938,24 +3006,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\assets\\image\\Shop\\b58ac27d-d8a0-467d-8ced-2abfef45be71_1.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\image\\Shop\\b58d1386-15f5-4b67-9547-cf630d87373e_2.jpg",
-      "SourceId": "Payne",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\",
-      "BasePath": "_content/Payne",
-      "RelativePath": "assets/image/Shop/b58d1386-15f5-4b67-9547-cf630d87373e_2.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\assets\\image\\Shop\\b58d1386-15f5-4b67-9547-cf630d87373e_2.jpg"
+      "OriginalItemSpec": "wwwroot\\assets\\image\\Shop\\c4a9596a-bb94-46b1-9beb-c9bdeec31a0c_1_a3b6147a-3c67-471d-a4c8-76954ffa5e78_large.webp"
     },
     {
       "Identity": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\image\\Shop\\c9ea5285-0205-4cf4-a2fc-3334ee181347_1.jpg",
@@ -2975,12 +3026,12 @@
       "OriginalItemSpec": "wwwroot\\assets\\image\\Shop\\c9ea5285-0205-4cf4-a2fc-3334ee181347_1.jpg"
     },
     {
-      "Identity": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\image\\Shop\\dbfedd1f-e5e9-4d68-a09f-1963134a6e84_4_5f4e6ffb-67e5-4530-99e6-896c780b37c3_large.webp",
+      "Identity": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\image\\Shop\\f4debbd0-7ff4-42c6-8363-035f48232e6f_1_a3b6147a-3c67-471d-a4c8-76954ffa5e78_large.webp",
       "SourceId": "Payne",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\",
       "BasePath": "_content/Payne",
-      "RelativePath": "assets/image/Shop/dbfedd1f-e5e9-4d68-a09f-1963134a6e84_4_5f4e6ffb-67e5-4530-99e6-896c780b37c3_large.webp",
+      "RelativePath": "assets/image/Shop/f4debbd0-7ff4-42c6-8363-035f48232e6f_1_a3b6147a-3c67-471d-a4c8-76954ffa5e78_large.webp",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -2989,7 +3040,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\assets\\image\\Shop\\dbfedd1f-e5e9-4d68-a09f-1963134a6e84_4_5f4e6ffb-67e5-4530-99e6-896c780b37c3_large.webp"
+      "OriginalItemSpec": "wwwroot\\assets\\image\\Shop\\f4debbd0-7ff4-42c6-8363-035f48232e6f_1_a3b6147a-3c67-471d-a4c8-76954ffa5e78_large.webp"
     },
     {
       "Identity": "C:\\Users\\PC\\Desktop\\Payne\\Payne\\Payne\\wwwroot\\assets\\js\\About\\about.js",

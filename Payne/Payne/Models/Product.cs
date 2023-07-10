@@ -14,6 +14,8 @@
         public int Rating { get; set; }
         public string Sku { get; set; }
         public ICollection<ProductImage> ProductImages { get; set; }
+        public ICollection<BasketItem> BasketItems { get; set; }
+
 
 
 
