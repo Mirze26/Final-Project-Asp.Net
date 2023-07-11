@@ -12,5 +12,7 @@ namespace Payne.Services.Interfaces
         Task<IEnumerable<Product>> GetPaginatedDatas(int page, int take);
 
         Task<int> GetCountAsync();
+
+        Task<IEnumerable<Product>> SearchAsync(string searchText);
     }
 }

@@ -4,6 +4,7 @@
 @{
     BasketVm basket = layoutService.GetBaskets();
 }
+
 @{
     Layout = null;
 }
@@ -149,7 +150,13 @@
 
 
                     <div class="search d-none">
-                        <div><span><i class="fa-solid fa-magnifying-glass"></i></span></div>
+                        <div>
+                            <span class="test">
+                            <i class="fa-solid fa-magnifying-glass">
+
+                            </i>
+                            </span>
+                            </div>
                         <input type="text" placeholder="Search">
                     </div>
 
@@ -261,7 +268,7 @@
                     <div class="product-list">
 
                         <div class="row">
-                            @foreach (var item in Model.Products)
+                            @foreach (var item in Model.Products.OrderByDescending(p => p.Created).Take(8))
                             {
 
 
@@ -275,12 +282,14 @@
 
 
                                         <div class="icons">
-                                            <button type="button">
-                                                <i class="fas fa-sync-alt"></i>
-                                            </button>
-                                            <button type="button">
-                                                <i class="fas fa-shopping-cart"></i>
-                                            </button>
+
+
+                                            <form asp-controller="basket" asp-action="addbasket" asp-route-id="@item.Id">
+                                                <button type="submit" type="button">
+                                                    <i class="fas fa-shopping-cart"></i>
+                                                </button>
+
+                                            </form>
                                             <button type="button">
                                                 <i class="far fa-heart"></i>
                                             </button>
@@ -325,52 +334,7 @@
 
                             }
 
-                            @foreach (var item in Model.Products)
-                            {
-                                <div class="col-3">
-                                    <div>
-                                        <div class="product-img">
-
-                                            <a href="file:///C:/Users/PC/Desktop/end%20pro/Final-Project/End%20Project/productDetail.html">
-                                                <img src="./assets/image/Home/@item.ProductImages">
-                                                <img>
-                                            </a>
-
-                                            <div class="icons">
-                                                <button type="button">
-                                                    <i class="fas fa-sync-alt"></i>
-                                                </button>
-                                                <button type="button">
-                                                    <i class="fas fa-shopping-cart"></i>
-                                                </button>
-                                                <button type="button">
-                                                    <i class="far fa-heart"></i>
-                                                </button>
-                                            </div>
-                                        </div>
-                                        <div class="item-detail">
-                                            <a href="file:///C:/Users/PC/Desktop/end%20pro/Final-Project/End%20Project/productDetail.html"
-                                               class="item-name">Minaudière</a>
-
-                                            <div class="rating">
-                                                <a href=""> <i>@item.Rating</i></a>
-                                             @*   <a href=""> <i class="fa-solid fa-star"></i></a>
-                                                <a href=""> <i class="fa-solid fa-star"></i></a>
-                                                <a href=""> <i class="fa-solid fa-star"></i></a>
-                                                <a href=""> <i class="fa-solid fa-star"></i></a>*@
-
-                                            </div>
-
-                                            <div class="item-price">
-                                                <span class="new-price">@item.Price</span>
-                                                @*<span class="old-price">$275.60</span>*@
-                                            </div>
-
-                                            <button type="button" class="add-btn">add to cart</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            }
+                     
 
                           
 

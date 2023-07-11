@@ -1,0 +1,128 @@
+﻿@*@model IEnumerable<>
+
+@{
+    ViewData["Title"] = "Search";
+}
+@section Style{
+
+    <link rel="stylesheet" href="/assets/scss/Search/search.css">
+}
+*@
+
+@*<div class="col-9">
+    <div class="container">
+        <div class="row">
+
+            @foreach (var item in Model)
+            {
+
+
+                <div class="col-4">
+                    <div class="product-img">
+
+                        <a class="product-name" asp-controller="Shop" asp-action="Detail" asp-route-id="@item.Id">
+                            <img src="~/assets/image/Shop/@item.ProductImages.FirstOrDefault(m => m.Ismain)?.Image"><img>
+                        </a>
+
+
+
+                        <div class="icons">
+                            <button type="button">
+                                <i class="fas fa-sync-alt"></i>
+                            </button>
+
+                            <form asp-controller="basket" asp-action="addbasket" asp-route-id="@item.Id">
+                                <button type="submit" type="button">
+                                    <i class="fas fa-shopping-cart"></i>
+                                </button>
+
+                            </form>
+                            <button type="button">
+                                <i class="fas fa-shopping-cart"></i>
+                            </button>
+                            <button type="button">
+                                <i class="far fa-heart"></i>
+                            </button>
+                        </div>
+                    </div>
+
+
+
+                    <div class="item-detail">
+                        <a href="file:///C:/Users/PC/Desktop/end%20pro/Final-Project/End%20Project/productDetail.html"
+                           class="item-name">Boston Bag</a>
+
+
+                        <div class="rating"
+                             style="display: flex;
+                                             list-style: none;
+                                             gap: 5px;
+                                             justify-content: center;">
+
+                            @for (int i = 0; i < item.Rating; i++)
+                            {
+
+
+                                <li><i style="color:gold;" class="fa fa-star"></i></li>
+
+
+                            }
+
+                            @for (int i = 0; i < 5 - item.Rating; i++)
+                            {
+
+                                <li><i style="color:gray;" class="fa fa-star"></i></li>
+
+                            }
+
+                        </div>
+
+
+
+                        <div class="item-price">
+                            <span class="new-price">$@item.Price</span>
+
+                        </div>
+
+                        <button type="button" class="add-btn">add to cart</button>
+                    </div>
+                </div>
+
+            }
+
+
+
+
+            <div class="paginashion">
+                <nav aria-label="Page navigation example">
+                    <ul class="pagination justify-content-center">
+                        <li class="page-item disabled">
+                            <a class="page-link">Prev</a>
+                        </li>
+                        <li class="page-item"><a class="page-link" href="#">1</a></li>
+                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                        <li class="page-item">
+                            <a class="page-link" href="#">Next</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+
+
+
+
+
+
+        </div>
+
+
+
+
+    </div>
+
+@*</div>*@
+
+
+
+

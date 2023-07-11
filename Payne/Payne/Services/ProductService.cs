@@ -21,6 +21,8 @@ namespace Payne.Services
 
         public async Task<Product> GetFullDataByIdAsync(int id) => await _context.Products.Include(m => m.ProductImages).Include(m => m.Color).Include(m => m.Brand)?.FirstOrDefaultAsync(m => m.Id == id);
 
+        public async Task<IEnumerable<Product>> SearchAsync(string searchText) => await _context.Products.Include(ci => ci.ProductImages).Where(c => c.Name.Trim().ToLower().Contains(searchText.Trim().ToLower())).ToListAsync();
+
 
 
 

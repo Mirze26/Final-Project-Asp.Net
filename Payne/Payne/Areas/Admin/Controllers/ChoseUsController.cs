@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Payne.Areas.Admin.Helpers;
 using Payne.Areas.Admin.ViewModels;
 using Payne.Data;
@@ -66,7 +67,7 @@ namespace Payne.Areas.Admin.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create(AboutInfoCreateVM aboutInfo)
+        public async Task<IActionResult> Create(ChoseUsCreateVM choseUs)
         {
             try
             {
@@ -75,7 +76,7 @@ namespace Payne.Areas.Admin.Controllers
                     return View();
                 }
 
-                if (!aboutInfo.Photo.CheckFileType("image/"))
+                if (!choseUs.Photo.CheckFileType("image/"))
                 {
 
                     ModelState.AddModelError("Photos", "File type must be image");
@@ -84,7 +85,7 @@ namespace Payne.Areas.Admin.Controllers
                 }
 
 
-                if (!aboutInfo.Photo.CheckFileSize(200))
+                if (!choseUs.Photo.CheckFileSize(200))
                 {
 
                     ModelState.AddModelError("Photos", "Photo size must be max 200Kb");
@@ -95,41 +96,185 @@ namespace Payne.Areas.Admin.Controllers
 
 
 
-                string fileName = Guid.NewGuid().ToString() + "_" + aboutInfo.Photo.FileName;
+                string fileName = Guid.NewGuid().ToString() + "_" + choseUs.Photo.FileName;
 
                 string path = FileHelper.GetFilePath(_env.WebRootPath, "assets/image/about", fileName);
 
-                await FileHelper.SaveFileAsync(path, aboutInfo.Photo);
+                await FileHelper.SaveFileAsync(path, choseUs.Photo);
 
 
 
 
 
-                AboutInfo newAbout = new()
+                ChoseUs newchoseUs = new()
                 {
                     Image = fileName,
 
-                    Title = aboutInfo.Title,
+                    Name = choseUs.Name,
 
-                    Description = aboutInfo.Description,
+                    Description = choseUs.Description,
 
                 };
 
 
 
 
-                await _context.AboutInfos.AddAsync(newAbout);
+                await _context.Choses.AddAsync(newchoseUs);
                 await _context.SaveChangesAsync();
 
                 return RedirectToAction(nameof(Index));
             }
-            catch (Exception ex)
+                catch (Exception ex)
             {
 
                 throw;
             }
         }
 
+
+
+
+
+
+        public async Task<IActionResult> Delete(int? id)
+        {
+
+            try
+            {
+                if (id == null) return BadRequest();
+                ChoseUs choseUs = await _context.Choses.FirstOrDefaultAsync(b => b.Id == id);
+
+                if (choseUs is null) return NotFound();
+
+
+                string path = FileHelper.GetFilePath(_env.WebRootPath, "assets/image/about", choseUs.Image);
+                FileHelper.DeleteFile(path);
+
+                _context.Choses.Remove(choseUs);
+
+                await _context.SaveChangesAsync();
+                return RedirectToAction(nameof(Index));
+
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+
+
+        }
+
+
+
+
+
+
+        [HttpGet]
+        public async Task<IActionResult> Edit(int? id)
+        {
+            if (id == null) return BadRequest();
+
+            ChoseUs dbChoseUs = await _context.Choses.FirstOrDefaultAsync(m => m.Id == id);
+
+            if (dbChoseUs is null) return NotFound();
+
+
+            ChoseUsEditVM model = new()
+            {
+                Description = dbChoseUs.Description,
+                Photo = dbChoseUs.Photo,
+                Name = dbChoseUs.Name,
+
+            };
+
+            return View(model);
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Edit(int? id, ChoseUsEditVM chose)
+        {
+
+            try
+            {
+                if (id == null) return BadRequest();
+
+
+                ChoseUs dbchoseUs = await _context.Choses.FirstOrDefaultAsync(m => m.Id == id);
+
+                if (dbchoseUs is null) return NotFound();
+
+
+                ChoseUsEditVM model = new()
+                {
+                    Description = chose.Description,
+                    Photo = chose.Photo,
+                    Name = chose.Name
+
+                };
+
+
+
+                if (chose.Photo != null)
+                {
+
+                    if (!chose.Photo.ContentType.Contains("image/"))
+                    {
+                        ModelState.AddModelError("Photo", "File type must be image");
+
+                        return View(dbchoseUs);
+                    }
+
+                    string oldPath = Path.Combine(_env.WebRootPath, "assets/image/about", dbchoseUs.Image);
+
+
+
+
+
+                    string fileName = Path.Combine(Guid.NewGuid().ToString() + "_" + chose.Photo.FileName);
+
+                    string newPath = Path.Combine(_env.WebRootPath, "assets/image/about", fileName);
+
+
+                    using (FileStream stream = new FileStream(newPath, FileMode.Create))
+                    {
+                        await chose.Photo.CopyToAsync(stream);
+                    }
+
+                    dbchoseUs.Image = fileName;
+
+                }
+                else
+                {
+                    ChoseUs newchoseUs = new()
+                    {
+                        Image = dbchoseUs.Image
+                    };
+
+
+                }
+
+
+
+                dbchoseUs.Name = chose.Name;
+                dbchoseUs.Description = chose.Description;
+
+
+                await _context.SaveChangesAsync();
+
+                return RedirectToAction(nameof(Index));
+
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+
+
+
+        }
 
     }
 }

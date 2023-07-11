@@ -1,0 +1,66 @@
+﻿@model IEnumerable<ChoseUs>
+
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+
+
+<div class="container my-5">
+    <a class="btn btn-success text-white" asp-action="Create" style="float:right;">Create</a>
+    <div class="table-responsive">
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>
+                        Image
+                    </th>
+
+                    <th>
+                        Title
+                    </th>
+
+                </tr>
+            </thead>
+
+
+            <tbody>
+                @foreach (var choseUs in Model)
+                {
+                    <tr>
+                        <td class="py-1">
+                            <img class="img-fluid" src="~/assets/image/about/@choseUs.Image" style="width:70px;height:70px" alt="image" />
+                        </td>
+
+                        <td class="py-1">
+                            @choseUs.Description
+                        </td>
+
+
+                        <td class="py-1">
+                            @choseUs.Name
+                        </td>
+
+
+
+
+
+                        <td>
+                            <div style="display: flex; margin-top: 10px; gap: 6px;">
+                                <a class="btn btn-outline-info" asp-action="Detail" asp-route-id="@choseUs.Id">Info</a>
+                                <a class="btn btn-outline-primary" asp-action="Edit" asp-route-id="@choseUs.Id">Edit</a>
+                                <form asp-action="Delete" asp-route-id="@choseUs.Id" method="post">
+                                    <button type="submit" class="btn btn-outline-danger">Delete</button>
+                                </form>
+                            </div>
+
+                        </td>
+                    </tr>
+                }
+
+            </tbody>
+        </table>
+    </div>
+</div>
+

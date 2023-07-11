@@ -160,7 +160,7 @@ main #blog-area .blog-post .border-post .bottom-line .thick-line {
   height: 5px;
   background-color: black;
   position: absolute;
-  bottom: 472px;
+  bottom: 478px;
 }
 main #blog-area .blog-post .border-post .blog-info {
   width: 100%;
@@ -212,7 +212,7 @@ main #blog-area .border-archive .bottom-line .thick-line-two {
   height: 5px;
   background-color: black;
   position: absolute;
-  bottom: 113px;
+  bottom: 121px;
 }
 main #blog-area .border-archive .november {
   margin-left: 20px;
@@ -254,7 +254,7 @@ main #blog-area .border-tags .bottom-line .thick-line-three {
   height: 5px;
   background-color: black;
   position: absolute;
-  top: 2020px;
+  top: 2013px;
 }
 main #blog-area .border-tags .tag-list ul {
   list-style: none;
