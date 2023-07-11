@@ -1,15 +1,18 @@
-﻿using Microsoft.AspNetCore.Hosting;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using NuGet.Protocol;
 using Payne.Areas.Admin.Helpers;
 using Payne.Areas.Admin.ViewModels;
 using Payne.Data;
+using Payne.Helpers.Enums;
 using Payne.Models;
 using Payne.Services.Interfaces;
 
 namespace Payne.Areas.Admin.Controllers
 {
+    [Authorize(Roles = "SuperAdmin,Admin")]
     [Area("Admin")]
     public class BannerController : Controller
     {

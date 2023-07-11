@@ -13,7 +13,7 @@
 
 <div class="basket-page"><span>Basket</span></div>
 <div class="home-basket">
-    <a href="file:///C:/Users/PC/Desktop/end%20pro/Final-Project/End%20Project/Home.html"><span>Home</span></a><span>
+    <a asp-controller="home" asp-action="index"><span>Home</span></a><span>
         / Basket
     </span>
 </div>
@@ -31,6 +31,8 @@
             <th scope="col">Action</th>
         </tr>
     </thead>
+
+
     <tbody>
         @foreach (var item in Model)
         {

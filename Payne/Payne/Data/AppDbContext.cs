@@ -23,6 +23,7 @@ namespace Payne.Data
         public DbSet<BlogImage> BlogImages { get; set; }
         public DbSet<Author> Authors { get; set; }
         public DbSet<BasketItem> BasketItems { get; set; }
+        public DbSet<WishListItem> WishItems { get; set; }
 
     }
 }

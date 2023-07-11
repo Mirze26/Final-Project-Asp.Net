@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Payne.Models;
 using Payne.Services.Interfaces;
 
 namespace Payne.Controllers
@@ -12,9 +13,11 @@ namespace Payne.Controllers
             _productService = productService;
         }
 
-        public IActionResult Index()
+        public async Task<IActionResult> SearchByProducts(string searchText)
         {
-            return View();
+            IEnumerable<Product> products = await _productService.SearchAsync(searchText);
+
+            return View(products);
         }
     }
 }

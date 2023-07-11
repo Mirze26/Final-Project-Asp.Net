@@ -32,13 +32,13 @@
 
         <div class="form-group">
             <label class="my-2">Price</label>
-            <input class="form-control " id="customFile" asp-for="Price" />
+            <input class="form-control" type="number" id="customFile" asp-for="Price" />
             <span class="text-danger" asp-validation-for="Price"></span>
         </div>
 
         <div class="form-group">
             <label class="my-2">Count</label>
-            <input class="form-control " id="customFile" asp-for="Count" />
+            <input class="form-control" type="number" id="customFile" asp-for="Count" />
             <span class="text-danger" asp-validation-for="Count"></span>
         </div>
 
@@ -52,7 +52,7 @@
 
         <div class="form-group">
             <label class="my-2">Rating</label>
-            <input class="form-control " id="customFile" min="1" max="5" asp-for="Rating" />
+            <input class="form-control " type="number" id="customFile" min="1" max="5" asp-for="Rating" />
             <span class="text-danger" asp-validation-for="Rating"></span>
         </div>
 

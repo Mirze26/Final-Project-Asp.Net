@@ -1,11 +1,14 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Payne.Areas.Admin.Views.Color;
 using Payne.Data;
+using Payne.Helpers.Enums;
 using Payne.Models;
 using Payne.Services.Interfaces;
 
 namespace Payne.Areas.Admin.Controllers
 {
+    [Authorize(Roles = "SuperAdmin,Admin")]
     [Area("Admin")]
     public class ColorController : Controller
     {

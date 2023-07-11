@@ -44,6 +44,10 @@ namespace Payne.Controllers
                 }
                 _context.SaveChanges();
             }
+            else
+            {
+                return RedirectToAction("Login","Account");
+            }
 
             return Redirect(Request.Headers["Referer"].ToString());
         }

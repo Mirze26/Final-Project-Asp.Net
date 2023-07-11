@@ -1,16 +1,18 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Payne.Areas.Admin.Helpers;
 using Payne.Areas.Admin.ViewModels;
 using Payne.Data;
+using Payne.Helpers.Enums;
 using Payne.Models;
 using Payne.Services;
 using Payne.Services.Interfaces;
 
 namespace Payne.Areas.Admin.Controllers
 {
+    [Authorize(Roles = "SuperAdmin,Admin")]
     [Area("Admin")]
-
     public class AboutInfoController : Controller
     {
         private readonly AppDbContext _context;

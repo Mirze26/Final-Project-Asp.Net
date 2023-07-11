@@ -1,0 +1,72 @@
+﻿@model List<WishListItem>
+@{
+    ViewData["Title"] = "Cart";
+
+}
+
+@section Style{
+
+    <link rel="stylesheet" href="~/assets/scss/Cart/cart.css">
+}
+
+
+
+<div class="basket-page"><span>Wishlist</span></div>
+<div class="home-basket">
+    <a asp-controller="home" asp-action="index"><span>Home</span></a><span>
+        / Wishlist
+    </span>
+</div>
+
+
+<table class="table" style="margin-top: 88px;">
+    <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Product</th>
+            <th scope="col">Price</th>
+        </tr>
+    </thead>
+    <tbody>
+    <tbody>
+            @foreach (var item in Model)
+            {
+            <tr>
+                    @* <th class="item" scope="row">@(colCount++)</th>*@
+                <td>
+                    <img src="~/assets/image/Shop/@item.Product.ProductImages.FirstOrDefault(M=>M.Ismain)?.Image" style="width: 70px; height: 70px;" alt="">
+                </td>
+                <td class="item">@item.Product.Name</td>
+                <td class="item">@item.Product.Price</td>
+                <td class="item d-flex" style="padding-bottom:50px; padding-top:31px;">
+                   
+
+
+                </td>
+              
+                
+                <td class="item">
+                    <form asp-controller="WishList" asp-action="RemoveWishlistItem" asp-route-id="@item.Product.Id">
+
+                        <button style="border:none;background:white;" type="submit"><i class="fa-solid fa-xmark"></i></button>
+                    </form>
+                </td>
+               
+            </tr>
+            }
+
+    </tbody>
+
+    </tbody>
+</table>
+
+
+
+@section Scripts{
+
+    <script src="https://code.jquery.com/jquery-3.7.0.js"
+            integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+    <script src="./assets/js/Cart/cart.js"></script>
+    <script src="https://kit.fontawesome.com/e53a0e3ee5.js" crossorigin="anonymous"></script>
+    <script src="./assets/js/Cart/cart.js"></script>
+}

@@ -170,14 +170,14 @@ main #product-area .bottom-line hr {
 }
 main #product-area .thick-line {
   position: absolute;
-  top: 817px;
+  top: 462px;
   background-color: black;
   width: 40px;
   height: 4px;
 }
 main #product-area .thick-line-two {
     position: absolute;
-    top: 1059px;
+    top: 804px;
     background-color: black;
     width: 40px;
     height: 4px;
